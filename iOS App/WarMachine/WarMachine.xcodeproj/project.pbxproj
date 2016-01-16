@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2948003E1C4AF85000AEF72A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948003D1C4AF85000AEF72A /* TabBar.swift */; };
 		C2D7478C1C4AD3E7006E7421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */; };
 		C2D7478E1C4AD3E7006E7421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7478D1C4AD3E7006E7421 /* ViewController.swift */; };
 		C2D747911C4AD3E7006E7421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D7478F1C4AD3E7006E7421 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2948003D1C4AF85000AEF72A /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */,
 				C2D7478D1C4AD3E7006E7421 /* ViewController.swift */,
 				C2D7478F1C4AD3E7006E7421 /* Main.storyboard */,
+				2948003D1C4AF85000AEF72A /* TabBar.swift */,
 				C2D747921C4AD3E7006E7421 /* Assets.xcassets */,
 				C2D747941C4AD3E7006E7421 /* LaunchScreen.storyboard */,
 				C2D747971C4AD3E7006E7421 /* Info.plist */,
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2948003E1C4AF85000AEF72A /* TabBar.swift in Sources */,
 				C2D7478E1C4AD3E7006E7421 /* ViewController.swift in Sources */,
 				C2D7478C1C4AD3E7006E7421 /* AppDelegate.swift in Sources */,
 			);
@@ -474,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WarMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WarMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
