@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2948003E1C4AF85000AEF72A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948003D1C4AF85000AEF72A /* TabBar.swift */; };
+		294800421C4B07E800AEF72A /* panther.png in Resources */ = {isa = PBXBuildFile; fileRef = 294800401C4B07E800AEF72A /* panther.png */; };
+		294800431C4B07E800AEF72A /* Patriot.png in Resources */ = {isa = PBXBuildFile; fileRef = 294800411C4B07E800AEF72A /* Patriot.png */; };
 		C2D7478C1C4AD3E7006E7421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */; };
 		C2D7478E1C4AD3E7006E7421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7478D1C4AD3E7006E7421 /* ViewController.swift */; };
 		C2D747911C4AD3E7006E7421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D7478F1C4AD3E7006E7421 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		2948003D1C4AF85000AEF72A /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		294800401C4B07E800AEF72A /* panther.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panther.png; sourceTree = "<group>"; };
+		294800411C4B07E800AEF72A /* Patriot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patriot.png; sourceTree = "<group>"; };
 		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2948003F1C4B031600AEF72A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				294800401C4B07E800AEF72A /* panther.png */,
+				294800411C4B07E800AEF72A /* Patriot.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		54935096FBF39D727AAC8AD1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +136,7 @@
 		C2D7478A1C4AD3E7006E7421 /* WarMachine */ = {
 			isa = PBXGroup;
 			children = (
+				2948003F1C4B031600AEF72A /* Resources */,
 				C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */,
 				C2D7478D1C4AD3E7006E7421 /* ViewController.swift */,
 				C2D7478F1C4AD3E7006E7421 /* Main.storyboard */,
@@ -259,7 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294800421C4B07E800AEF72A /* panther.png in Resources */,
 				C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */,
+				294800431C4B07E800AEF72A /* Patriot.png in Resources */,
 				C2D747931C4AD3E7006E7421 /* Assets.xcassets in Resources */,
 				C2D747911C4AD3E7006E7421 /* Main.storyboard in Resources */,
 			);

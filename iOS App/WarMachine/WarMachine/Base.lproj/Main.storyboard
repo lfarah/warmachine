@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,10 +21,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R9l-Sg-oTe">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="551"/>
+                                <rect key="frame" x="0.0" y="68" width="414" height="619"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XAj-vD-5fs">
-                                        <rect key="frame" x="8" y="8" width="398" height="535"/>
+                                        <rect key="frame" x="16" y="-60" width="398" height="535"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableView>
                                 </subviews>
@@ -35,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAz-Ad-WNE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1497" y="1809"/>
+            <point key="canvasLocation" x="-1500" y="1809"/>
         </scene>
         <!--Score-->
         <scene sceneID="DNh-b0-WGv">
@@ -49,31 +51,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLl-dt-7FD">
-                                <rect key="frame" x="273" y="68" width="57" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Super Bowl 50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpz-Xu-kGI">
+                                <rect key="frame" x="118" y="28" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Team 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLl-dt-7FD">
+                                <rect key="frame" x="303" y="68" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Team 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1l-WT-4Ff">
-                                <rect key="frame" x="83" y="68" width="54" height="21"/>
+                                <rect key="frame" x="55" y="68" width="54" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpz-Xu-kGI">
-                                <rect key="frame" x="185" y="28" width="45" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Patriot.png" translatesAutoresizingMaskIntoConstraints="NO" id="0M9-hH-Xoi">
+                                <rect key="frame" x="20" y="135" width="125" height="125"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="panther.png" translatesAutoresizingMaskIntoConstraints="NO" id="M98-FQ-Nt4">
+                                <rect key="frame" x="269" y="135" width="125" height="125"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RiF-mF-zXt">
+                                <rect key="frame" x="182" y="173" width="50" height="50"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="D1l-WT-4Ff" firstAttribute="baseline" secondItem="TLl-dt-7FD" secondAttribute="baseline" id="A7D-JR-Avb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TLl-dt-7FD" secondAttribute="trailing" constant="64" id="HFc-fu-niU"/>
                             <constraint firstItem="D1l-WT-4Ff" firstAttribute="top" secondItem="qjY-pA-kDr" secondAttribute="bottom" constant="48" id="mqv-Nk-gKc"/>
-                            <constraint firstItem="D1l-WT-4Ff" firstAttribute="leading" secondItem="gVx-sp-HTx" secondAttribute="leadingMargin" constant="72" id="ooz-Om-f5Z"/>
+                            <constraint firstItem="D1l-WT-4Ff" firstAttribute="leading" secondItem="gVx-sp-HTx" secondAttribute="leadingMargin" constant="63" id="ooz-Om-f5Z"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Score" id="Vsk-Rx-o6q"/>
@@ -82,6 +93,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IlD-Xz-gOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-21" y="1809"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tjx-cq-lm7">
+            <objects>
+                <viewController id="kdL-ol-Vx8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dm9-8x-cZe"/>
+                        <viewControllerLayoutGuide type="bottom" id="JrN-KH-B0h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yHp-PS-4A6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPE-e3-teM">
+                                <rect key="frame" x="105" y="113" width="57" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="luE-Uh-fXV">
+                                <rect key="frame" x="275" y="191" width="50" height="50"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="panther.png" translatesAutoresizingMaskIntoConstraints="NO" id="lNt-vF-Uj9">
+                                <rect key="frame" x="397" y="153" width="125" height="125"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Patriot.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fof-th-DoN">
+                                <rect key="frame" x="64" y="153" width="125" height="125"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6D-1a-AOU">
+                                <rect key="frame" x="432" y="113" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Super Bowl 50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vz0-eo-Wiy">
+                                <rect key="frame" x="244" y="40" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JrN-KH-B0h" firstAttribute="top" secondItem="luE-Uh-fXV" secondAttribute="bottom" constant="359" id="1us-r5-sjz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m6D-1a-AOU" secondAttribute="trailing" constant="94" id="4Kw-0u-vUS"/>
+                            <constraint firstItem="JPE-e3-teM" firstAttribute="baseline" secondItem="m6D-1a-AOU" secondAttribute="baseline" id="9dn-4L-los"/>
+                            <constraint firstItem="vz0-eo-Wiy" firstAttribute="centerX" secondItem="luE-Uh-fXV" secondAttribute="centerX" id="INf-DD-wWn"/>
+                            <constraint firstItem="Fof-th-DoN" firstAttribute="leading" secondItem="yHp-PS-4A6" secondAttribute="leadingMargin" constant="44" id="MCR-PB-NBu"/>
+                            <constraint firstItem="luE-Uh-fXV" firstAttribute="leading" secondItem="Fof-th-DoN" secondAttribute="trailing" constant="86" id="Q45-sU-vCN"/>
+                            <constraint firstItem="Fof-th-DoN" firstAttribute="top" secondItem="JPE-e3-teM" secondAttribute="bottom" constant="19" id="QSg-SW-Yha"/>
+                            <constraint firstItem="JPE-e3-teM" firstAttribute="top" secondItem="Dm9-8x-cZe" secondAttribute="bottom" constant="93" id="ShZ-G1-npO"/>
+                            <constraint firstItem="vz0-eo-Wiy" firstAttribute="top" secondItem="Dm9-8x-cZe" secondAttribute="bottom" constant="20" id="Uq4-iD-7Gd"/>
+                            <constraint firstItem="luE-Uh-fXV" firstAttribute="centerY" secondItem="lNt-vF-Uj9" secondAttribute="centerY" id="Va0-LI-NLB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lNt-vF-Uj9" secondAttribute="trailing" constant="58" id="YNZ-u2-8Tz"/>
+                            <constraint firstItem="lNt-vF-Uj9" firstAttribute="top" secondItem="Fof-th-DoN" secondAttribute="top" id="bHq-pt-R6C"/>
+                            <constraint firstItem="m6D-1a-AOU" firstAttribute="centerX" secondItem="lNt-vF-Uj9" secondAttribute="centerX" id="cO4-Gy-f36"/>
+                            <constraint firstItem="luE-Uh-fXV" firstAttribute="centerX" secondItem="yHp-PS-4A6" secondAttribute="centerX" id="eha-H8-iwN"/>
+                            <constraint firstItem="lNt-vF-Uj9" firstAttribute="leading" secondItem="luE-Uh-fXV" secondAttribute="trailing" constant="72" id="mlx-Gh-x2z"/>
+                            <constraint firstItem="m6D-1a-AOU" firstAttribute="baseline" secondItem="JPE-e3-teM" secondAttribute="firstBaseline" id="qfh-dB-vzr"/>
+                            <constraint firstItem="JPE-e3-teM" firstAttribute="leading" secondItem="yHp-PS-4A6" secondAttribute="leadingMargin" constant="85" id="uXv-0c-n0j"/>
+                            <constraint firstItem="JrN-KH-B0h" firstAttribute="top" secondItem="Fof-th-DoN" secondAttribute="bottom" constant="322" id="vqj-Qa-Al2"/>
+                            <constraint firstItem="Fof-th-DoN" firstAttribute="bottom" secondItem="lNt-vF-Uj9" secondAttribute="bottom" id="wtr-aT-nfz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acX-Mo-1zT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-105" y="681"/>
         </scene>
         <!--Team-->
         <scene sceneID="kmX-2y-hQt">
@@ -108,12 +187,6 @@
                                     <constraint firstAttribute="width" constant="81" id="e4x-Cd-YbO"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDq-rb-5fo">
-                                <rect key="frame" x="186" y="46" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="S8E-3F-85q">
                                 <rect key="frame" x="20" y="201" width="374" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,6 +194,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDq-rb-5fo">
+                                <rect key="frame" x="186" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -164,4 +243,8 @@
             <point key="canvasLocation" x="-861" y="635"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Patriot.png" width="100" height="100"/>
+        <image name="panther.png" width="100" height="100"/>
+    </resources>
 </document>
