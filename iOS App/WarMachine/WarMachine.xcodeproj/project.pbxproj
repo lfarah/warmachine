@@ -14,6 +14,7 @@
 		C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D747941C4AD3E7006E7421 /* LaunchScreen.storyboard */; };
 		C2D747A11C4AD3E7006E7421 /* WarMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D747A01C4AD3E7006E7421 /* WarMachineTests.swift */; };
 		C2D747AC1C4AD3E7006E7421 /* WarMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D747AB1C4AD3E7006E7421 /* WarMachineUITests.swift */; };
+		E1B63AA3677CBB7F227BF0A5 /* Pods_WarMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
 		C2D747881C4AD3E7006E7421 /* WarMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D7478D1C4AD3E7006E7421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B63AA3677CBB7F227BF0A5 /* Pods_WarMachine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54935096FBF39D727AAC8AD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */,
+				733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F5D249859A2A0DDA49E6997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2D7477F1C4AD3E6006E7421 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				C2D7479F1C4AD3E7006E7421 /* WarMachineTests */,
 				C2D747AA1C4AD3E7006E7421 /* WarMachineUITests */,
 				C2D747891C4AD3E7006E7421 /* Products */,
+				54935096FBF39D727AAC8AD1 /* Pods */,
+				9F5D249859A2A0DDA49E6997 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D747B01C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachine" */;
 			buildPhases = (
+				F23A0CE2B79067644C8738E4 /* Check Pods Manifest.lock */,
 				C2D747841C4AD3E7006E7421 /* Sources */,
 				C2D747851C4AD3E7006E7421 /* Frameworks */,
 				C2D747861C4AD3E7006E7421 /* Resources */,
+				A3F77AF5F7C8600EBC8C284C /* Embed Pods Frameworks */,
+				2DDFD116F4446B7F4B890421 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDFD116F4446B7F4B890421 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F77AF5F7C8600EBC8C284C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23A0CE2B79067644C8738E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C2D747841C4AD3E7006E7421 /* Sources */ = {
@@ -395,6 +470,7 @@
 		};
 		C2D747B11C4AD3E7006E7421 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WarMachine/Info.plist;
@@ -406,6 +482,7 @@
 		};
 		C2D747B21C4AD3E7006E7421 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WarMachine/Info.plist;
@@ -482,6 +559,7 @@
 				C2D747B21C4AD3E7006E7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D747B31C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +568,7 @@
 				C2D747B51C4AD3E7006E7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D747B61C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachineUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +577,7 @@
 				C2D747B81C4AD3E7006E7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

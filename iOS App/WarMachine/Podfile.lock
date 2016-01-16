@@ -1,0 +1,10 @@
+PODS:
+  - SAParallaxViewControllerSwift (1.3.0)
+
+DEPENDENCIES:
+  - SAParallaxViewControllerSwift
+
+SPEC CHECKSUMS:
+  SAParallaxViewControllerSwift: 36c7e84862c5840452200e234e54709789c7d830
+
+COCOAPODS: 0.39.0
