@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import datetime
 from flask import Flask, request, redirect, session, url_for, current_app
 import os
-
+import re
 app = Flask(__name__)
 
 
@@ -17,60 +17,79 @@ app = Flask(__name__)
     # dLat = str(request.args['dLat'])
     # dLng = str(request.args['dLng'])
 
-with open('game.json') as data_file:
+#-------- NAME FINDER --------- #
+with open('cleanGame.json') as data_file:
     data = json.load(data_file)
-    #pprint(data["gamepackageJSON"]["drives"]["previous"][0]["plays"])
+    #pprint(data[0][0])
+    alreadyPrinted = []
+    for drive in data:
+        for play in drive:
+            description = play["description"]
+            compiled_regex = re.compile('([A-Z].[A-Z][a-z]+)')
+            arrayNames = compiled_regex.findall(description)
+            for name in arrayNames:
+                if name not in alreadyPrinted:
+                    #print "https://www.google.com/search?q=" + name + "+nfl&biw=1440&bih=816&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjjw4TDz6_KAhVG7SYKHTDMCbUQ_AUICCgD#tbs=ic:trans%2Citp:face&tbm=isch&q=" + name + "+nfl&imgrc=b8Im-OpXkG4yAM%3A"
+                    print name
+                    alreadyPrinted.append(name)
 
-    index = 5
-    arrToReturnPlay = []
-    for drive in data["gamepackageJSON"]["drives"]["previous"]:
-        arrToReturn = []
-        for play in drive["plays"]:
-            print "team: "
-            team = data["gamepackageJSON"]["drives"]["previous"][index]["team"]["displayName"]
-            pprint(team)
+# ------- CLEAN GAME ---------- #
+# with open('game.json') as data_file:
+#     data = json.load(data_file)
+#     #pprint(data["gamepackageJSON"]["drives"]["previous"][0]["plays"])
 
-            print("description: ")
-            description = play["text"]
-            pprint(description)
-            print("------------")
+#     index = 5
+#     arrToReturnPlay = []
+#     for drive in data["gamepackageJSON"]["drives"]["previous"]:
+#         arrToReturn = []
+#         for play in drive["plays"]:
+#             print "team: "
+#             team = data["gamepackageJSON"]["drives"]["previous"][index]["team"]["displayName"]
+#             pprint(team)
 
-            print("home: ")
-            homeScore = play["homeScore"]
-            pprint(homeScore)
+#             print("description: ")
+#             description = play["text"]
+#             pprint(description)
+#             print("------------")
 
-            print("away: ")
-            awayScore = play["awayScore"]
-            pprint(awayScore)
-            print("------------")
+#             print("home: ")
+#             homeScore = play["homeScore"]
+#             pprint(homeScore)
 
-            print("type: ")
-            playType = play["type"]["text"]
-            pprint(playType)
+#             print("away: ")
+#             awayScore = play["awayScore"]
+#             pprint(awayScore)
+#             print("------------")
 
-            print("yardline: ")
-            yardLine = play["start"]["yardLine"]
-            pprint(yardLine)
+#             print("type: ")
+#             playType = play["type"]["text"]
+#             pprint(playType)
 
-            print("down: ")
-            down = play["start"]["down"]
-            pprint(down)
+#             print("yardline: ")
+#             yardLine = play["start"]["yardLine"]
+#             pprint(yardLine)
 
-            print("time: ")
-            time = play["clock"]["displayValue"]
-            pprint(time)
-            print("------------ // -------------")
+#             print("down: ")
+#             down = play["start"]["down"]
+#             pprint(down)
 
-            arrToReturn.append({'team': team,
-                       'description': description,
-                       'homeScore': homeScore,
-                       'awayScore': awayScore,
-                       'playType': playType,
-                       'yardLine': yardLine,
-                       'down': down,                   
-                       'time': time})
-            arrToReturnPlay.append(arrToReturn)
-    pprint(json.dumps(arrToReturnPlay))
+#             print("time: ")
+#             time = play["clock"]["displayValue"]
+#             pprint(time)
+#             print("------------ // -------------")
+
+#             arrToReturn.append({'team': team,
+#                        'description': description,
+#                        'homeScore': homeScore,
+#                        'awayScore': awayScore,
+#                        'playType': playType,
+#                        'yardLine': yardLine,
+#                        'down': down,                   
+#                        'time': time})
+#             arrToReturnPlay.append(arrToReturn)
+#     pprint(json.dumps(arrToReturnPlay))
+
+    #-------------//------------#
 
     # url = "http://api.sportradar.us/nfl-sim-t1/2013/REG/18/CHI/MIN/pbp.xml?api_key=zw3392skmuzrhdhn885f8869"
     # # # print(url)
