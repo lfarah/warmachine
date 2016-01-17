@@ -15,6 +15,16 @@
 		29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91891C4B97FE00134E2A /* Patriot.png */; };
 		29EF918C1C4B98C000134E2A /* interceptiongifs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF918B1C4B98C000134E2A /* interceptiongifs.gif */; };
 		29EF918E1C4C27CE00134E2A /* riskyGame.json in Resources */ = {isa = PBXBuildFile; fileRef = 29EF918D1C4C27CE00134E2A /* riskyGame.json */; };
+		29EF91911C4C287600134E2A /* IllegalBlock.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91901C4C287600134E2A /* IllegalBlock.gif */; };
+		29EF91931C4C287E00134E2A /* Kneels.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91921C4C287E00134E2A /* Kneels.gif */; };
+		29EF91951C4C293F00134E2A /* PassReception.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91941C4C293F00134E2A /* PassReception.gif */; };
+		29EF91971C4C29E600134E2A /* tackle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91961C4C29E600134E2A /* tackle.gif */; };
+		29EF91991C4C2B0F00134E2A /* kicks.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91981C4C2B0F00134E2A /* kicks.gif */; };
+		29EF919B1C4C2B8D00134E2A /* scrambles.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF919A1C4C2B8D00134E2A /* scrambles.gif */; };
+		29EF919D1C4C2BFA00134E2A /* punts.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF919C1C4C2BFA00134E2A /* punts.gif */; };
+		29EF919F1C4C2C5E00134E2A /* OffensiveHolding.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF919E1C4C2C5E00134E2A /* OffensiveHolding.gif */; };
+		29EF91A11C4C2C9D00134E2A /* FalseStart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91A01C4C2C9D00134E2A /* FalseStart.gif */; };
+		29EF91A31C4C2D4000134E2A /* MistyIlliterateGreyhounddog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91A21C4C2D4000134E2A /* MistyIlliterateGreyhounddog.gif */; };
 		C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C253B0031C4BB26900CD696E /* HEA785202-2.png */; };
 		C25F53591C4C042D007A2626 /* TeamSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */; };
 		C26624771C4BBC37004EA1E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624761C4BBC37004EA1E7 /* TableViewCell.swift */; };
@@ -59,6 +69,16 @@
 		29EF91891C4B97FE00134E2A /* Patriot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patriot.png; sourceTree = "<group>"; };
 		29EF918B1C4B98C000134E2A /* interceptiongifs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = interceptiongifs.gif; sourceTree = "<group>"; };
 		29EF918D1C4C27CE00134E2A /* riskyGame.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = riskyGame.json; sourceTree = "<group>"; };
+		29EF91901C4C287600134E2A /* IllegalBlock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = IllegalBlock.gif; sourceTree = "<group>"; };
+		29EF91921C4C287E00134E2A /* Kneels.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kneels.gif; sourceTree = "<group>"; };
+		29EF91941C4C293F00134E2A /* PassReception.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PassReception.gif; sourceTree = "<group>"; };
+		29EF91961C4C29E600134E2A /* tackle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tackle.gif; sourceTree = "<group>"; };
+		29EF91981C4C2B0F00134E2A /* kicks.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kicks.gif; sourceTree = "<group>"; };
+		29EF919A1C4C2B8D00134E2A /* scrambles.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scrambles.gif; sourceTree = "<group>"; };
+		29EF919C1C4C2BFA00134E2A /* punts.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = punts.gif; sourceTree = "<group>"; };
+		29EF919E1C4C2C5E00134E2A /* OffensiveHolding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OffensiveHolding.gif; sourceTree = "<group>"; };
+		29EF91A01C4C2C9D00134E2A /* FalseStart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FalseStart.gif; sourceTree = "<group>"; };
+		29EF91A21C4C2D4000134E2A /* MistyIlliterateGreyhounddog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MistyIlliterateGreyhounddog.gif; sourceTree = "<group>"; };
 		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +131,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29EF918F1C4C283400134E2A /* keywordsGIF */ = {
+			isa = PBXGroup;
+			children = (
+				29EF91A01C4C2C9D00134E2A /* FalseStart.gif */,
+				29EF919E1C4C2C5E00134E2A /* OffensiveHolding.gif */,
+				29EF91A21C4C2D4000134E2A /* MistyIlliterateGreyhounddog.gif */,
+				29EF91901C4C287600134E2A /* IllegalBlock.gif */,
+				29EF919C1C4C2BFA00134E2A /* punts.gif */,
+				29EF919A1C4C2B8D00134E2A /* scrambles.gif */,
+				29EF91961C4C29E600134E2A /* tackle.gif */,
+				29EF91981C4C2B0F00134E2A /* kicks.gif */,
+				29EF91941C4C293F00134E2A /* PassReception.gif */,
+				29EF91921C4C287E00134E2A /* Kneels.gif */,
+			);
+			name = keywordsGIF;
+			sourceTree = "<group>";
+		};
 		54935096FBF39D727AAC8AD1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +235,7 @@
 		CC9D97781C4B663F008982CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				29EF918F1C4C283400134E2A /* keywordsGIF */,
 				29EF91811C4B789D00134E2A /*  v.png */,
 				CC9D97791C4B665A008982CD /* mugen.gif */,
 				29EF91851C4B7A3C00134E2A /* splash.png */,
@@ -313,17 +351,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				29EF91881C4B97EF00134E2A /* panther.png in Resources */,
+				29EF91A11C4C2C9D00134E2A /* FalseStart.gif in Resources */,
 				C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */,
 				CC9D977A1C4B665A008982CD /* mugen.gif in Resources */,
 				C26624831C4BC58B004EA1E7 /* cleanGame.json in Resources */,
+				29EF919B1C4C2B8D00134E2A /* scrambles.gif in Resources */,
+				29EF91991C4C2B0F00134E2A /* kicks.gif in Resources */,
 				29EF918E1C4C27CE00134E2A /* riskyGame.json in Resources */,
+				29EF919D1C4C2BFA00134E2A /* punts.gif in Resources */,
+				29EF91971C4C29E600134E2A /* tackle.gif in Resources */,
+				29EF91951C4C293F00134E2A /* PassReception.gif in Resources */,
 				C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */,
 				C2D747931C4AD3E7006E7421 /* Assets.xcassets in Resources */,
+				29EF919F1C4C2C5E00134E2A /* OffensiveHolding.gif in Resources */,
+				29EF91A31C4C2D4000134E2A /* MistyIlliterateGreyhounddog.gif in Resources */,
+				29EF91911C4C287600134E2A /* IllegalBlock.gif in Resources */,
 				29EF91861C4B7A3C00134E2A /* splash.png in Resources */,
 				29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */,
 				29EF91841C4B79D800134E2A /* intro-01.png in Resources */,
 				29EF91821C4B789D00134E2A /*  v.png in Resources */,
 				C2D747911C4AD3E7006E7421 /* Main.storyboard in Resources */,
+				29EF91931C4C287E00134E2A /* Kneels.gif in Resources */,
 				29EF918C1C4B98C000134E2A /* interceptiongifs.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
