@@ -23,7 +23,8 @@ class ViewController: UIViewController {
   @IBOutlet weak var selectedWord: UILabel!
   @IBOutlet weak var strDescription: UILabel!
   @IBOutlet weak var patriotScore: UILabel!
-
+  @IBOutlet weak var wordExplanation: UILabel!
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -35,9 +36,8 @@ class ViewController: UIViewController {
     
     //    createScrollView()
     
-    let myGif = UIImage.gifWithName("interceptiongifs")
-    self.imgvGIF.image = myGif
-    let path = NSBundle.mainBundle().pathForResource("cleanGame", ofType: "json")
+    
+    let path = NSBundle.mainBundle().pathForResource("riskyGame", ofType: "json")
     let jsonData = NSData(contentsOfFile: path!)
     
     do
@@ -55,6 +55,11 @@ class ViewController: UIViewController {
         let arrayDescription = stringDescription.componentsSeparatedByString(" ")
         let string2 = NSMutableAttributedString()
         let importantWord = play["importantWord"] as! String
+        let eachWordExplanation = play["wordExplanation"] as! String
+        self.wordExplanation.text = eachWordExplanation
+        let giftFile = play["gifFile"] as! String
+        let myGif = UIImage.gifWithName(giftFile)
+        self.imgvGIF.image = myGif
         
         self.selectedWord.text = importantWord
         let arrayImportantWord = importantWord.componentsSeparatedByString(" ")
