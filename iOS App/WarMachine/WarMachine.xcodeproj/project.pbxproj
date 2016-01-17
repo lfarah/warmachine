@@ -10,7 +10,6 @@
 		2948003E1C4AF85000AEF72A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948003D1C4AF85000AEF72A /* TabBar.swift */; };
 		29EF91821C4B789D00134E2A /*  v.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91811C4B789D00134E2A /*  v.png */; };
 		29EF91841C4B79D800134E2A /* intro-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91831C4B79D800134E2A /* intro-01.png */; };
-		29EF91861C4B7A3C00134E2A /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91851C4B7A3C00134E2A /* splash.png */; };
 		29EF91881C4B97EF00134E2A /* panther.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91871C4B97EE00134E2A /* panther.png */; };
 		29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91891C4B97FE00134E2A /* Patriot.png */; };
 		29EF918C1C4B98C000134E2A /* interceptiongifs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF918B1C4B98C000134E2A /* interceptiongifs.gif */; };
@@ -65,7 +64,6 @@
 		2948003D1C4AF85000AEF72A /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		29EF91811C4B789D00134E2A /*  v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " v.png"; sourceTree = "<group>"; };
 		29EF91831C4B79D800134E2A /* intro-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intro-01.png"; sourceTree = "<group>"; };
-		29EF91851C4B7A3C00134E2A /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		29EF91871C4B97EE00134E2A /* panther.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panther.png; sourceTree = "<group>"; };
 		29EF91891C4B97FE00134E2A /* Patriot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patriot.png; sourceTree = "<group>"; };
 		29EF918B1C4B98C000134E2A /* interceptiongifs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = interceptiongifs.gif; sourceTree = "<group>"; };
@@ -240,7 +238,6 @@
 				29EF918F1C4C283400134E2A /* keywordsGIF */,
 				29EF91811C4B789D00134E2A /*  v.png */,
 				CC9D97791C4B665A008982CD /* mugen.gif */,
-				29EF91851C4B7A3C00134E2A /* splash.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -369,7 +366,6 @@
 				29EF919F1C4C2C5E00134E2A /* OffensiveHolding.gif in Resources */,
 				29EF91A31C4C2D4000134E2A /* NeutralZoneInfraction.gif in Resources */,
 				29EF91911C4C287600134E2A /* IllegalBlock.gif in Resources */,
-				29EF91861C4B7A3C00134E2A /* splash.png in Resources */,
 				29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */,
 				29EF91841C4B79D800134E2A /* intro-01.png in Resources */,
 				29EF91821C4B789D00134E2A /*  v.png in Resources */,
