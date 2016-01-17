@@ -85,9 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-WarMachine/EZSwiftExtensions.framework"
+  install_framework "Pods-WarMachine/Gifu.framework"
   install_framework "Pods-WarMachine/SAParallaxViewControllerSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-WarMachine/EZSwiftExtensions.framework"
+  install_framework "Pods-WarMachine/Gifu.framework"
   install_framework "Pods-WarMachine/SAParallaxViewControllerSwift.framework"
 fi

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E0339BAC20BCDFB223B5A70F'
-               BlueprintName = 'SAParallaxViewControllerSwift'
+               BlueprintIdentifier = '58A3494B95A30C916FB95A48'
+               BlueprintName = 'Gifu'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SAParallaxViewControllerSwift.framework'>
+               BuildableName = 'Gifu.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -130,14 +130,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXF-QV-XAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-783" y="1809"/>
+            <point key="canvasLocation" x="-847" y="1721"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Cfl-vf-Nly">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vh1-xO-GGf" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="centered" id="DqY-N8-EpB">
+                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="centered" id="DqY-N8-EpB" userLabel="tabBarView">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>

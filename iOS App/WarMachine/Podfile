@@ -6,6 +6,7 @@ use_frameworks!
 target 'WarMachine' do
     pod "SAParallaxViewControllerSwift"
     pod "EZSwiftExtensions"
+    pod "Gifu"
 end
 
 target 'WarMachineTests' do
