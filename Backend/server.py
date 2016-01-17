@@ -78,63 +78,63 @@ with open('game.json') as data_file:
             description = play["text"]
             #pprint(description)
 
-            # print("player: ")
-            # player = findName(description)
-            # pprint(player)
-            # print("------------")
+            print("player: ")
+            player = findName(description)
+            pprint(player)
+            print("------------")
 
-            # print("home: ")
-            # homeScore = play["homeScore"]
-            # pprint(homeScore)
+            print("home: ")
+            homeScore = play["homeScore"]
+            pprint(homeScore)
 
-            # print("away: ")
-            # awayScore = play["awayScore"]
-            # pprint(awayScore)
-            # print("------------")
+            print("away: ")
+            awayScore = play["awayScore"]
+            pprint(awayScore)
+            print("------------")
 
-            # print("type: ")
-            # playType = play["type"]["text"]
-            # pprint(playType)
+            print("type: ")
+            playType = play["type"]["text"]
+            pprint(playType)
 
-            # print("yardline: ")
-            # yardLine = play["start"]["yardLine"]
-            # pprint(yardLine)
+            print("yardline: ")
+            yardLine = play["start"]["yardLine"]
+            pprint(yardLine)
 
-            # print("yardsToEndzone: ")
-            # yardsToEndzone = play["start"]["yardsToEndzone"]
-            # pprint(yardsToEndzone)
+            print("yardsToEndzone: ")
+            yardsToEndzone = play["start"]["yardsToEndzone"]
+            pprint(yardsToEndzone)
 
-            # print("distance: ")
-            # distance = play["start"]["distance"]
-            # pprint(distance)
+            print("distance: ")
+            distance = play["start"]["distance"]
+            pprint(distance)
 
-            # print("down: ")
-            # down = play["start"]["down"]
-            # pprint(down)
+            print("down: ")
+            down = play["start"]["down"]
+            pprint(down)
 
-            # print("time: ")
-            # time = play["clock"]["displayValue"]
-            # pprint(time)
+            print("time: ")
+            time = play["clock"]["displayValue"]
+            pprint(time)
 
-            #print("importantWord: ")
+            print("importantWord: ")
             importantWord = getImportantWord(description)
             pprint(importantWord)
             #print("------------ // -------------")
 
-    #         arrToReturn.append({'team': team,
-    #                    'description': description,
-    #                    'player': player,                   
-    #                    'homeScore': homeScore,
-    #                    'awayScore': awayScore,
-    #                    'playType': playType,
-    #                    'yardLine': yardLine,                       
-    #                    'yardsToEndzone': yardsToEndzone,
-    #                    'distance': distance,
-    #                    'down': down,                   
-    #                    'time': time,
-    #                    'importantWord': importantWord})
-    #         arrToReturnPlay.append(arrToReturn)
-    # pprint(json.dumps(arrToReturnPlay))
+            arrToReturn.append({'team': team,
+                       'description': description,
+                       'player': player,                   
+                       'homeScore': homeScore,
+                       'awayScore': awayScore,
+                       'playType': playType,
+                       'yardLine': yardLine,                       
+                       'yardsToEndzone': yardsToEndzone,
+                       'distance': distance,
+                       'down': down,                   
+                       'time': time,
+                       'importantWord': importantWord})
+        arrToReturnPlay.append(arrToReturn)
+    pprint(json.dumps(arrToReturnPlay))
 
     #-------------//------------#
 

@@ -18,7 +18,9 @@ class ViewController: UIViewController {
   var teamSelected: Bool!
   var selectedTeam: Int = 0
   
+  @IBOutlet weak var bubble: UIImageView!
   @IBOutlet weak var imgvGIF: UIImageView!
+  @IBOutlet weak var selectedWord: UILabel!
   @IBOutlet weak var strDescription: UILabel!
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -39,11 +41,11 @@ class ViewController: UIViewController {
     do
     {
       let jsonArray = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
-      print(jsonArray[8])
+      //      print(jsonArray[0])
       
       var count = 0
       var down = 0
-      ez.runThisEvery(seconds: 1, handler: { (timer) -> Void in
+      ez.runThisEvery(seconds: 2, handler: { (timer) -> Void in
         
         let play = jsonArray[down][count]
         
@@ -51,18 +53,21 @@ class ViewController: UIViewController {
         let arrayDescription = stringDescription.componentsSeparatedByString(" ")
         let string2 = NSMutableAttributedString()
         let importantWord = play["importantWord"] as! String
+        
+        self.selectedWord.text = importantWord
+        let arrayImportantWord = importantWord.componentsSeparatedByString(" ")
+        
         for word in arrayDescription
         {
-          let arrayImportantWord = importantWord.componentsSeparatedByString(" ")
           
           var shouldPrintRed = false
           for importantSelected in arrayImportantWord
           {
-            
-            
-            if word == importantSelected
+            if word == importantSelected || word == importantSelected + "," || word == "(" + importantSelected + ")"
             {
               shouldPrintRed = true
+              break
+              //
             }
             else
             {
@@ -73,18 +78,31 @@ class ViewController: UIViewController {
           if shouldPrintRed == false
           {
             string2.appendAttributedString(NSAttributedString(string: word + " ", attributes: [
-              NSFontAttributeName: UIFont.systemFontOfSize(20),
-              NSForegroundColorAttributeName: UIColor.blackColor()
+              NSFontAttributeName: UIFont.systemFontOfSize(15),
+              NSForegroundColorAttributeName: UIColor.whiteColor()
               ]))
           }
           else
           {
             string2.appendAttributedString(NSAttributedString(string: word + " ", attributes: [
-              NSFontAttributeName: UIFont.systemFontOfSize(20),
-              NSForegroundColorAttributeName: UIColor.redColor()
+              NSFontAttributeName: UIFont.systemFontOfSize(16),
+              NSForegroundColorAttributeName: UIColor.yellowColor()
               ]))
           }
           
+        }
+        
+        let downs = play["down"] as! Double
+        let distance = play["distance"] as! Double
+        let fuckingAwesomeAlgorithm = downs * downs * distance
+        
+        if (play["team"] as! String == "NE" && fuckingAwesomeAlgorithm > 30) || (play["team"] as! String == "CAR" && fuckingAwesomeAlgorithm < 30)
+        {
+          self.bubble.image = UIImage(named:"Red Bubble")
+        }
+        else
+        {
+          self.bubble.image = UIImage(named:"Baloon")
         }
         //    string2.appendAttributedString(NSAttributedString(string: "Hello ", attributes: [
         //      NSFontAttributeName: UIFont.systemFontOfSize(20),
@@ -238,5 +256,5 @@ class ViewController: UIViewController {
     scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, CGFloat(nowY));
   }
   
-  }
+}
 
