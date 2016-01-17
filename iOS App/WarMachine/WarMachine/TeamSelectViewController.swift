@@ -21,10 +21,59 @@ class TeamSelectViewController: UIViewController {
   }
   
   func createPickTeamView() {
-    let image = UIImage(named: "pickteam-1.png")
-    var imageView = UIImageView(image: image!)
+    let image = UIImage(named: "pickteambackground.png")
+    let imageView = UIImageView(image: image!)
     imageView.frame = CGRect(x: 0, y: 0, width: ez.screenWidth, height: ez.screenHeight)
     self.view.addSubview(imageView)
+    
+    let teamOneLogo = UIImage(named: "panthers.png")
+    let teamOneLogoView = UIImageView(image: teamOneLogo!)
+    teamOneLogoView.frame = CGRect (x: 800, y: 0, w: 180, h: 180)
+    teamOneLogoView.y = ez.screenHeight/2 - teamOneLogoView.h
+    self.view.addSubview(teamOneLogoView)
+    
+    let teamTwoLogo = UIImage(named: "patriots.png")
+    let teamTwoLogoView = UIImageView(image: teamTwoLogo!)
+    teamTwoLogoView.frame = CGRect (x: -800, y: 450, w: 180, h: 180)
+    teamTwoLogoView.y = ez.screenHeight/2 + 100
+    self.view.addSubview(teamTwoLogoView)
+    
+    let lineView = UIView(x: 0, y: 0, w: 300, h: 5)
+    lineView.addBorder(width: 3, color: UIColor.grayColor())
+    lineView.x = ez.screenWidth/2 - 150
+    lineView.y = ez.screenHeight/2 - 5
+    lineView.alpha = 0
+    self.view.addSubview(lineView)
+    
+    let vsImage = UIImage(named: "vs.png")
+    let vsImageView = UIImageView(image: vsImage!)
+    vsImageView.frame = CGRect (x: 0, y: 0, w: 60, h: 60)
+    vsImageView.x = ez.screenWidth/2  - 30
+    vsImageView.y = ez.screenHeight/2 - vsImageView.y/2 + 25
+    vsImageView.alpha = 0
+    self.view.addSubview(vsImageView)
+    
+    lineView.y = vsImageView.y + 25
+    
+    
+    UIView.animateWithDuration(2) { () -> Void in
+        vsImageView.transform = CGAffineTransformMakeRotation((180.0 * CGFloat(M_PI)) / 180.0)
+        vsImageView.transform = CGAffineTransformMakeScale(0.3, 0.3)
+        UIView.animateWithDuration(2) { () -> Void in
+            vsImageView.transform = CGAffineTransformMakeRotation((360.0 * CGFloat(M_PI)) / 180.0)
+        }
+    }
+    
+    UIView.animateWithDuration(2, animations: { () -> Void in
+        teamOneLogoView.x = ez.screenWidth/2 - teamOneLogoView.w/2
+        teamTwoLogoView.x = ez.screenWidth/2 - teamOneLogoView.w/2
+        vsImageView.alpha = 1.0
+        lineView.alpha = 1.0
+        vsImageView.w = 60
+
+        }) { (Bool) -> Void in
+    }
+    
     
     let teamOneImageView = UIView(x: 0, y: 0, w: ez.screenWidth, h: ez.screenHeight/2 + 40)
     teamOneImageView.backgroundColor = UIColor.clearColor()

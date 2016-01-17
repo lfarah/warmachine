@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D7479B1C4AD3E7006E7421"
-               BuildableName = "WarMachineTests.xctest"
+               BuildableName = "WarMachine.xctest"
                BlueprintName = "WarMachineTests"
                ReferencedContainer = "container:WarMachine.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D747A61C4AD3E7006E7421"
-               BuildableName = "WarMachineUITests.xctest"
+               BuildableName = "WarMachine.xctest"
                BlueprintName = "WarMachineUITests"
                ReferencedContainer = "container:WarMachine.xcodeproj">
             </BuildableReference>
