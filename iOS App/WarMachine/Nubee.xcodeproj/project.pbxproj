@@ -40,17 +40,17 @@
 		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
-		C2D747881C4AD3E7006E7421 /* WarMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D747881C4AD3E7006E7421 /* Nubee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nubee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D7478D1C4AD3E7006E7421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2D747901C4AD3E7006E7421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2D747921C4AD3E7006E7421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D747951C4AD3E7006E7421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2D747971C4AD3E7006E7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2D7479C1C4AD3E7006E7421 /* WarMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D7479C1C4AD3E7006E7421 /* Nubee.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nubee.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D747A01C4AD3E7006E7421 /* WarMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarMachineTests.swift; sourceTree = "<group>"; };
 		C2D747A21C4AD3E7006E7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2D747A71C4AD3E7006E7421 /* WarMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D747A71C4AD3E7006E7421 /* Nubee.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nubee.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D747AB1C4AD3E7006E7421 /* WarMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarMachineUITests.swift; sourceTree = "<group>"; };
 		C2D747AD1C4AD3E7006E7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,9 +113,9 @@
 		C2D747891C4AD3E7006E7421 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2D747881C4AD3E7006E7421 /* WarMachine.app */,
-				C2D7479C1C4AD3E7006E7421 /* WarMachineTests.xctest */,
-				C2D747A71C4AD3E7006E7421 /* WarMachineUITests.xctest */,
+				C2D747881C4AD3E7006E7421 /* Nubee.app */,
+				C2D7479C1C4AD3E7006E7421 /* Nubee.xctest */,
+				C2D747A71C4AD3E7006E7421 /* Nubee.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2D747871C4AD3E7006E7421 /* WarMachine */ = {
+		C2D747871C4AD3E7006E7421 /* Nubee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2D747B01C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachine" */;
+			buildConfigurationList = C2D747B01C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "Nubee" */;
 			buildPhases = (
 				F23A0CE2B79067644C8738E4 /* Check Pods Manifest.lock */,
 				C2D747841C4AD3E7006E7421 /* Sources */,
@@ -170,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = WarMachine;
+			name = Nubee;
 			productName = WarMachine;
-			productReference = C2D747881C4AD3E7006E7421 /* WarMachine.app */;
+			productReference = C2D747881C4AD3E7006E7421 /* Nubee.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C2D7479B1C4AD3E7006E7421 /* WarMachineTests */ = {
+		C2D7479B1C4AD3E7006E7421 /* NubeeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2D747B31C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachineTests" */;
+			buildConfigurationList = C2D747B31C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "NubeeTests" */;
 			buildPhases = (
 				C2D747981C4AD3E7006E7421 /* Sources */,
 				C2D747991C4AD3E7006E7421 /* Frameworks */,
@@ -188,14 +188,14 @@
 			dependencies = (
 				C2D7479E1C4AD3E7006E7421 /* PBXTargetDependency */,
 			);
-			name = WarMachineTests;
+			name = NubeeTests;
 			productName = WarMachineTests;
-			productReference = C2D7479C1C4AD3E7006E7421 /* WarMachineTests.xctest */;
+			productReference = C2D7479C1C4AD3E7006E7421 /* Nubee.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C2D747A61C4AD3E7006E7421 /* WarMachineUITests */ = {
+		C2D747A61C4AD3E7006E7421 /* NubeeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2D747B61C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachineUITests" */;
+			buildConfigurationList = C2D747B61C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "NubeeUITests" */;
 			buildPhases = (
 				C2D747A31C4AD3E7006E7421 /* Sources */,
 				C2D747A41C4AD3E7006E7421 /* Frameworks */,
@@ -206,9 +206,9 @@
 			dependencies = (
 				C2D747A91C4AD3E7006E7421 /* PBXTargetDependency */,
 			);
-			name = WarMachineUITests;
+			name = NubeeUITests;
 			productName = WarMachineUITests;
-			productReference = C2D747A71C4AD3E7006E7421 /* WarMachineUITests.xctest */;
+			productReference = C2D747A71C4AD3E7006E7421 /* Nubee.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C2D747831C4AD3E6006E7421 /* Build configuration list for PBXProject "WarMachine" */;
+			buildConfigurationList = C2D747831C4AD3E6006E7421 /* Build configuration list for PBXProject "Nubee" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -247,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2D747871C4AD3E7006E7421 /* WarMachine */,
-				C2D7479B1C4AD3E7006E7421 /* WarMachineTests */,
-				C2D747A61C4AD3E7006E7421 /* WarMachineUITests */,
+				C2D747871C4AD3E7006E7421 /* Nubee */,
+				C2D7479B1C4AD3E7006E7421 /* NubeeTests */,
+				C2D747A61C4AD3E7006E7421 /* NubeeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -361,12 +361,12 @@
 /* Begin PBXTargetDependency section */
 		C2D7479E1C4AD3E7006E7421 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2D747871C4AD3E7006E7421 /* WarMachine */;
+			target = C2D747871C4AD3E7006E7421 /* Nubee */;
 			targetProxy = C2D7479D1C4AD3E7006E7421 /* PBXContainerItemProxy */;
 		};
 		C2D747A91C4AD3E7006E7421 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2D747871C4AD3E7006E7421 /* WarMachine */;
+			target = C2D747871C4AD3E7006E7421 /* Nubee */;
 			targetProxy = C2D747A81C4AD3E7006E7421 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +481,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Nubee;
 			};
 			name = Debug;
 		};
@@ -494,7 +494,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Nubee;
 			};
 			name = Release;
 		};
@@ -505,8 +505,8 @@
 				INFOPLIST_FILE = WarMachineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachineTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarMachine.app/WarMachine";
+				PRODUCT_NAME = Nubee;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubee.app/Nubee";
 			};
 			name = Debug;
 		};
@@ -517,8 +517,8 @@
 				INFOPLIST_FILE = WarMachineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachineTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarMachine.app/WarMachine";
+				PRODUCT_NAME = Nubee;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubee.app/Nubee";
 			};
 			name = Release;
 		};
@@ -528,7 +528,7 @@
 				INFOPLIST_FILE = WarMachineUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachineUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Nubee;
 				TEST_TARGET_NAME = WarMachine;
 				USES_XCTRUNNER = YES;
 			};
@@ -540,7 +540,7 @@
 				INFOPLIST_FILE = WarMachineUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachineUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Nubee;
 				TEST_TARGET_NAME = WarMachine;
 				USES_XCTRUNNER = YES;
 			};
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2D747831C4AD3E6006E7421 /* Build configuration list for PBXProject "WarMachine" */ = {
+		C2D747831C4AD3E6006E7421 /* Build configuration list for PBXProject "Nubee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2D747AE1C4AD3E7006E7421 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2D747B01C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachine" */ = {
+		C2D747B01C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "Nubee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2D747B11C4AD3E7006E7421 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2D747B31C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachineTests" */ = {
+		C2D747B31C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "NubeeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2D747B41C4AD3E7006E7421 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2D747B61C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachineUITests" */ = {
+		C2D747B61C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "NubeeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2D747B71C4AD3E7006E7421 /* Debug */,

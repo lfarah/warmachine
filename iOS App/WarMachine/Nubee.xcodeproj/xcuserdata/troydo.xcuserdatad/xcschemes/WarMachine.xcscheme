@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D747871C4AD3E7006E7421"
-               BuildableName = "WarMachine.app"
-               BlueprintName = "WarMachine"
-               ReferencedContainer = "container:WarMachine.xcodeproj">
+               BuildableName = "Nubee.app"
+               BlueprintName = "Nubee"
+               ReferencedContainer = "container:Nubee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D7479B1C4AD3E7006E7421"
-               BuildableName = "WarMachineTests.xctest"
-               BlueprintName = "WarMachineTests"
-               ReferencedContainer = "container:WarMachine.xcodeproj">
+               BuildableName = "Nubee.xctest"
+               BlueprintName = "NubeeTests"
+               ReferencedContainer = "container:Nubee.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2D747A61C4AD3E7006E7421"
-               BuildableName = "WarMachineUITests.xctest"
-               BlueprintName = "WarMachineUITests"
-               ReferencedContainer = "container:WarMachine.xcodeproj">
+               BuildableName = "Nubee.xctest"
+               BlueprintName = "NubeeUITests"
+               ReferencedContainer = "container:Nubee.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D747871C4AD3E7006E7421"
-            BuildableName = "WarMachine.app"
-            BlueprintName = "WarMachine"
-            ReferencedContainer = "container:WarMachine.xcodeproj">
+            BuildableName = "Nubee.app"
+            BlueprintName = "Nubee"
+            ReferencedContainer = "container:Nubee.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D747871C4AD3E7006E7421"
-            BuildableName = "WarMachine.app"
-            BlueprintName = "WarMachine"
-            ReferencedContainer = "container:WarMachine.xcodeproj">
+            BuildableName = "Nubee.app"
+            BlueprintName = "Nubee"
+            ReferencedContainer = "container:Nubee.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C2D747871C4AD3E7006E7421"
-            BuildableName = "WarMachine.app"
-            BlueprintName = "WarMachine"
-            ReferencedContainer = "container:WarMachine.xcodeproj">
+            BuildableName = "Nubee.app"
+            BlueprintName = "Nubee"
+            ReferencedContainer = "container:Nubee.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

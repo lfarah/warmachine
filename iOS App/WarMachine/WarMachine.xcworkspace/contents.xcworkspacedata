@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:WarMachine.xcodeproj">
+      location = "group:/Users/troydo/Development/Hackathon/GITHackathon/warmachine/iOS App/WarMachine/Nubee.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

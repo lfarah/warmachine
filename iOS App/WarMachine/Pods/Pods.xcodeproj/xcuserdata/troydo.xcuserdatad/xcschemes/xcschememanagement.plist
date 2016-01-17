@@ -4,19 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>EZSwiftExtensions.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Pods-WarMachine.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>SAParallaxViewControllerSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0CEE85459F93B5CF69255688BC891AB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>674479F8455D062B6399E8838DC3D724</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7014672FFB395B817B9B0484DAF52618</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>798AC8AD57EFBEE1CD41ED634B341A2D</key>
 		<dict>
 			<key>primary</key>
