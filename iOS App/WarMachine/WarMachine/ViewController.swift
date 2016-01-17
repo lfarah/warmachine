@@ -48,7 +48,7 @@ class ViewController: UIViewController {
       
       var count = 0
       var down = 0
-      ez.runThisEvery(seconds: 2, handler: { (timer) -> Void in
+      ez.runThisEvery(seconds: 10, handler: { (timer) -> Void in
         
         let play = jsonArray[down][count]
         
