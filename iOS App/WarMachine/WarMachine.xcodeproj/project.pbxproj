@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2948003E1C4AF85000AEF72A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948003D1C4AF85000AEF72A /* TabBar.swift */; };
+		29EF91821C4B789D00134E2A /*  v.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91811C4B789D00134E2A /*  v.png */; };
+		29EF91841C4B79D800134E2A /* intro-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91831C4B79D800134E2A /* intro-01.png */; };
+		29EF91861C4B7A3C00134E2A /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91851C4B7A3C00134E2A /* splash.png */; };
+		29EF91881C4B97EF00134E2A /* panther.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91871C4B97EE00134E2A /* panther.png */; };
+		29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91891C4B97FE00134E2A /* Patriot.png */; };
+		29EF918C1C4B98C000134E2A /* interceptiongifs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF918B1C4B98C000134E2A /* interceptiongifs.gif */; };
 		C2D7478C1C4AD3E7006E7421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */; };
 		C2D7478E1C4AD3E7006E7421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7478D1C4AD3E7006E7421 /* ViewController.swift */; };
 		C2D747911C4AD3E7006E7421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D7478F1C4AD3E7006E7421 /* Main.storyboard */; };
@@ -14,6 +21,10 @@
 		C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D747941C4AD3E7006E7421 /* LaunchScreen.storyboard */; };
 		C2D747A11C4AD3E7006E7421 /* WarMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D747A01C4AD3E7006E7421 /* WarMachineTests.swift */; };
 		C2D747AC1C4AD3E7006E7421 /* WarMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D747AB1C4AD3E7006E7421 /* WarMachineUITests.swift */; };
+		CC9D97751C4B4664008982CD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D97741C4B4664008982CD /* SecondViewController.swift */; };
+		CC9D97771C4B6358008982CD /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D97761C4B6358008982CD /* Gif.swift */; };
+		CC9D977A1C4B665A008982CD /* mugen.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC9D97791C4B665A008982CD /* mugen.gif */; };
+		E1B63AA3677CBB7F227BF0A5 /* Pods_WarMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2948003D1C4AF85000AEF72A /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		29EF91811C4B789D00134E2A /*  v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " v.png"; sourceTree = "<group>"; };
+		29EF91831C4B79D800134E2A /* intro-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intro-01.png"; sourceTree = "<group>"; };
+		29EF91851C4B7A3C00134E2A /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		29EF91871C4B97EE00134E2A /* panther.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panther.png; sourceTree = "<group>"; };
+		29EF91891C4B97FE00134E2A /* Patriot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patriot.png; sourceTree = "<group>"; };
+		29EF918B1C4B98C000134E2A /* interceptiongifs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = interceptiongifs.gif; sourceTree = "<group>"; };
+		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
 		C2D747881C4AD3E7006E7421 /* WarMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D7478D1C4AD3E7006E7421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +62,15 @@
 		C2D747921C4AD3E7006E7421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D747951C4AD3E7006E7421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2D747971C4AD3E7006E7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2D7479C1C4AD3E7006E7421 /* WarMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D7479C1C4AD3E7006E7421 /* WarMachine.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarMachine.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D747A01C4AD3E7006E7421 /* WarMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarMachineTests.swift; sourceTree = "<group>"; };
 		C2D747A21C4AD3E7006E7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2D747A71C4AD3E7006E7421 /* WarMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D747A71C4AD3E7006E7421 /* WarMachine.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarMachine.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D747AB1C4AD3E7006E7421 /* WarMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarMachineUITests.swift; sourceTree = "<group>"; };
 		C2D747AD1C4AD3E7006E7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9D97741C4B4664008982CD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CC9D97761C4B6358008982CD /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		CC9D97791C4B665A008982CD /* mugen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mugen.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B63AA3677CBB7F227BF0A5 /* Pods_WarMachine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54935096FBF39D727AAC8AD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */,
+				733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F5D249859A2A0DDA49E6997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2D7477F1C4AD3E6006E7421 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				C2D7479F1C4AD3E7006E7421 /* WarMachineTests */,
 				C2D747AA1C4AD3E7006E7421 /* WarMachineUITests */,
 				C2D747891C4AD3E7006E7421 /* Products */,
+				54935096FBF39D727AAC8AD1 /* Pods */,
+				9F5D249859A2A0DDA49E6997 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				C2D747881C4AD3E7006E7421 /* WarMachine.app */,
-				C2D7479C1C4AD3E7006E7421 /* WarMachineTests.xctest */,
-				C2D747A71C4AD3E7006E7421 /* WarMachineUITests.xctest */,
+				C2D7479C1C4AD3E7006E7421 /* WarMachine.xctest */,
+				C2D747A71C4AD3E7006E7421 /* WarMachine.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +141,20 @@
 		C2D7478A1C4AD3E7006E7421 /* WarMachine */ = {
 			isa = PBXGroup;
 			children = (
+				CC9D97781C4B663F008982CD /* Resources */,
 				C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */,
 				C2D7478D1C4AD3E7006E7421 /* ViewController.swift */,
+				CC9D97741C4B4664008982CD /* SecondViewController.swift */,
 				C2D7478F1C4AD3E7006E7421 /* Main.storyboard */,
+				29EF918B1C4B98C000134E2A /* interceptiongifs.gif */,
+				2948003D1C4AF85000AEF72A /* TabBar.swift */,
+				29EF91831C4B79D800134E2A /* intro-01.png */,
+				29EF91891C4B97FE00134E2A /* Patriot.png */,
+				29EF91871C4B97EE00134E2A /* panther.png */,
 				C2D747921C4AD3E7006E7421 /* Assets.xcassets */,
 				C2D747941C4AD3E7006E7421 /* LaunchScreen.storyboard */,
 				C2D747971C4AD3E7006E7421 /* Info.plist */,
+				CC9D97761C4B6358008982CD /* Gif.swift */,
 			);
 			path = WarMachine;
 			sourceTree = "<group>";
@@ -125,6 +177,16 @@
 			path = WarMachineUITests;
 			sourceTree = "<group>";
 		};
+		CC9D97781C4B663F008982CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29EF91811C4B789D00134E2A /*  v.png */,
+				CC9D97791C4B665A008982CD /* mugen.gif */,
+				29EF91851C4B7A3C00134E2A /* splash.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D747B01C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachine" */;
 			buildPhases = (
+				F23A0CE2B79067644C8738E4 /* Check Pods Manifest.lock */,
 				C2D747841C4AD3E7006E7421 /* Sources */,
 				C2D747851C4AD3E7006E7421 /* Frameworks */,
 				C2D747861C4AD3E7006E7421 /* Resources */,
+				A3F77AF5F7C8600EBC8C284C /* Embed Pods Frameworks */,
+				2DDFD116F4446B7F4B890421 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,7 +225,7 @@
 			);
 			name = WarMachineTests;
 			productName = WarMachineTests;
-			productReference = C2D7479C1C4AD3E7006E7421 /* WarMachineTests.xctest */;
+			productReference = C2D7479C1C4AD3E7006E7421 /* WarMachine.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C2D747A61C4AD3E7006E7421 /* WarMachineUITests */ = {
@@ -178,7 +243,7 @@
 			);
 			name = WarMachineUITests;
 			productName = WarMachineUITests;
-			productReference = C2D747A71C4AD3E7006E7421 /* WarMachineUITests.xctest */;
+			productReference = C2D747A71C4AD3E7006E7421 /* WarMachine.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,9 +294,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EF91881C4B97EF00134E2A /* panther.png in Resources */,
 				C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */,
+				CC9D977A1C4B665A008982CD /* mugen.gif in Resources */,
 				C2D747931C4AD3E7006E7421 /* Assets.xcassets in Resources */,
+				29EF91861C4B7A3C00134E2A /* splash.png in Resources */,
+				29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */,
+				29EF91841C4B79D800134E2A /* intro-01.png in Resources */,
+				29EF91821C4B789D00134E2A /*  v.png in Resources */,
 				C2D747911C4AD3E7006E7421 /* Main.storyboard in Resources */,
+				29EF918C1C4B98C000134E2A /* interceptiongifs.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +323,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DDFD116F4446B7F4B890421 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F77AF5F7C8600EBC8C284C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23A0CE2B79067644C8738E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2D747841C4AD3E7006E7421 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2948003E1C4AF85000AEF72A /* TabBar.swift in Sources */,
+				CC9D97751C4B4664008982CD /* SecondViewController.swift in Sources */,
 				C2D7478E1C4AD3E7006E7421 /* ViewController.swift in Sources */,
 				C2D7478C1C4AD3E7006E7421 /* AppDelegate.swift in Sources */,
+				CC9D97771C4B6358008982CD /* Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,23 +518,27 @@
 		};
 		C2D747B11C4AD3E7006E7421 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WarMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WarMachine;
 			};
 			name = Debug;
 		};
 		C2D747B21C4AD3E7006E7421 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WarMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WarMachine;
 			};
 			name = Release;
 		};
@@ -422,7 +549,7 @@
 				INFOPLIST_FILE = WarMachineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachineTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WarMachine;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarMachine.app/WarMachine";
 			};
 			name = Debug;
@@ -434,7 +561,7 @@
 				INFOPLIST_FILE = WarMachineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachineTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WarMachine;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarMachine.app/WarMachine";
 			};
 			name = Release;
@@ -445,7 +572,7 @@
 				INFOPLIST_FILE = WarMachineUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachineUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WarMachine;
 				TEST_TARGET_NAME = WarMachine;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +584,7 @@
 				INFOPLIST_FILE = WarMachineUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.WarMachineUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WarMachine;
 				TEST_TARGET_NAME = WarMachine;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,6 +609,7 @@
 				C2D747B21C4AD3E7006E7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D747B31C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +618,7 @@
 				C2D747B51C4AD3E7006E7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D747B61C4AD3E7006E7421 /* Build configuration list for PBXNativeTarget "WarMachineUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +627,7 @@
 				C2D747B81C4AD3E7006E7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
