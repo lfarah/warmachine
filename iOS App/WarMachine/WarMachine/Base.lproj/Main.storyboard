@@ -16,12 +16,50 @@
                     <view key="view" contentMode="scaleToFill" id="PjB-6q-cE6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Arizona_Football_-_Nick_Foles" translatesAutoresizingMaskIntoConstraints="NO" id="Bvz-Ro-bDd">
+                                <rect key="frame" x="0.0" y="200" width="414" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="Gs8-dy-WFU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="61"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Baloon" translatesAutoresizingMaskIntoConstraints="NO" id="I4q-6q-LVD">
+                                <rect key="frame" x="0.0" y="79" width="414" height="144"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HEA785202-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="X6u-CG-c2a">
+                                <rect key="frame" x="42" y="104" width="64" height="62"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Shotgun) C.Pounder scrambles up the middle for 19 yards. TOUCHDOWN" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biT-xF-Emd">
+                                <rect key="frame" x="124" y="103" width="270" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 9" translatesAutoresizingMaskIntoConstraints="NO" id="ecY-DL-gt1">
+                                <rect key="frame" x="79" y="384" width="240" height="76"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="scramble" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQF-55-qFK">
+                                <rect key="frame" x="134" y="397" width="146" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scramble: bla bla bla bla bla bla bla" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-Sv-XJB">
+                                <rect key="frame" x="65" y="480" width="269" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="FEED" image="1" id="YZu-qY-3ek">
                         <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="imgvGIF" destination="Bvz-Ro-bDd" id="shK-e2-wL3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAz-Ad-WNE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,6 +186,11 @@
         <image name="1" width="41" height="35"/>
         <image name="2" width="41" height="35"/>
         <image name="3" width="41" height="35"/>
+        <image name="Arizona_Football_-_Nick_Foles" width="407" height="318"/>
+        <image name="Baloon" width="430" height="164"/>
+        <image name="HEA785202-2.png" width="200" height="200"/>
+        <image name="Rectangle 9" width="219" height="64"/>
+        <image name="header" width="808" height="126"/>
         <image name="panther.png" width="100" height="100"/>
     </resources>
 </document>
