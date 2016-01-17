@@ -14,6 +14,7 @@
 		29EF91881C4B97EF00134E2A /* panther.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91871C4B97EE00134E2A /* panther.png */; };
 		29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91891C4B97FE00134E2A /* Patriot.png */; };
 		29EF918C1C4B98C000134E2A /* interceptiongifs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF918B1C4B98C000134E2A /* interceptiongifs.gif */; };
+		29EF918E1C4C27CE00134E2A /* riskyGame.json in Resources */ = {isa = PBXBuildFile; fileRef = 29EF918D1C4C27CE00134E2A /* riskyGame.json */; };
 		C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C253B0031C4BB26900CD696E /* HEA785202-2.png */; };
 		C25F53591C4C042D007A2626 /* TeamSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */; };
 		C26624771C4BBC37004EA1E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624761C4BBC37004EA1E7 /* TableViewCell.swift */; };
@@ -57,6 +58,7 @@
 		29EF91871C4B97EE00134E2A /* panther.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panther.png; sourceTree = "<group>"; };
 		29EF91891C4B97FE00134E2A /* Patriot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patriot.png; sourceTree = "<group>"; };
 		29EF918B1C4B98C000134E2A /* interceptiongifs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = interceptiongifs.gif; sourceTree = "<group>"; };
+		29EF918D1C4C27CE00134E2A /* riskyGame.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = riskyGame.json; sourceTree = "<group>"; };
 		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 				C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */,
 				CC9D977A1C4B665A008982CD /* mugen.gif in Resources */,
 				C26624831C4BC58B004EA1E7 /* cleanGame.json in Resources */,
+				29EF918E1C4C27CE00134E2A /* riskyGame.json in Resources */,
 				C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */,
 				C2D747931C4AD3E7006E7421 /* Assets.xcassets in Resources */,
 				29EF91861C4B7A3C00134E2A /* splash.png in Resources */,
