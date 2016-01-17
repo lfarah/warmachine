@@ -58,6 +58,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="imgvGIF" destination="Bvz-Ro-bDd" id="shK-e2-wL3"/>
+                        <outlet property="strDescription" destination="biT-xF-Emd" id="KGF-Js-sjW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAz-Ad-WNE" userLabel="First Responder" sceneMemberID="firstResponder"/>

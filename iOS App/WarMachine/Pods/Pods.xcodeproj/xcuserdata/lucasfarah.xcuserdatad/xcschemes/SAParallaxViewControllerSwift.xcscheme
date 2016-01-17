@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A94A3A0E4EF849DB4D9D277"
+               BlueprintIdentifier = "BE04D0DB3020C88BC091DDCF"
                BuildableName = "SAParallaxViewControllerSwift.framework"
                BlueprintName = "SAParallaxViewControllerSwift"
                ReferencedContainer = "container:Pods.xcodeproj">

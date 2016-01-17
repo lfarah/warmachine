@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1AC0DA006B90BA014580D89"
+               BlueprintIdentifier = "3840D593D894748458833992"
                BuildableName = "Pods_WarMachine.framework"
                BlueprintName = "Pods-WarMachine"
                ReferencedContainer = "container:Pods.xcodeproj">

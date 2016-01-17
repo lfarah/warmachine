@@ -19,19 +19,107 @@ class ViewController: UIViewController {
   var selectedTeam: Int = 0
   
   @IBOutlet weak var imgvGIF: UIImageView!
+  @IBOutlet weak var strDescription: UILabel!
   override func viewDidLoad() {
     super.viewDidLoad()
     
-//    if selectedTeam == 0 {
-//      self.tabBarController?.tabBar.alpha = 0
-//      createPickTeamView()
-//      return
-//    }
+    //    if selectedTeam == 0 {
+    //      self.tabBarController?.tabBar.alpha = 0
+    //      createPickTeamView()
+    //      return
+    //    }
     
     //    createScrollView()
     
     let myGif = UIImage.gifWithName("interceptiongifs")
     self.imgvGIF.image = myGif
+    let path = NSBundle.mainBundle().pathForResource("cleanGame", ofType: "json")
+    let jsonData = NSData(contentsOfFile: path!)
+    
+    do
+    {
+      let jsonArray = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
+      print(jsonArray[8])
+      
+      var count = 0
+      var down = 0
+      ez.runThisEvery(seconds: 1, handler: { (timer) -> Void in
+        
+        let play = jsonArray[down][count]
+        
+        let stringDescription = play["description"] as! String
+        let arrayDescription = stringDescription.componentsSeparatedByString(" ")
+        let string2 = NSMutableAttributedString()
+        let importantWord = play["importantWord"] as! String
+        for word in arrayDescription
+        {
+          let arrayImportantWord = importantWord.componentsSeparatedByString(" ")
+          
+          var shouldPrintRed = false
+          for importantSelected in arrayImportantWord
+          {
+            
+            
+            if word == importantSelected
+            {
+              shouldPrintRed = true
+            }
+            else
+            {
+              shouldPrintRed = false
+            }
+          }
+          
+          if shouldPrintRed == false
+          {
+            string2.appendAttributedString(NSAttributedString(string: word + " ", attributes: [
+              NSFontAttributeName: UIFont.systemFontOfSize(20),
+              NSForegroundColorAttributeName: UIColor.blackColor()
+              ]))
+          }
+          else
+          {
+            string2.appendAttributedString(NSAttributedString(string: word + " ", attributes: [
+              NSFontAttributeName: UIFont.systemFontOfSize(20),
+              NSForegroundColorAttributeName: UIColor.redColor()
+              ]))
+          }
+          
+        }
+        //    string2.appendAttributedString(NSAttributedString(string: "Hello ", attributes: [
+        //      NSFontAttributeName: UIFont.systemFontOfSize(20),
+        //      NSForegroundColorAttributeName: UIColor.redColor()
+        //      ]))
+        //    string2.appendAttributedString(NSAttributedString(string: "world ", attributes: [
+        //      NSFontAttributeName: UIFont.systemFontOfSize(20),
+        //      NSForegroundColorAttributeName: UIColor.redColor(),
+        //      ]))
+        //    string2.appendAttributedString(NSAttributedString(string: "of Swift ", attributes: [
+        //      NSFontAttributeName: UIFont.systemFontOfSize(20),
+        //      NSForegroundColorAttributeName: UIColor.redColor(),
+        //      NSStrokeColorAttributeName: UIColor.orangeColor(),
+        //      NSStrokeWidthAttributeName: -2
+        //      ]))
+        let attachment = NSTextAttachment()
+        attachment.image = UIImage(named: "swift")
+        string2.appendAttributedString(NSAttributedString(attachment: attachment))
+        self.strDescription.attributedText = string2
+        
+        if count < jsonArray[down].count - 1
+        {
+          count++
+        }
+        else
+        {
+          down++
+          count = 0
+        }
+      })
+    }
+    catch let error{
+      print(error)
+    }
+    
   }
   
   override func didReceiveMemoryWarning() {

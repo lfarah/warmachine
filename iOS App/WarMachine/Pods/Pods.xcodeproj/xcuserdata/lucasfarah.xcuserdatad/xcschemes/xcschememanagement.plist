@@ -24,45 +24,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0CEE85459F93B5CF69255688BC891AB3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>28C5731E039C85EBE442450B59DA07C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2E9CFDF1341A2AF8B0C45F856403DD0C</key>
+		<key>2A99F44B83DC1CC1B42B5A7ADCB33C5C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3CD5464B4E6AB7588F8B38A6D56DAD4C</key>
+		<key>B9A04D3C9B208813656510FDA8ADAE02</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>668FF802F835F083CC4E24185BFE4790</key>
+		<key>BA319A1C756B586B78B5909DE85D2C58</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AEA56EBE1B518C71721209FB26701898</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B350494341C1779260E8DAF306CDA1A1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D3CEB62E23DDD67CD5A1B8EA0E0A9917</key>
+		<key>EEAB6B3EB0299F145E5EE7ED243093A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

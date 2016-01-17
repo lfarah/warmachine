@@ -17,6 +17,7 @@
 		C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C253B0031C4BB26900CD696E /* HEA785202-2.png */; };
 		C26624771C4BBC37004EA1E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624761C4BBC37004EA1E7 /* TableViewCell.swift */; };
 		C26624791C4BBC75004EA1E7 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624781C4BBC75004EA1E7 /* Team.swift */; };
+		C26624831C4BC58B004EA1E7 /* cleanGame.json in Resources */ = {isa = PBXBuildFile; fileRef = C26624821C4BC58B004EA1E7 /* cleanGame.json */; };
 		C2D7478C1C4AD3E7006E7421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */; };
 		C2D7478E1C4AD3E7006E7421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7478D1C4AD3E7006E7421 /* ViewController.swift */; };
 		C2D747911C4AD3E7006E7421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D7478F1C4AD3E7006E7421 /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 		C253B0031C4BB26900CD696E /* HEA785202-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HEA785202-2.png"; sourceTree = "<group>"; };
 		C26624761C4BBC37004EA1E7 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		C26624781C4BBC75004EA1E7 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		C26624821C4BC58B004EA1E7 /* cleanGame.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cleanGame.json; sourceTree = "<group>"; };
 		C2D747881C4AD3E7006E7421 /* WarMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D7478D1C4AD3E7006E7421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				CC9D97781C4B663F008982CD /* Resources */,
+				C26624821C4BC58B004EA1E7 /* cleanGame.json */,
 				C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */,
 				C2D7478D1C4AD3E7006E7421 /* ViewController.swift */,
 				CC9D97741C4B4664008982CD /* SecondViewController.swift */,
@@ -306,6 +309,7 @@
 				29EF91881C4B97EF00134E2A /* panther.png in Resources */,
 				C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */,
 				CC9D977A1C4B665A008982CD /* mugen.gif in Resources */,
+				C26624831C4BC58B004EA1E7 /* cleanGame.json in Resources */,
 				C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */,
 				C2D747931C4AD3E7006E7421 /* Assets.xcassets in Resources */,
 				29EF91861C4B7A3C00134E2A /* splash.png in Resources */,
