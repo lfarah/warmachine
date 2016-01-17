@@ -17,91 +17,129 @@ app = Flask(__name__)
     # dLat = str(request.args['dLat'])
     # dLng = str(request.args['dLng'])
 
+#-------- IMPORTANT WORD ------ #
+
+def cleanDescription(description):
+    name = findName(description)
+    cleanDescription = ""
+    description = description.replace("(","")
+    description = description.replace(")","")
+    description = description.replace(";","")
+    description = description.replace(name,"")
+    words = description.split(" ")
+    #print("clean: " + description)
+
+    for word in words:
+        if name != word and word != "GB" and word != "MIN" and word != "yard" and word != "-1" and word != "yards":
+            cleanDescription += " " + word
+    return cleanDescription
+
+def getImportantWord(description):
+    firstCleanDescription = cleanDescription(description)
+    cleanerDescription = cleanDescription(firstCleanDescription)
+    cleanestDescription = cleanDescription(cleanerDescription)
+    fuckingCleanDescription = cleanDescription(cleanestDescription)
+    print(fuckingCleanDescription)
+    url = "http://gateway-a.watsonplatform.net/calls/text/TextGetRankedKeywords?apikey=0620a9cb4350967fa7abf33eace24882b05ca422&sentiment=0&outputMode=json&text=" + fuckingCleanDescription
+    u = urllib.urlopen(url)
+     # # u is a file-like object
+    data = u.read()
+    jsonFile = json.loads(data)
+
+    if jsonFile["status"] != "ERROR":
+        if len(jsonFile["keywords"])>0:
+            keyword = jsonFile["keywords"][0]["text"]
+            return keyword
+    return ""
+
 #-------- NAME FINDER --------- #
-with open('cleanGame.json') as data_file:
-    data = json.load(data_file)
-    #pprint(data[0][0])
-    alreadyPrinted = []
-    for drive in data:
-        for play in drive:
-            description = play["description"]
-            compiled_regex = re.compile('([A-Z].[A-Z][a-z]+)')
-            arrayNames = compiled_regex.findall(description)
-            for name in arrayNames:
-                if name not in alreadyPrinted:
-                    #print "https://www.google.com/search?q=" + name + "+nfl&biw=1440&bih=816&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjjw4TDz6_KAhVG7SYKHTDMCbUQ_AUICCgD#tbs=ic:trans%2Citp:face&tbm=isch&q=" + name + "+nfl&imgrc=b8Im-OpXkG4yAM%3A"
-                    print name
-                    alreadyPrinted.append(name)
+def findName(description):
+    compiled_regex = re.compile('([A-Z].[A-Z][a-z]+)')
+    arrayNames = compiled_regex.findall(description)
+    if len(arrayNames)>0:
+        return arrayNames[0]
+    else:
+        return ""
 
 # ------- CLEAN GAME ---------- #
-# with open('game.json') as data_file:
-#     data = json.load(data_file)
-#     #pprint(data["gamepackageJSON"]["drives"]["previous"][0]["plays"])
+with open('game.json') as data_file:
+    data = json.load(data_file)
+    #pprint(data["gamepackageJSON"]["drives"]["previous"][0]["plays"])
 
-#     index = 5
-#     arrToReturnPlay = []
-#     for drive in data["gamepackageJSON"]["drives"]["previous"]:
-#         arrToReturn = []
-#         for play in drive["plays"]:
-#             print "team: "
-#             team = data["gamepackageJSON"]["drives"]["previous"][index]["team"]["displayName"]
-#             pprint(team)
+    index = 5
+    arrToReturnPlay = []
+    for drive in data["gamepackageJSON"]["drives"]["previous"]:
+        arrToReturn = []
+        for play in drive["plays"]:
+            #print "team: "
+            team = data["gamepackageJSON"]["drives"]["previous"][index]["team"]["displayName"]
+            #pprint(team)
 
-#             print("description: ")
-#             description = play["text"]
-#             pprint(description)
-#             print("------------")
+            #print("description: ")
+            description = play["text"]
+            #pprint(description)
 
-#             print("home: ")
-#             homeScore = play["homeScore"]
-#             pprint(homeScore)
+            print("player: ")
+            player = findName(description)
+            pprint(player)
+            print("------------")
 
-#             print("away: ")
-#             awayScore = play["awayScore"]
-#             pprint(awayScore)
-#             print("------------")
+            print("home: ")
+            homeScore = play["homeScore"]
+            pprint(homeScore)
 
-#             print("type: ")
-#             playType = play["type"]["text"]
-#             pprint(playType)
+            print("away: ")
+            awayScore = play["awayScore"]
+            pprint(awayScore)
+            print("------------")
 
-#             print("yardline: ")
-#             yardLine = play["start"]["yardLine"]
-#             pprint(yardLine)
+            print("type: ")
+            playType = play["type"]["text"]
+            pprint(playType)
 
-#             print("down: ")
-#             down = play["start"]["down"]
-#             pprint(down)
+            print("yardline: ")
+            yardLine = play["start"]["yardLine"]
+            pprint(yardLine)
 
-#             print("time: ")
-#             time = play["clock"]["displayValue"]
-#             pprint(time)
-#             print("------------ // -------------")
+            print("yardsToEndzone: ")
+            yardsToEndzone = play["start"]["yardsToEndzone"]
+            pprint(yardsToEndzone)
 
-#             arrToReturn.append({'team': team,
-#                        'description': description,
-#                        'homeScore': homeScore,
-#                        'awayScore': awayScore,
-#                        'playType': playType,
-#                        'yardLine': yardLine,
-#                        'down': down,                   
-#                        'time': time})
-#             arrToReturnPlay.append(arrToReturn)
-#     pprint(json.dumps(arrToReturnPlay))
+            print("distance: ")
+            distance = play["start"]["distance"]
+            pprint(distance)
+
+            print("down: ")
+            down = play["start"]["down"]
+            pprint(down)
+
+            print("time: ")
+            time = play["clock"]["displayValue"]
+            pprint(time)
+
+            #print("importantWord: ")
+            importantWord = getImportantWord(description)
+            #pprint(importantWord)
+            #print("------------ // -------------")
+
+            arrToReturn.append({'team': team,
+                       'description': description,
+                       'player': player,                   
+                       'homeScore': homeScore,
+                       'awayScore': awayScore,
+                       'playType': playType,
+                       'yardLine': yardLine,                       
+                       'yardsToEndzone': yardsToEndzone,
+                       'distance': distance,
+                       'down': down,                   
+                       'time': time,
+                       'importantWord': importantWord})
+            arrToReturnPlay.append(arrToReturn)
+    pprint(json.dumps(arrToReturnPlay))
 
     #-------------//------------#
 
-    # url = "http://api.sportradar.us/nfl-sim-t1/2013/REG/18/CHI/MIN/pbp.xml?api_key=zw3392skmuzrhdhn885f8869"
-    # # # print(url)
-    # u = urllib.urlopen(url)
-    # # # u is a file-like object
-    # data = u.read()
-    # print(type(data))
-    # routes = json.loads(data)
-
-    # steps = routes["routes"][0]["legs"][0]["steps"]
-    # print(json.dumps(steps))
-    #return type(data)
+    
 
 # port = os.getenv('VCAP_APP_PORT', '5000')
 # if __name__ == "__main__":
