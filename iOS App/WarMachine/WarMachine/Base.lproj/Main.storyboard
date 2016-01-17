@@ -18,19 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Score" image="1" id="YZu-qY-3ek">
+                    <tabBarItem key="tabBarItem" title="Feed" image="1" id="YZu-qY-3ek">
                         <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAz-Ad-WNE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1497" y="1809"/>
+            <point key="canvasLocation" x="-775" y="1721"/>
         </scene>
-        <!--Score-->
+        <!--Team-->
         <scene sceneID="DNh-b0-WGv">
             <objects>
-                <viewController title="Score" id="aGb-TZ-YC4" sceneMemberID="viewController">
+                <viewController title="Team" id="aGb-TZ-YC4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qjY-pA-kDr"/>
                         <viewControllerLayoutGuide type="bottom" id="4yj-u0-UIe"/>
@@ -73,12 +73,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IlD-Xz-gOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-21" y="1809"/>
+            <point key="canvasLocation" x="-181" y="1713"/>
         </scene>
-        <!--Team-->
+        <!--Score-->
         <scene sceneID="kmX-2y-hQt">
             <objects>
-                <viewController title="Team" id="Zjg-uv-ykP" sceneMemberID="viewController">
+                <viewController title="Score" id="Zjg-uv-ykP" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cVA-zn-XbU"/>
                         <viewControllerLayoutGuide type="bottom" id="rfx-OZ-UMg"/>
@@ -129,14 +129,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="BeH-sq-j4O" secondAttribute="trailing" constant="44" id="uw7-cU-gCE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feed" image="3" id="H0o-Iq-rdB" propertyAccessControl="none">
+                    <tabBarItem key="tabBarItem" title="Score" image="3" id="H0o-Iq-rdB" propertyAccessControl="none">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXF-QV-XAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-847" y="1721"/>
+            <point key="canvasLocation" x="-1307" y="1721"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Cfl-vf-Nly">
