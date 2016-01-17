@@ -26,9 +26,9 @@
 		C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D747941C4AD3E7006E7421 /* LaunchScreen.storyboard */; };
 		C2D747A11C4AD3E7006E7421 /* WarMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D747A01C4AD3E7006E7421 /* WarMachineTests.swift */; };
 		C2D747AC1C4AD3E7006E7421 /* WarMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D747AB1C4AD3E7006E7421 /* WarMachineUITests.swift */; };
-		CC9D97751C4B4664008982CD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D97741C4B4664008982CD /* SecondViewController.swift */; };
 		CC9D97771C4B6358008982CD /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D97761C4B6358008982CD /* Gif.swift */; };
 		CC9D977A1C4B665A008982CD /* mugen.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC9D97791C4B665A008982CD /* mugen.gif */; };
+		CCFF5D991C4C286A00129BA4 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF5D981C4C286A00129BA4 /* ScoreViewController.swift */; };
 		E1B63AA3677CBB7F227BF0A5 /* Pods_WarMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,9 +78,9 @@
 		C2D747A71C4AD3E7006E7421 /* WarMachine.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarMachine.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D747AB1C4AD3E7006E7421 /* WarMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarMachineUITests.swift; sourceTree = "<group>"; };
 		C2D747AD1C4AD3E7006E7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC9D97741C4B4664008982CD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CC9D97761C4B6358008982CD /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
 		CC9D97791C4B665A008982CD /* mugen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mugen.gif; sourceTree = "<group>"; };
+		CCFF5D981C4C286A00129BA4 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +155,7 @@
 				C26624821C4BC58B004EA1E7 /* cleanGame.json */,
 				C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */,
 				C2D7478D1C4AD3E7006E7421 /* ViewController.swift */,
-				CC9D97741C4B4664008982CD /* SecondViewController.swift */,
+				CCFF5D981C4C286A00129BA4 /* ScoreViewController.swift */,
 				C2D7478F1C4AD3E7006E7421 /* Main.storyboard */,
 				C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */,
 				C26624781C4BBC75004EA1E7 /* Team.swift */,
@@ -394,13 +394,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2948003E1C4AF85000AEF72A /* TabBar.swift in Sources */,
-				CC9D97751C4B4664008982CD /* SecondViewController.swift in Sources */,
 				C26624791C4BBC75004EA1E7 /* Team.swift in Sources */,
 				C2D7478E1C4AD3E7006E7421 /* ViewController.swift in Sources */,
 				C26624771C4BBC37004EA1E7 /* TableViewCell.swift in Sources */,
 				C2D7478C1C4AD3E7006E7421 /* AppDelegate.swift in Sources */,
 				CC9D97771C4B6358008982CD /* Gif.swift in Sources */,
 				C25F53591C4C042D007A2626 /* TeamSelectViewController.swift in Sources */,
+				CCFF5D991C4C286A00129BA4 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

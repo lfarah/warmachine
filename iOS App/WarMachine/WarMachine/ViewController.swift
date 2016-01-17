@@ -22,6 +22,8 @@ class ViewController: UIViewController {
   @IBOutlet weak var imgvGIF: UIImageView!
   @IBOutlet weak var selectedWord: UILabel!
   @IBOutlet weak var strDescription: UILabel!
+  @IBOutlet weak var patriotScore: UILabel!
+
   override func viewDidLoad() {
     super.viewDidLoad()
     
