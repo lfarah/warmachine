@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A537997DB8DB1A9FA5056B6C'
+               BlueprintIdentifier = '46EED8FBE38FC98D6CD25DEC'
                BlueprintName = 'Pods-WarMachine'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_WarMachine.framework'>

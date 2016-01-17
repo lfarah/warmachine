@@ -8,35 +8,26 @@
 
 import UIKit
 import EZSwiftExtensions
+import Gifu
 
 class ViewController: UIViewController {
 
     var scrollView: UIScrollView!
     var nowY: CGFloat!
     var headerHeight: CGFloat!
+    var teamSelected: Bool!
+    var selectedTeam: Int = 0
     
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    createPickTeam()
+    if selectedTeam == 0 {
+        self.tabBarController?.tabBar.alpha = 0
+        createPickTeamView()
+        return
+    }
     
-//    scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: ez.screenWidth, height: ez.screenHeight))
-//    scrollView.backgroundColor = UIColor.whiteColor()
-//    self.view.addSubview(scrollView)
-//    
-//    let image = UIImage(named: "header.png")
-//    let imageView = UIImageView(image: image!)
-//    
-//    headerHeight = imageView.h * ez.screenWidth / imageView.w
-//    
-//    imageView.frame = CGRect(x: 0, y: 0, width: ez.screenWidth, height: headerHeight)
-//    scrollView.addSubview(imageView)
-//    
-//    nowY = imageView.h
-//    
-//    createNewEntry("Awesome Playerr", imageOneName: "testimg1.png", imageTwoName:  "testimg2.png")
-//    createNewEntry("This Shit Sucks", imageOneName: "testimg1.png", imageTwoName:  "testimg2.png")
-//    createNewEntry("Go Pantherss", imageOneName: "testimg1.png", imageTwoName:  "testimg2.png")
+    createScrollView()
   }
 
   override func didReceiveMemoryWarning() {
@@ -44,51 +35,144 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
     
-    func createNewEntry(title: String, imageOneName: String, imageTwoName: String) {
+    func createScrollView() {
+        self.tabBarController?.tabBar.alpha = 1
+        let image = UIImage(named: "header.png")
+        let headerView = UIImageView(image: image!)
+        headerHeight = headerView.h * ez.screenWidth / headerView.w
+        headerView.frame = CGRect(x: 0, y: 0, width: ez.screenWidth, height: headerHeight)
+        self.view.addSubview(headerView)
+        
+        scrollView = UIScrollView(frame: CGRect(x: 0, y: headerView.h, width: ez.screenWidth, height: ez.screenHeight - headerView.h))
+        scrollView.backgroundColor = UIColor.whiteColor()
+        scrollView.pagingEnabled = true
+        self.view.addSubview(scrollView)
+        
+        nowY = 0
+        
+//        "homeScore":6,
+//        "down":-1,
+//        "description":"T.Masthay kicks 74 yards from GB 35 to MIN -9. C.Patterson for 109 yards, TOUCHDOWN.",
+//        "yardLine":65,
+//        "team":"Green Bay Packers",
+//        "awayScore":0,
+//        "time":"15:00",
+//        "playType":"Kickoff Return Touchdown"
+        
+        var descript = "T.Masthay kicks 74 yards from GB 35 to MIN -9. C.Patterson for 109 yards, TOUCHDOWN."
+        
+        createNewEntry("Awesome Playerr yeaa madafka yooogr regaerg", imageOneName: "testimg1.png", imageTwoName:  "testimg2.png", homeScore: "6", awayScore: "0", description: descript, yardLine: "25")
+        createNewEntry("This Shit Sucks I hate this game ergrer", imageOneName: "testimg1.png", imageTwoName:  "testimg2.png", homeScore: "8", awayScore: "0", description: descript, yardLine: "45")
+        createNewEntry("Go Pantherss gooo wuuuhuu wuuu ooo ii uu yy ", imageOneName: "testimg1.png", imageTwoName:  "testimg2.png", homeScore: "12", awayScore: "0", description: descript, yardLine: "65")
+    }
+    
+    func createNewEntry(title: String, imageOneName: String, imageTwoName: String, homeScore: String, awayScore: String, description: String, yardLine: String) {
         let element = UIView(frame: CGRect(x: 0, y: nowY, width: ez.screenWidth, height: ez.screenHeight - headerHeight))
-//        element.backgroundColor = UIColor(patternImage: UIImage(named: imageName)!)
-        element.backgroundColor = UIColor.whiteColor()
+//        element.backgroundColor = UIColor(patternImage: UIImage(named: "intro-1.png")!)
+//        element.backgroundColor = UIColor.whiteColor()
         element.addBorder(width: 1, color: UIColor.grayColor())
         
-        let image = UIImage(named: imageOneName)
-        let imageView = UIImageView(image: image!)
-        imageView.frame = CGRect(x: 20, y: 200, width: 100, height: 100)
-        element.addSubview(imageView)
-    
-        let imageTwo = UIImage(named: imageTwoName)
-        let imageViewTwo = UIImageView(image: imageTwo!)
-        imageViewTwo.frame = CGRect(x: ez.screenWidth - 20 - 100, y: 200, width: 100, height: 100)
-        element.addSubview(imageViewTwo)
+//        let backgroundImage = UIImage(named: "intro-1.png")
+//        let backgroundImageView = UIImageView(image: backgroundImage!)
+//        backgroundImageView.frame = CGRect(x: 0, y: 0, width: ez.screenWidth, height: ez.screenHeight)
+//        backgroundImageView.alpha = 0.5
+//        element.addSubview(backgroundImageView)
         
-        let label = UILabel(frame: CGRect(x: 0, y: 30, width: 0, height: 100))
+        let myGif = UIImage.gifWithName("mugen")
+        let gifView = UIImageView(x: 0, y: 150, w: ez.screenWidth, h: 400, image: myGif!)
+        element.addSubview(gifView)
+        element.sendSubviewToBack(gifView)
+        
+        let topImage = UIImage(named: "top.png")
+        let topImageView = UIImageView(image: topImage!)
+        topImageView.frame = CGRect(x: 0, y: 0, width: ez.screenWidth, height: 165)
+        element.addSubview(topImageView)
+        
+        let bottomImage = UIImage(named: "bottom.png")
+        let bottomImageView = UIImageView(image: bottomImage!)
+        bottomImageView.frame = CGRect(x: 0, y: ez.screenHeight - 220, width: ez.screenWidth, height: 220)
+        element.addSubview(bottomImageView)
+        
+        let playerImage = UIImage(named: imageOneName)
+        let playerImageView = UIImageView(image: playerImage!)
+        playerImageView.frame = CGRect(x: 10, y: 20, width: 100, height: 100)
+        playerImageView.round()
+        element.addSubview(playerImageView)
+        
+//        let imageTwo = UIImage(named: imageTwoName)
+//        let imageViewTwo = UIImageView(image: imageTwo!)
+//        imageViewTwo.frame = CGRect(x: ez.screenWidth - 20 - 100, y: 200, width: 100, height: 100)
+//        element.addSubview(imageViewTwo)
+        
+        let label = UILabel(frame: CGRect(x: 0, y: 5, width: 0, height: 100))
         label.textColor = UIColor.blackColor()
-        label.font = UIFont(name: label.font.fontName, size: 30)
+        label.font = UIFont(name: label.font.fontName, size: 24)
+        label.numberOfLines = 0
         label.text = title
         label.resizeToFitWidth()
-        label.x = (ez.screenWidth - label.w)/2
-
+        label.x = playerImageView.x + playerImageView.w
+        label.w = ez.screenWidth - label.x - 20
         element.addSubview(label)
+        
+//        let homeScoreLabel = UILabel(frame: CGRect(x: 0, y: 140, width: 0, height: 100))
+//        homeScoreLabel.textColor = UIColor.blackColor()
+//        homeScoreLabel.font = UIFont(name: homeScoreLabel.font.fontName, size: 25)
+//        homeScoreLabel.text = "Home Score: " + homeScore + " / Away Score: " + awayScore
+//        homeScoreLabel.resizeToFitWidth()
+//        homeScoreLabel.x = (ez.screenWidth - homeScoreLabel.w)/2
+//        element.addSubview(homeScoreLabel)
+//        
+//        let yardLineLabel = UILabel(frame: CGRect(x: 0, y: 170, width: 0, height: 100))
+//        yardLineLabel.textColor = UIColor.blackColor()
+//        yardLineLabel.font = UIFont(name: yardLineLabel.font.fontName, size: 25)
+//        yardLineLabel.text = "Yardline: " + yardLine
+//        yardLineLabel.resizeToFitWidth()
+//        yardLineLabel.x = (ez.screenWidth - yardLineLabel.w)/2
+//        element.addSubview(yardLineLabel)
+//        
+//        let descriptionLabel = UILabel(frame: CGRect(x: 0, y: 350, width: ez.screenWidth - 40, height: 0))
+//        descriptionLabel.textColor = UIColor.blackColor()
+//        descriptionLabel.font = UIFont(name: descriptionLabel.font.fontName, size: 25)
+//        descriptionLabel.numberOfLines = 0
+//        descriptionLabel.text = description
+//        descriptionLabel.resizeToFitHeight()
+//        descriptionLabel.x = 20
+//        element.addSubview(descriptionLabel)
+        
+        
         
         nowY = nowY + element.h
         scrollView.addSubview(element)
         scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, CGFloat(nowY));
     }
     
-    func createPickTeam() {
-        let image = UIImage(named: "testimg.png")
-        let imageView = UIImageView(image: image!)
+    func createPickTeamView() {
+        let image = UIImage(named: "pickteam-1.png")
+        var imageView = UIImageView(image: image!)
         imageView.frame = CGRect(x: 0, y: 0, width: ez.screenWidth, height: ez.screenHeight)
         self.view.addSubview(imageView)
-//        
-//        let image1 = UIImage(named: "testimg1.png")
-//        let imageView2 = UIImageView(image: image!)
-//        imageView.frame = CGRect(x: 10, y: 300, width: ez.screenWidth, height: ez.screenHeight)
-//        self.view.addSubview(imageView)
-//        
-//        let image = UIImage(named: "testimg2.png")
-//        let imageView = UIImageView(image: image!)
-//        imageView.frame = CGRect(x: ez.screenWidth - 20 - 100, y: 300, width: 100, height: 100)
-//        self.view.addSubview(imageView)
+        
+        let teamOneImageView = UIView(x: 0, y: 0, w: ez.screenWidth, h: ez.screenHeight/2 + 40)
+        teamOneImageView.backgroundColor = UIColor.clearColor()
+        self.view.addSubview(teamOneImageView)
+        
+        let teamTwoImageView = UIView(x: 0, y: ez.screenHeight/2 + 40, w: ez.screenWidth, h: ez.screenHeight/2)
+        teamTwoImageView.backgroundColor = UIColor.clearColor()
+        self.view.addSubview(teamTwoImageView)
+        
+        teamOneImageView.addTapGesture(tapNumber: 1) { (UITapGestureRecognizer) -> () in
+            self.selectedTeam = 1
+            self.createScrollView()
+            print("selected team 1")
+//            playAnimation()
+        }
+        
+        teamTwoImageView.addTapGesture(tapNumber: 1) { (UITapGestureRecognizer) -> () in
+            self.selectedTeam = 2
+            self.createScrollView()
+            print("selected team 2")
+//            playAnimation()
+        }
     }
 }
 

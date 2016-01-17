@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Gifu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-WarMachine.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>674479F8455D062B6399E8838DC3D724</key>
+		<key>668FF802F835F083CC4E24185BFE4790</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7014672FFB395B817B9B0484DAF52618</key>
+		<key>AEA56EBE1B518C71721209FB26701898</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B350494341C1779260E8DAF306CDA1A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

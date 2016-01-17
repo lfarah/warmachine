@@ -18,7 +18,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feed" id="YZu-qY-3ek"/>
+                    <tabBarItem key="tabBarItem" title="Score" image="1" id="YZu-qY-3ek">
+                        <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAz-Ad-WNE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -64,7 +66,9 @@
                             <constraint firstItem="D1l-WT-4Ff" firstAttribute="leading" secondItem="gVx-sp-HTx" secondAttribute="leadingMargin" constant="72" id="ooz-Om-f5Z"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Score" id="Vsk-Rx-o6q"/>
+                    <tabBarItem key="tabBarItem" title="Team" image="2" id="Vsk-Rx-o6q">
+                        <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IlD-Xz-gOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -125,19 +129,21 @@
                             <constraint firstAttribute="trailingMargin" secondItem="BeH-sq-j4O" secondAttribute="trailing" constant="44" id="uw7-cU-gCE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Team" id="H0o-Iq-rdB"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="3" id="H0o-Iq-rdB" propertyAccessControl="none">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXF-QV-XAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-783" y="1809"/>
+            <point key="canvasLocation" x="-847" y="1721"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Cfl-vf-Nly">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vh1-xO-GGf" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vh1-xO-GGf" colorLabel="IBBuiltInLabel-Orange" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="centered" id="DqY-N8-EpB">
+                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="centered" id="DqY-N8-EpB" userLabel="tabBarView">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -152,4 +158,9 @@
             <point key="canvasLocation" x="-861" y="635"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1" width="41" height="35"/>
+        <image name="2" width="41" height="35"/>
+        <image name="3" width="41" height="35"/>
+    </resources>
 </document>
