@@ -7,79 +7,164 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D224CAE11B266B3970E038859F3EA4C /* SADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E76B51CECEEA61C8392F6402A2090 /* SADetailViewController.swift */; };
-		19990227D723ECDE40C2A2133C0245AC /* Pods-WarMachine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8645A0FBE0C6930799B6FCE0FBB18 /* Pods-WarMachine-dummy.m */; };
-		3923B139FF306A3D1292B5084323418A /* SAParallaxViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814B6090B726C2384771941EA59E19B /* SAParallaxViewLayout.swift */; };
-		3A547530D02686258E8555F1CAF64FB3 /* SATransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B8735DB3CF688A8AD1117F9B31439 /* SATransitionManager.swift */; };
-		5F2E18D262850368C1DA7A882E76D86A /* SAParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23928CD8F04C74A08C354757A8FFE4C /* SAParallaxViewController.swift */; };
-		6082627D1B7A057376FB4EAC44047C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		8F49EA5526897BEA61639BF26D7C1787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		A7D00DC73D186F39596FEE1A1DFE3FE1 /* SATransitionContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE1686F60B7C75A5D50FBB1D054EB3C /* SATransitionContainerView.swift */; };
-		B72452B1D217B43A70723E25EE554AFF /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11DF1099BBC890A75464653E59637F9 /* UIImage+Blur.swift */; };
-		B9271A9DBD2539652859ABC9C823A921 /* SAParallaxViewControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270C92BFD03FDFCDD96CC3480631986 /* SAParallaxViewControllerSwift-dummy.m */; };
-		BD018959A6B661E3EF95080E8EF6CD80 /* NSLayoutConstraint+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5245F4665D8DD9EFE6D99E686C0628E /* NSLayoutConstraint+Easy.swift */; };
-		D9CBC6FD78D11D1EED7D47035E95BC3A /* Pods-WarMachine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCFAA34330EBA3B49B222E15A8DB72F /* Pods-WarMachine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFBE079D9018DEBCE4EB7CACD45AED0D /* SAParallaxViewControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE973A819523317771A8DFFD7118562 /* SAParallaxViewControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E56B7DAD41750C5AD406C52E87FED677 /* SAParallaxContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D9005E19DC5B601486A6A6D045D29 /* SAParallaxContainerView.swift */; };
-		F8CFBD9BFAF86877566CE7BAA6607D1F /* SAParallaxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB93C2C85544583328D7B6E5302EC1 /* SAParallaxViewCell.swift */; };
+		00AC7E09BD6F9AF140AE785EB7580C02 /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE66939FB23CD6F6B212CE8A978E1E /* BlockSwipe.swift */; };
+		15A43D1B85F4149ACD881157B0BA25F8 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE72DF35A9CA28F485590AC72ABBC64 /* CGRectExtensions.swift */; };
+		190A09BBE81DC1646CD5522ED8F63184 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66482B59460FA1ED7AAC19AE74D8743 /* UILabelExtensions.swift */; };
+		1AB14E6FBF06AD200BE2EB893B91EC4E /* EZSwiftExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D79DBEEEB511E2382554A60D433D91 /* EZSwiftExtensions-dummy.m */; };
+		1D5A605C18A84ADCCE70EDC55DCF0AC9 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A819ABD9092DF42DE7446B29A161A6 /* UIViewExtensions.swift */; };
+		1DD567153E11B2BA477960F562BA1BB6 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C7107D0B54AE5700B06B3AEB2983F /* NSUserDefaultsExtension.swift */; };
+		23678931039B928F433F39617658D59F /* SAParallaxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878F004E26E0FA5B110929ACBFC7130 /* SAParallaxViewCell.swift */; };
+		24B7022A308152FB86233A0D5B0A8452 /* SAParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72A2C20A9B0C0C12DBD9E320E30D /* SAParallaxViewController.swift */; };
+		250CA56D1C9225466D2F441D62A032D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		28CD4721716511AFE73566781876A43B /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40CDF9E3BA1BB0A899F77296C0A68A1 /* UIImageViewExtensions.swift */; };
+		3756629AEB7CA58114D4B139E25B257C /* BoolExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3235317D8E166970AA6B269ED54BD53 /* BoolExtentions.swift */; };
+		43833DAEC7CB0FE1403232EFD6B20BD1 /* Pods-WarMachine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8645A0FBE0C6930799B6FCE0FBB18 /* Pods-WarMachine-dummy.m */; };
+		4C3A91BD09C33670FE1296880EA4511F /* SATransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9427B5CF61F170FB7D54CE38C568B9 /* SATransitionManager.swift */; };
+		4D54278A0673C0A518E622E767C16A98 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6413BE9D3894A8C56654813F3A14E0 /* UIButtonExtensions.swift */; };
+		4E2AB372B191D81AEF355E4FDFD67CC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		51A056E32A93A2B0CD1BC75E25D51927 /* EZSwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3640E0CDA16994AB14266A64D6000ABC /* EZSwiftExtensions.swift */; };
+		52921FF6FB5A618D9DB651247DAF7F14 /* SAParallaxViewControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E50068E32E1DBFB1E4A7CEF5DDC16E92 /* SAParallaxViewControllerSwift-dummy.m */; };
+		6125A6C18D6A3F5CDE1683D83311AFD3 /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31D2C638202F7B4589C8BD2A452CC8 /* BlockPinch.swift */; };
+		6887B1FE5CF90FDD788C9556013B35DC /* Pods-WarMachine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCFAA34330EBA3B49B222E15A8DB72F /* Pods-WarMachine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DB5845ECF056A47F7A0A84600E0E8FF /* NSLayoutConstraint+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7D221E5E9C6F68B1ADC47B19F4E7D /* NSLayoutConstraint+Easy.swift */; };
+		71146B74C3644464AAA71A1306D4D56E /* SAParallaxViewControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8054FBCEA52015233253E88C450598E8 /* SAParallaxViewControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7386CB9E7675B17215E888A8329F7D97 /* NSObjectExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E98316161218182DD40B6D3C46F19 /* NSObjectExtentions.swift */; };
+		77964EAA2F452B4D42230679B650E9F8 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1386348556A6E434854DB3E27426DD /* CGFloatExtensions.swift */; };
+		7979E8FCBCC695354D0766B225E48034 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B93E3FC55667533466C3F073AF95983 /* DoubleExtensions.swift */; };
+		7E1AC48E6CB6A8C3E9915C6C502FE729 /* IntExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD6688A70F2CE9E5528FDBA5C660C /* IntExtentions.swift */; };
+		7F5C7365A73EF0036718867F27435345 /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9160A67B61BEFD4097E6E4F945E0C9EB /* UITextViewExtensions.swift */; };
+		92CFEA6D128719A369F18BB529B56D9C /* SADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D42CCABF4195E6264B640E79E78BA4 /* SADetailViewController.swift */; };
+		94A1366A2ECE03E9E6DE8B7F1080063A /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4ECABB72648884315A7EEF427D60F /* DictionaryExtensions.swift */; };
+		9796511FADA0BA772656048A116CED7D /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B26D2A8E5FA127626EC3997FB7BF35 /* BlockWebView.swift */; };
+		9CD0F0C072ACC8EC2B54528B908E7145 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B397665F46413CC6D0FAB4BD6AFBA7 /* UIFontExtensions.swift */; };
+		A372B3DFA97259383FD4CB6734F89958 /* BlockPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87D9BC903C475540C7B1BAEAE50389 /* BlockPan.swift */; };
+		A464DACE2BB53A7FFE2040E1FB654E93 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714C7EF287508ADCE01CB6D9379641F /* UIColorExtensions.swift */; };
+		A8D91BF2D53F06516873B9C354C6815C /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2386418B8691CEF7EB34EA88EC49C688 /* BlockButton.swift */; };
+		AB2B95790CC9C163F45D02C56E60EE4A /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345482B412099965FE2AC2E243BB1668 /* UIImageExtensions.swift */; };
+		B65C52B42FE92B909E0CEAB307AD1B94 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD36DC13A4282817E2F2DF8526AD6567 /* ArrayExtensions.swift */; };
+		B810E7D70FB699C435A3A907EC94D432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BBF058B99885C917DBDA02BDD39590E4 /* NSDateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E1C76B19890A04496333DFE356BE1B /* NSDateExtensions.swift */; };
+		C3329A5FCA3990CDF61FF3728DC08314 /* SATransitionContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B3D2E796ED12963CBFA66DE30C5756 /* SATransitionContainerView.swift */; };
+		CD0BE5DDF1AD2596A4ACB68113DCCE6D /* SAParallaxViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507F81EAB5383B16B12AE2DBBDB025C /* SAParallaxViewLayout.swift */; };
+		D68638DCE7D404B0635A5BFA4D4844C2 /* UIColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F919F4308299B0EF0B36C05B68D0199 /* UIColoredView.swift */; };
+		DBB00417F2C1A6E32AFC7B8AC34C0099 /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813862496BD2D311170AD0877815DEE /* BlockTap.swift */; };
+		DCABCE3BDD06C624C5A12CE8F60D4D1D /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505B81BC2C1A76E49ED8B970F78D71F /* UIDeviceExtensions.swift */; };
+		DCE0891BABFD46110346EEBB605E1B98 /* SAParallaxContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC32158EB3B45802ACD03CBBB07A71 /* SAParallaxContainerView.swift */; };
+		E4AC1C084E61E0CCBA6BA889232626F7 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848FA21B0E3D39379855D25B752714D /* UIViewControllerExtensions.swift */; };
+		EB664F2927D09FAD4A3789C9B7B91C20 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5957DC413BBE80DF4E2A70CE1D93003 /* StringExtensions.swift */; };
+		F07BA178E00F9A3B9413DDCCD509A9DD /* BlockLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54019FFD9CF41E1316A8156C98ADE490 /* BlockLongPress.swift */; };
+		F32C2CCB67496183AA9A1A662A8B64BA /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8854538B29C641BBDF122D331812F11B /* UIImage+Blur.swift */; };
+		FEA38FE38B1704FCC99EC44FF8B97A26 /* EZSwiftExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 511125470C9BBC5C34C5030EB9A3DF6E /* EZSwiftExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EFF992392E3CE4491C7A07AA0F5691C /* PBXContainerItemProxy */ = {
+		3C596270A745F46AC8E6A0AE1DC88F8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A13584F657E17BE49469F42612E7210E;
+			remoteGlobalIDString = 0CEE85459F93B5CF69255688BC891AB3;
+			remoteInfo = EZSwiftExtensions;
+		};
+		EF7AFE7DBBE9644E8C2ABE1988BA10FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7014672FFB395B817B9B0484DAF52618;
 			remoteInfo = SAParallaxViewControllerSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014B8735DB3CF688A8AD1117F9B31439 /* SATransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SATransitionManager.swift; path = SAParallaxViewControllerSwift/SATransitionManager.swift; sourceTree = "<group>"; };
-		0EE1686F60B7C75A5D50FBB1D054EB3C /* SATransitionContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SATransitionContainerView.swift; path = SAParallaxViewControllerSwift/SATransitionContainerView.swift; sourceTree = "<group>"; };
-		1270C92BFD03FDFCDD96CC3480631986 /* SAParallaxViewControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAParallaxViewControllerSwift-dummy.m"; sourceTree = "<group>"; };
-		13DB93C2C85544583328D7B6E5302EC1 /* SAParallaxViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAParallaxViewCell.swift; path = SAParallaxViewControllerSwift/SAParallaxViewCell.swift; sourceTree = "<group>"; };
-		1DE973A819523317771A8DFFD7118562 /* SAParallaxViewControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAParallaxViewControllerSwift-umbrella.h"; sourceTree = "<group>"; };
-		1F203AB05CE8C6798B863BC7D6FEEF0B /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		233D1417B4D3D47A7E0694AAFBB08B4A /* SAParallaxViewControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAParallaxViewControllerSwift.xcconfig; sourceTree = "<group>"; };
-		2814B6090B726C2384771941EA59E19B /* SAParallaxViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAParallaxViewLayout.swift; path = SAParallaxViewControllerSwift/SAParallaxViewLayout.swift; sourceTree = "<group>"; };
+		02EC32158EB3B45802ACD03CBBB07A71 /* SAParallaxContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAParallaxContainerView.swift; path = SAParallaxViewControllerSwift/SAParallaxContainerView.swift; sourceTree = "<group>"; };
+		0AECD6688A70F2CE9E5528FDBA5C660C /* IntExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtentions.swift; path = Sources/IntExtentions.swift; sourceTree = "<group>"; };
+		13383F79803A32B7247BAEFD1D88E414 /* SAParallaxViewControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAParallaxViewControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6413BE9D3894A8C56654813F3A14E0 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = Sources/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		1B2E98316161218182DD40B6D3C46F19 /* NSObjectExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtentions.swift; path = Sources/NSObjectExtentions.swift; sourceTree = "<group>"; };
+		1F919F4308299B0EF0B36C05B68D0199 /* UIColoredView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColoredView.swift; path = Sources/UIColoredView.swift; sourceTree = "<group>"; };
+		2386418B8691CEF7EB34EA88EC49C688 /* BlockButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockButton.swift; path = Sources/BlockButton.swift; sourceTree = "<group>"; };
+		24A819ABD9092DF42DE7446B29A161A6 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Sources/UIViewExtensions.swift; sourceTree = "<group>"; };
+		2A1386348556A6E434854DB3E27426DD /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Sources/CGFloatExtensions.swift; sourceTree = "<group>"; };
+		2B93E3FC55667533466C3F073AF95983 /* DoubleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleExtensions.swift; path = Sources/DoubleExtensions.swift; sourceTree = "<group>"; };
+		345482B412099965FE2AC2E243BB1668 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = Sources/UIImageExtensions.swift; sourceTree = "<group>"; };
+		3640E0CDA16994AB14266A64D6000ABC /* EZSwiftExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EZSwiftExtensions.swift; path = Sources/EZSwiftExtensions.swift; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		437FA5F8F6E529DA12AF3E7A43C49577 /* Pods-WarMachine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WarMachine.modulemap"; sourceTree = "<group>"; };
+		44D42CCABF4195E6264B640E79E78BA4 /* SADetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SADetailViewController.swift; path = SAParallaxViewControllerSwift/SADetailViewController.swift; sourceTree = "<group>"; };
+		45E7D221E5E9C6F68B1ADC47B19F4E7D /* NSLayoutConstraint+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Easy.swift"; path = "SAParallaxViewControllerSwift/NSLayoutConstraint+Easy.swift"; sourceTree = "<group>"; };
+		4A1C2CD852FAEC9A6E9878F85FC9ECA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DCFAA34330EBA3B49B222E15A8DB72F /* Pods-WarMachine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WarMachine-umbrella.h"; sourceTree = "<group>"; };
+		4EBB72A2C20A9B0C0C12DBD9E320E30D /* SAParallaxViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAParallaxViewController.swift; path = SAParallaxViewControllerSwift/SAParallaxViewController.swift; sourceTree = "<group>"; };
+		4ECE66939FB23CD6F6B212CE8A978E1E /* BlockSwipe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockSwipe.swift; path = Sources/BlockSwipe.swift; sourceTree = "<group>"; };
+		511125470C9BBC5C34C5030EB9A3DF6E /* EZSwiftExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZSwiftExtensions-umbrella.h"; sourceTree = "<group>"; };
 		5363779E2A718658D0A8090D5839A7F8 /* Pods-WarMachine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WarMachine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54019FFD9CF41E1316A8156C98ADE490 /* BlockLongPress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockLongPress.swift; path = Sources/BlockLongPress.swift; sourceTree = "<group>"; };
 		58EC1DE57C7D68678F1C48FAEA128578 /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
-		5D404ADB20888D1147FBA65FE41F21B3 /* SAParallaxViewControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAParallaxViewControllerSwift-prefix.pch"; sourceTree = "<group>"; };
-		827E76B51CECEEA61C8392F6402A2090 /* SADetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SADetailViewController.swift; path = SAParallaxViewControllerSwift/SADetailViewController.swift; sourceTree = "<group>"; };
-		8B09682D50EA9A2C06C9C542757C9260 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6505B81BC2C1A76E49ED8B970F78D71F /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExtensions.swift; path = Sources/UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		685FE63021D34DC70FB1FF642DD768EB /* EZSwiftExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZSwiftExtensions.xcconfig; sourceTree = "<group>"; };
+		6F822238C284596DB34322186EA51ECE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7004CF4618CD238A080DD88C928C1794 /* SAParallaxViewControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAParallaxViewControllerSwift.xcconfig; sourceTree = "<group>"; };
+		7714C7EF287508ADCE01CB6D9379641F /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = Sources/UIColorExtensions.swift; sourceTree = "<group>"; };
+		7A87D9BC903C475540C7B1BAEAE50389 /* BlockPan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockPan.swift; path = Sources/BlockPan.swift; sourceTree = "<group>"; };
+		7FE0927F4F718841B997C1F2C1BEC5AD /* EZSwiftExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZSwiftExtensions-prefix.pch"; sourceTree = "<group>"; };
+		8054FBCEA52015233253E88C450598E8 /* SAParallaxViewControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAParallaxViewControllerSwift-umbrella.h"; sourceTree = "<group>"; };
+		8575A88DC02DA4EEB86F6F3088DF6A7A /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8854538B29C641BBDF122D331812F11B /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "SAParallaxViewControllerSwift/UIImage+Blur.swift"; sourceTree = "<group>"; };
 		8C3AB648FB370F1C195B9478D7FD51D2 /* Pods-WarMachine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WarMachine-acknowledgements.plist"; sourceTree = "<group>"; };
+		90D79DBEEEB511E2382554A60D433D91 /* EZSwiftExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZSwiftExtensions-dummy.m"; sourceTree = "<group>"; };
+		9160A67B61BEFD4097E6E4F945E0C9EB /* UITextViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewExtensions.swift; path = Sources/UITextViewExtensions.swift; sourceTree = "<group>"; };
 		91E8645A0FBE0C6930799B6FCE0FBB18 /* Pods-WarMachine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WarMachine-dummy.m"; sourceTree = "<group>"; };
 		97E90823561F11886CA417E43A6CB9E6 /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
-		98A886EF5CE8660A0CCAF706099C888D /* SAParallaxViewControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SAParallaxViewControllerSwift.modulemap; sourceTree = "<group>"; };
+		98B26D2A8E5FA127626EC3997FB7BF35 /* BlockWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockWebView.swift; path = Sources/BlockWebView.swift; sourceTree = "<group>"; };
 		9B3153F4D8832504D428FF4E88D7213E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A46416C736059FF63233A12C472F025E /* SAParallaxViewControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAParallaxViewControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42C7107D0B54AE5700B06B3AEB2983F /* NSUserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSUserDefaultsExtension.swift; path = Sources/NSUserDefaultsExtension.swift; sourceTree = "<group>"; };
+		AD36DC13A4282817E2F2DF8526AD6567 /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Sources/ArrayExtensions.swift; sourceTree = "<group>"; };
+		B40CDF9E3BA1BB0A899F77296C0A68A1 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = Sources/UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		B47A0D46F500C5D0C6EA98552841CB87 /* EZSwiftExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EZSwiftExtensions.modulemap; sourceTree = "<group>"; };
+		B507F81EAB5383B16B12AE2DBBDB025C /* SAParallaxViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAParallaxViewLayout.swift; path = SAParallaxViewControllerSwift/SAParallaxViewLayout.swift; sourceTree = "<group>"; };
+		B848FA21B0E3D39379855D25B752714D /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Sources/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C11DF1099BBC890A75464653E59637F9 /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "SAParallaxViewControllerSwift/UIImage+Blur.swift"; sourceTree = "<group>"; };
+		BD31D2C638202F7B4589C8BD2A452CC8 /* BlockPinch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockPinch.swift; path = Sources/BlockPinch.swift; sourceTree = "<group>"; };
 		C132C9F78E6499DA38C224D86BEF540F /* Pods-WarMachine-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WarMachine-resources.sh"; sourceTree = "<group>"; };
-		D23928CD8F04C74A08C354757A8FFE4C /* SAParallaxViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAParallaxViewController.swift; path = SAParallaxViewControllerSwift/SAParallaxViewController.swift; sourceTree = "<group>"; };
-		D5245F4665D8DD9EFE6D99E686C0628E /* NSLayoutConstraint+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Easy.swift"; path = "SAParallaxViewControllerSwift/NSLayoutConstraint+Easy.swift"; sourceTree = "<group>"; };
+		C813862496BD2D311170AD0877815DEE /* BlockTap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockTap.swift; path = Sources/BlockTap.swift; sourceTree = "<group>"; };
+		CDE72DF35A9CA28F485590AC72ABBC64 /* CGRectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtensions.swift; path = Sources/CGRectExtensions.swift; sourceTree = "<group>"; };
+		D1B397665F46413CC6D0FAB4BD6AFBA7 /* UIFontExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtensions.swift; path = Sources/UIFontExtensions.swift; sourceTree = "<group>"; };
+		D2B3D2E796ED12963CBFA66DE30C5756 /* SATransitionContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SATransitionContainerView.swift; path = SAParallaxViewControllerSwift/SATransitionContainerView.swift; sourceTree = "<group>"; };
+		D3C0455540539C875DD057F6AC9A27BA /* SAParallaxViewControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SAParallaxViewControllerSwift.modulemap; sourceTree = "<group>"; };
+		D5957DC413BBE80DF4E2A70CE1D93003 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/StringExtensions.swift; sourceTree = "<group>"; };
+		E3A5CCFB714A22AB655B0F5BFB33A597 /* EZSwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZSwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50068E32E1DBFB1E4A7CEF5DDC16E92 /* SAParallaxViewControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAParallaxViewControllerSwift-dummy.m"; sourceTree = "<group>"; };
 		E9613471392411EFB2EA45EEC9050A73 /* Pods-WarMachine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WarMachine-frameworks.sh"; sourceTree = "<group>"; };
-		FF5D9005E19DC5B601486A6A6D045D29 /* SAParallaxContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAParallaxContainerView.swift; path = SAParallaxViewControllerSwift/SAParallaxContainerView.swift; sourceTree = "<group>"; };
+		F0E1C76B19890A04496333DFE356BE1B /* NSDateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDateExtensions.swift; path = Sources/NSDateExtensions.swift; sourceTree = "<group>"; };
+		F3235317D8E166970AA6B269ED54BD53 /* BoolExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtentions.swift; path = Sources/BoolExtentions.swift; sourceTree = "<group>"; };
+		F66482B59460FA1ED7AAC19AE74D8743 /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = Sources/UILabelExtensions.swift; sourceTree = "<group>"; };
+		F878F004E26E0FA5B110929ACBFC7130 /* SAParallaxViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAParallaxViewCell.swift; path = SAParallaxViewControllerSwift/SAParallaxViewCell.swift; sourceTree = "<group>"; };
+		FB17940DAC2E0E6217576F171995F2BA /* SAParallaxViewControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAParallaxViewControllerSwift-prefix.pch"; sourceTree = "<group>"; };
+		FDD4ECABB72648884315A7EEF427D60F /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = Sources/DictionaryExtensions.swift; sourceTree = "<group>"; };
+		FF9427B5CF61F170FB7D54CE38C568B9 /* SATransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SATransitionManager.swift; path = SAParallaxViewControllerSwift/SATransitionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24E3021500C4809923208196C32DF3DF /* Frameworks */ = {
+		547563DCBC1CC849C0D67F2256A87507 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6082627D1B7A057376FB4EAC44047C50 /* Foundation.framework in Frameworks */,
+				4E2AB372B191D81AEF355E4FDFD67CC0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2062FA98C4C782226CC30B567CA9418 /* Frameworks */ = {
+		9C16BC2382D6F52756007BADE1FEBD3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F49EA5526897BEA61639BF26D7C1787 /* Foundation.framework in Frameworks */,
+				250CA56D1C9225466D2F441D62A032D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A9860BD63A1A0DC4AF0DD9E5380198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B810E7D70FB699C435A3A907EC94D432 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,44 +197,96 @@
 			path = "Target Support Files/Pods-WarMachine";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		55E3D30930594FB30DB9BE061D32AD81 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DBBDEECB68391D995CA8C36E506A0195 /* Pods */,
-				D6B7F6A2131EC7157C03B6D11A94C065 /* Products */,
-				060B16D2E8C168B6CF22B513FFAB6F0A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8A58105C3722EF15819B34A0654E301D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B09682D50EA9A2C06C9C542757C9260 /* Info.plist */,
-				98A886EF5CE8660A0CCAF706099C888D /* SAParallaxViewControllerSwift.modulemap */,
-				233D1417B4D3D47A7E0694AAFBB08B4A /* SAParallaxViewControllerSwift.xcconfig */,
-				1270C92BFD03FDFCDD96CC3480631986 /* SAParallaxViewControllerSwift-dummy.m */,
-				5D404ADB20888D1147FBA65FE41F21B3 /* SAParallaxViewControllerSwift-prefix.pch */,
-				1DE973A819523317771A8DFFD7118562 /* SAParallaxViewControllerSwift-umbrella.h */,
+				4A1C2CD852FAEC9A6E9878F85FC9ECA9 /* Info.plist */,
+				D3C0455540539C875DD057F6AC9A27BA /* SAParallaxViewControllerSwift.modulemap */,
+				7004CF4618CD238A080DD88C928C1794 /* SAParallaxViewControllerSwift.xcconfig */,
+				E50068E32E1DBFB1E4A7CEF5DDC16E92 /* SAParallaxViewControllerSwift-dummy.m */,
+				FB17940DAC2E0E6217576F171995F2BA /* SAParallaxViewControllerSwift-prefix.pch */,
+				8054FBCEA52015233253E88C450598E8 /* SAParallaxViewControllerSwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SAParallaxViewControllerSwift";
 			sourceTree = "<group>";
 		};
-		A8912D8900A4600FD7F8EF31C2B1B679 /* SAParallaxViewControllerSwift */ = {
+		76C1A3FA3956AF7CACD06B47EC2808CC /* EZSwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				D5245F4665D8DD9EFE6D99E686C0628E /* NSLayoutConstraint+Easy.swift */,
-				827E76B51CECEEA61C8392F6402A2090 /* SADetailViewController.swift */,
-				FF5D9005E19DC5B601486A6A6D045D29 /* SAParallaxContainerView.swift */,
-				13DB93C2C85544583328D7B6E5302EC1 /* SAParallaxViewCell.swift */,
-				D23928CD8F04C74A08C354757A8FFE4C /* SAParallaxViewController.swift */,
-				2814B6090B726C2384771941EA59E19B /* SAParallaxViewLayout.swift */,
-				0EE1686F60B7C75A5D50FBB1D054EB3C /* SATransitionContainerView.swift */,
-				014B8735DB3CF688A8AD1117F9B31439 /* SATransitionManager.swift */,
-				C11DF1099BBC890A75464653E59637F9 /* UIImage+Blur.swift */,
-				8A58105C3722EF15819B34A0654E301D /* Support Files */,
+				AD36DC13A4282817E2F2DF8526AD6567 /* ArrayExtensions.swift */,
+				2386418B8691CEF7EB34EA88EC49C688 /* BlockButton.swift */,
+				54019FFD9CF41E1316A8156C98ADE490 /* BlockLongPress.swift */,
+				7A87D9BC903C475540C7B1BAEAE50389 /* BlockPan.swift */,
+				BD31D2C638202F7B4589C8BD2A452CC8 /* BlockPinch.swift */,
+				4ECE66939FB23CD6F6B212CE8A978E1E /* BlockSwipe.swift */,
+				C813862496BD2D311170AD0877815DEE /* BlockTap.swift */,
+				98B26D2A8E5FA127626EC3997FB7BF35 /* BlockWebView.swift */,
+				F3235317D8E166970AA6B269ED54BD53 /* BoolExtentions.swift */,
+				2A1386348556A6E434854DB3E27426DD /* CGFloatExtensions.swift */,
+				CDE72DF35A9CA28F485590AC72ABBC64 /* CGRectExtensions.swift */,
+				FDD4ECABB72648884315A7EEF427D60F /* DictionaryExtensions.swift */,
+				2B93E3FC55667533466C3F073AF95983 /* DoubleExtensions.swift */,
+				3640E0CDA16994AB14266A64D6000ABC /* EZSwiftExtensions.swift */,
+				0AECD6688A70F2CE9E5528FDBA5C660C /* IntExtentions.swift */,
+				F0E1C76B19890A04496333DFE356BE1B /* NSDateExtensions.swift */,
+				1B2E98316161218182DD40B6D3C46F19 /* NSObjectExtentions.swift */,
+				A42C7107D0B54AE5700B06B3AEB2983F /* NSUserDefaultsExtension.swift */,
+				D5957DC413BBE80DF4E2A70CE1D93003 /* StringExtensions.swift */,
+				1A6413BE9D3894A8C56654813F3A14E0 /* UIButtonExtensions.swift */,
+				1F919F4308299B0EF0B36C05B68D0199 /* UIColoredView.swift */,
+				7714C7EF287508ADCE01CB6D9379641F /* UIColorExtensions.swift */,
+				6505B81BC2C1A76E49ED8B970F78D71F /* UIDeviceExtensions.swift */,
+				D1B397665F46413CC6D0FAB4BD6AFBA7 /* UIFontExtensions.swift */,
+				345482B412099965FE2AC2E243BB1668 /* UIImageExtensions.swift */,
+				B40CDF9E3BA1BB0A899F77296C0A68A1 /* UIImageViewExtensions.swift */,
+				F66482B59460FA1ED7AAC19AE74D8743 /* UILabelExtensions.swift */,
+				9160A67B61BEFD4097E6E4F945E0C9EB /* UITextViewExtensions.swift */,
+				B848FA21B0E3D39379855D25B752714D /* UIViewControllerExtensions.swift */,
+				24A819ABD9092DF42DE7446B29A161A6 /* UIViewExtensions.swift */,
+				A7ED5313628FFF51A20955B4C545212B /* Support Files */,
+			);
+			path = EZSwiftExtensions;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FDA570EFA31AC1D14B79E6D892D4CAA4 /* Pods */,
+				EDD42148CD27A6441BADAD67D1C12322 /* Products */,
+				060B16D2E8C168B6CF22B513FFAB6F0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7ED5313628FFF51A20955B4C545212B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B47A0D46F500C5D0C6EA98552841CB87 /* EZSwiftExtensions.modulemap */,
+				685FE63021D34DC70FB1FF642DD768EB /* EZSwiftExtensions.xcconfig */,
+				90D79DBEEEB511E2382554A60D433D91 /* EZSwiftExtensions-dummy.m */,
+				7FE0927F4F718841B997C1F2C1BEC5AD /* EZSwiftExtensions-prefix.pch */,
+				511125470C9BBC5C34C5030EB9A3DF6E /* EZSwiftExtensions-umbrella.h */,
+				6F822238C284596DB34322186EA51ECE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EZSwiftExtensions";
+			sourceTree = "<group>";
+		};
+		AED7AA93E378D265FFDD6D9C92194B33 /* SAParallaxViewControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				45E7D221E5E9C6F68B1ADC47B19F4E7D /* NSLayoutConstraint+Easy.swift */,
+				44D42CCABF4195E6264B640E79E78BA4 /* SADetailViewController.swift */,
+				02EC32158EB3B45802ACD03CBBB07A71 /* SAParallaxContainerView.swift */,
+				F878F004E26E0FA5B110929ACBFC7130 /* SAParallaxViewCell.swift */,
+				4EBB72A2C20A9B0C0C12DBD9E320E30D /* SAParallaxViewController.swift */,
+				B507F81EAB5383B16B12AE2DBBDB025C /* SAParallaxViewLayout.swift */,
+				D2B3D2E796ED12963CBFA66DE30C5756 /* SATransitionContainerView.swift */,
+				FF9427B5CF61F170FB7D54CE38C568B9 /* SATransitionManager.swift */,
+				8854538B29C641BBDF122D331812F11B /* UIImage+Blur.swift */,
+				55E3D30930594FB30DB9BE061D32AD81 /* Support Files */,
 			);
 			path = SAParallaxViewControllerSwift;
 			sourceTree = "<group>";
@@ -170,19 +307,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D6B7F6A2131EC7157C03B6D11A94C065 /* Products */ = {
+		EDD42148CD27A6441BADAD67D1C12322 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F203AB05CE8C6798B863BC7D6FEEF0B /* Pods_WarMachine.framework */,
-				A46416C736059FF63233A12C472F025E /* SAParallaxViewControllerSwift.framework */,
+				E3A5CCFB714A22AB655B0F5BFB33A597 /* EZSwiftExtensions.framework */,
+				8575A88DC02DA4EEB86F6F3088DF6A7A /* Pods_WarMachine.framework */,
+				13383F79803A32B7247BAEFD1D88E414 /* SAParallaxViewControllerSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DBBDEECB68391D995CA8C36E506A0195 /* Pods */ = {
+		FDA570EFA31AC1D14B79E6D892D4CAA4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A8912D8900A4600FD7F8EF31C2B1B679 /* SAParallaxViewControllerSwift */,
+				76C1A3FA3956AF7CACD06B47EC2808CC /* EZSwiftExtensions */,
+				AED7AA93E378D265FFDD6D9C92194B33 /* SAParallaxViewControllerSwift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -190,50 +329,76 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05726924AA42B57B0BEE766B355AD5C0 /* Headers */ = {
+		42ABD3CF3F114A7D1B7785A6F29987A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9CBC6FD78D11D1EED7D47035E95BC3A /* Pods-WarMachine-umbrella.h in Headers */,
+				FEA38FE38B1704FCC99EC44FF8B97A26 /* EZSwiftExtensions-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		09E9DE0C8F0B68417B3E4FA54C885F36 /* Headers */ = {
+		636B7BE562C85CBAD8105732B5D992BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBE079D9018DEBCE4EB7CACD45AED0D /* SAParallaxViewControllerSwift-umbrella.h in Headers */,
+				71146B74C3644464AAA71A1306D4D56E /* SAParallaxViewControllerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4801D495E7429B1082A5D27FCFA7C32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6887B1FE5CF90FDD788C9556013B35DC /* Pods-WarMachine-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		798AC8AD57EFBEE1CD41ED634B341A2D /* Pods-WarMachine */ = {
+		0CEE85459F93B5CF69255688BC891AB3 /* EZSwiftExtensions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19CC9A8F29F40BA8EB055FF6908EBBC5 /* Build configuration list for PBXNativeTarget "Pods-WarMachine" */;
+			buildConfigurationList = 1B0E2C816B0790806C1F71BC3B00D474 /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */;
 			buildPhases = (
-				236445E8FAA34459ABF20E9D85719834 /* Sources */,
-				24E3021500C4809923208196C32DF3DF /* Frameworks */,
-				05726924AA42B57B0BEE766B355AD5C0 /* Headers */,
+				BB449695EA4C2851F4D01B2026F28C8D /* Sources */,
+				E6A9860BD63A1A0DC4AF0DD9E5380198 /* Frameworks */,
+				42ABD3CF3F114A7D1B7785A6F29987A1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5EC42050E4FEC1C586F746D86A7A9869 /* PBXTargetDependency */,
+			);
+			name = EZSwiftExtensions;
+			productName = EZSwiftExtensions;
+			productReference = E3A5CCFB714A22AB655B0F5BFB33A597 /* EZSwiftExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		674479F8455D062B6399E8838DC3D724 /* Pods-WarMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8035E1A13687309CCA42B73482BB482 /* Build configuration list for PBXNativeTarget "Pods-WarMachine" */;
+			buildPhases = (
+				629C6BD8D90D142AA2E7D24B41BDCF53 /* Sources */,
+				547563DCBC1CC849C0D67F2256A87507 /* Frameworks */,
+				B4801D495E7429B1082A5D27FCFA7C32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97DFC2BEE67A405AEAC64E308242977 /* PBXTargetDependency */,
+				A427AB104447A37C7E8BD4AC5C506187 /* PBXTargetDependency */,
 			);
 			name = "Pods-WarMachine";
 			productName = "Pods-WarMachine";
-			productReference = 1F203AB05CE8C6798B863BC7D6FEEF0B /* Pods_WarMachine.framework */;
+			productReference = 8575A88DC02DA4EEB86F6F3088DF6A7A /* Pods_WarMachine.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A13584F657E17BE49469F42612E7210E /* SAParallaxViewControllerSwift */ = {
+		7014672FFB395B817B9B0484DAF52618 /* SAParallaxViewControllerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DD194DC9CBD7A3FFCA003F988C32922 /* Build configuration list for PBXNativeTarget "SAParallaxViewControllerSwift" */;
+			buildConfigurationList = C50DEF01D9FB9F7D9224F4D4FF26F545 /* Build configuration list for PBXNativeTarget "SAParallaxViewControllerSwift" */;
 			buildPhases = (
-				807F13D109131279476F5F170E8B7F71 /* Sources */,
-				B2062FA98C4C782226CC30B567CA9418 /* Frameworks */,
-				09E9DE0C8F0B68417B3E4FA54C885F36 /* Headers */,
+				85B48D65CCE787D809250763DE72F3F7 /* Sources */,
+				9C16BC2382D6F52756007BADE1FEBD3C /* Frameworks */,
+				636B7BE562C85CBAD8105732B5D992BC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -241,7 +406,7 @@
 			);
 			name = SAParallaxViewControllerSwift;
 			productName = SAParallaxViewControllerSwift;
-			productReference = A46416C736059FF63233A12C472F025E /* SAParallaxViewControllerSwift.framework */;
+			productReference = 13383F79803A32B7247BAEFD1D88E414 /* SAParallaxViewControllerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -261,54 +426,129 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D6B7F6A2131EC7157C03B6D11A94C065 /* Products */;
+			productRefGroup = EDD42148CD27A6441BADAD67D1C12322 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				798AC8AD57EFBEE1CD41ED634B341A2D /* Pods-WarMachine */,
-				A13584F657E17BE49469F42612E7210E /* SAParallaxViewControllerSwift */,
+				0CEE85459F93B5CF69255688BC891AB3 /* EZSwiftExtensions */,
+				674479F8455D062B6399E8838DC3D724 /* Pods-WarMachine */,
+				7014672FFB395B817B9B0484DAF52618 /* SAParallaxViewControllerSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		236445E8FAA34459ABF20E9D85719834 /* Sources */ = {
+		629C6BD8D90D142AA2E7D24B41BDCF53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19990227D723ECDE40C2A2133C0245AC /* Pods-WarMachine-dummy.m in Sources */,
+				43833DAEC7CB0FE1403232EFD6B20BD1 /* Pods-WarMachine-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		807F13D109131279476F5F170E8B7F71 /* Sources */ = {
+		85B48D65CCE787D809250763DE72F3F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD018959A6B661E3EF95080E8EF6CD80 /* NSLayoutConstraint+Easy.swift in Sources */,
-				0D224CAE11B266B3970E038859F3EA4C /* SADetailViewController.swift in Sources */,
-				E56B7DAD41750C5AD406C52E87FED677 /* SAParallaxContainerView.swift in Sources */,
-				F8CFBD9BFAF86877566CE7BAA6607D1F /* SAParallaxViewCell.swift in Sources */,
-				5F2E18D262850368C1DA7A882E76D86A /* SAParallaxViewController.swift in Sources */,
-				B9271A9DBD2539652859ABC9C823A921 /* SAParallaxViewControllerSwift-dummy.m in Sources */,
-				3923B139FF306A3D1292B5084323418A /* SAParallaxViewLayout.swift in Sources */,
-				A7D00DC73D186F39596FEE1A1DFE3FE1 /* SATransitionContainerView.swift in Sources */,
-				3A547530D02686258E8555F1CAF64FB3 /* SATransitionManager.swift in Sources */,
-				B72452B1D217B43A70723E25EE554AFF /* UIImage+Blur.swift in Sources */,
+				6DB5845ECF056A47F7A0A84600E0E8FF /* NSLayoutConstraint+Easy.swift in Sources */,
+				92CFEA6D128719A369F18BB529B56D9C /* SADetailViewController.swift in Sources */,
+				DCE0891BABFD46110346EEBB605E1B98 /* SAParallaxContainerView.swift in Sources */,
+				23678931039B928F433F39617658D59F /* SAParallaxViewCell.swift in Sources */,
+				24B7022A308152FB86233A0D5B0A8452 /* SAParallaxViewController.swift in Sources */,
+				52921FF6FB5A618D9DB651247DAF7F14 /* SAParallaxViewControllerSwift-dummy.m in Sources */,
+				CD0BE5DDF1AD2596A4ACB68113DCCE6D /* SAParallaxViewLayout.swift in Sources */,
+				C3329A5FCA3990CDF61FF3728DC08314 /* SATransitionContainerView.swift in Sources */,
+				4C3A91BD09C33670FE1296880EA4511F /* SATransitionManager.swift in Sources */,
+				F32C2CCB67496183AA9A1A662A8B64BA /* UIImage+Blur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB449695EA4C2851F4D01B2026F28C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65C52B42FE92B909E0CEAB307AD1B94 /* ArrayExtensions.swift in Sources */,
+				A8D91BF2D53F06516873B9C354C6815C /* BlockButton.swift in Sources */,
+				F07BA178E00F9A3B9413DDCCD509A9DD /* BlockLongPress.swift in Sources */,
+				A372B3DFA97259383FD4CB6734F89958 /* BlockPan.swift in Sources */,
+				6125A6C18D6A3F5CDE1683D83311AFD3 /* BlockPinch.swift in Sources */,
+				00AC7E09BD6F9AF140AE785EB7580C02 /* BlockSwipe.swift in Sources */,
+				DBB00417F2C1A6E32AFC7B8AC34C0099 /* BlockTap.swift in Sources */,
+				9796511FADA0BA772656048A116CED7D /* BlockWebView.swift in Sources */,
+				3756629AEB7CA58114D4B139E25B257C /* BoolExtentions.swift in Sources */,
+				77964EAA2F452B4D42230679B650E9F8 /* CGFloatExtensions.swift in Sources */,
+				15A43D1B85F4149ACD881157B0BA25F8 /* CGRectExtensions.swift in Sources */,
+				94A1366A2ECE03E9E6DE8B7F1080063A /* DictionaryExtensions.swift in Sources */,
+				7979E8FCBCC695354D0766B225E48034 /* DoubleExtensions.swift in Sources */,
+				1AB14E6FBF06AD200BE2EB893B91EC4E /* EZSwiftExtensions-dummy.m in Sources */,
+				51A056E32A93A2B0CD1BC75E25D51927 /* EZSwiftExtensions.swift in Sources */,
+				7E1AC48E6CB6A8C3E9915C6C502FE729 /* IntExtentions.swift in Sources */,
+				BBF058B99885C917DBDA02BDD39590E4 /* NSDateExtensions.swift in Sources */,
+				7386CB9E7675B17215E888A8329F7D97 /* NSObjectExtentions.swift in Sources */,
+				1DD567153E11B2BA477960F562BA1BB6 /* NSUserDefaultsExtension.swift in Sources */,
+				EB664F2927D09FAD4A3789C9B7B91C20 /* StringExtensions.swift in Sources */,
+				4D54278A0673C0A518E622E767C16A98 /* UIButtonExtensions.swift in Sources */,
+				D68638DCE7D404B0635A5BFA4D4844C2 /* UIColoredView.swift in Sources */,
+				A464DACE2BB53A7FFE2040E1FB654E93 /* UIColorExtensions.swift in Sources */,
+				DCABCE3BDD06C624C5A12CE8F60D4D1D /* UIDeviceExtensions.swift in Sources */,
+				9CD0F0C072ACC8EC2B54528B908E7145 /* UIFontExtensions.swift in Sources */,
+				AB2B95790CC9C163F45D02C56E60EE4A /* UIImageExtensions.swift in Sources */,
+				28CD4721716511AFE73566781876A43B /* UIImageViewExtensions.swift in Sources */,
+				190A09BBE81DC1646CD5522ED8F63184 /* UILabelExtensions.swift in Sources */,
+				7F5C7365A73EF0036718867F27435345 /* UITextViewExtensions.swift in Sources */,
+				E4AC1C084E61E0CCBA6BA889232626F7 /* UIViewControllerExtensions.swift in Sources */,
+				1D5A605C18A84ADCCE70EDC55DCF0AC9 /* UIViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5EC42050E4FEC1C586F746D86A7A9869 /* PBXTargetDependency */ = {
+		A427AB104447A37C7E8BD4AC5C506187 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAParallaxViewControllerSwift;
-			target = A13584F657E17BE49469F42612E7210E /* SAParallaxViewControllerSwift */;
-			targetProxy = 3EFF992392E3CE4491C7A07AA0F5691C /* PBXContainerItemProxy */;
+			target = 7014672FFB395B817B9B0484DAF52618 /* SAParallaxViewControllerSwift */;
+			targetProxy = EF7AFE7DBBE9644E8C2ABE1988BA10FF /* PBXContainerItemProxy */;
+		};
+		F97DFC2BEE67A405AEAC64E308242977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EZSwiftExtensions;
+			target = 0CEE85459F93B5CF69255688BC891AB3 /* EZSwiftExtensions */;
+			targetProxy = 3C596270A745F46AC8E6A0AE1DC88F8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		25E2BEEB6467E0BB87A4B192F668BF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EC1DE57C7D68678F1C48FAEA128578 /* Pods-WarMachine.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WarMachine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WarMachine/Pods-WarMachine.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WarMachine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,34 +588,6 @@
 			};
 			name = Debug;
 		};
-		71112F46530F4667C54D4871A6F73BDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 233D1417B4D3D47A7E0694AAFBB08B4A /* SAParallaxViewControllerSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAParallaxViewControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SAParallaxViewControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -410,7 +622,117 @@
 			};
 			name = Release;
 		};
-		9976328416A08F19DE5184621788B42D /* Debug */ = {
+		760950815A387B647878B5DF813040A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7004CF4618CD238A080DD88C928C1794 /* SAParallaxViewControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAParallaxViewControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SAParallaxViewControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8120090BE83F659AA354F0BBC4007DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685FE63021D34DC70FB1FF642DD768EB /* EZSwiftExtensions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZSwiftExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EZSwiftExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC1DEA683836FD7012C380BDCA166D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685FE63021D34DC70FB1FF642DD768EB /* EZSwiftExtensions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZSwiftExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EZSwiftExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E358B7B10AA1D4DF1441401B8E723E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7004CF4618CD238A080DD88C928C1794 /* SAParallaxViewControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAParallaxViewControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SAParallaxViewControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA2ED2D270BC06AFF0D9B13C84FC8A18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97E90823561F11886CA417E43A6CB9E6 /* Pods-WarMachine.debug.xcconfig */;
 			buildSettings = {
@@ -441,71 +763,14 @@
 			};
 			name = Debug;
 		};
-		D8866CBB2087F1A14947B460D3B67C49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 233D1417B4D3D47A7E0694AAFBB08B4A /* SAParallaxViewControllerSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAParallaxViewControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SAParallaxViewControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E1F231538D4F10F72BE1F883220F4D18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58EC1DE57C7D68678F1C48FAEA128578 /* Pods-WarMachine.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WarMachine/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WarMachine/Pods-WarMachine.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_WarMachine;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19CC9A8F29F40BA8EB055FF6908EBBC5 /* Build configuration list for PBXNativeTarget "Pods-WarMachine" */ = {
+		1B0E2C816B0790806C1F71BC3B00D474 /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9976328416A08F19DE5184621788B42D /* Debug */,
-				E1F231538D4F10F72BE1F883220F4D18 /* Release */,
+				CC1DEA683836FD7012C380BDCA166D39 /* Debug */,
+				8120090BE83F659AA354F0BBC4007DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -519,11 +784,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DD194DC9CBD7A3FFCA003F988C32922 /* Build configuration list for PBXNativeTarget "SAParallaxViewControllerSwift" */ = {
+		A8035E1A13687309CCA42B73482BB482 /* Build configuration list for PBXNativeTarget "Pods-WarMachine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71112F46530F4667C54D4871A6F73BDD /* Debug */,
-				D8866CBB2087F1A14947B460D3B67C49 /* Release */,
+				EA2ED2D270BC06AFF0D9B13C84FC8A18 /* Debug */,
+				25E2BEEB6467E0BB87A4B192F668BF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50DEF01D9FB9F7D9224F4D4FF26F545 /* Build configuration list for PBXNativeTarget "SAParallaxViewControllerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760950815A387B647878B5DF813040A3 /* Debug */,
+				E358B7B10AA1D4DF1441401B8E723E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
