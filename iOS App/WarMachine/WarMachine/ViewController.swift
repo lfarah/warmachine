@@ -127,9 +127,14 @@ class ViewController: UIViewController {
         {
           count++
         }
-        else
+        else if down < jsonArray.count - 1
         {
           down++
+          count = 0
+        }
+        else
+        {
+          down = 0
           count = 0
         }
       })

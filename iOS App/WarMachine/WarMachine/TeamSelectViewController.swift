@@ -50,7 +50,7 @@ class TeamSelectViewController: UIViewController {
     vsImageView.frame = CGRect (x: 0, y: 0, w: 60, h: 60)
     vsImageView.x = ez.screenWidth/2  - 30
     vsImageView.y = ez.screenHeight/2 - vsImageView.y/2 + 25
-    vsImageView.alpha = 0
+    vsImageView.alpha = 1.0
     self.view.addSubview(vsImageView)
     
     lineView.y = vsImageView.y + 25
@@ -67,9 +67,9 @@ class TeamSelectViewController: UIViewController {
     UIView.animateWithDuration(2, animations: { () -> Void in
         teamOneLogoView.x = ez.screenWidth/2 - teamOneLogoView.w/2
         teamTwoLogoView.x = ez.screenWidth/2 - teamOneLogoView.w/2
-        vsImageView.alpha = 1.0
+//        vsImageView.alpha = 1.0
         lineView.alpha = 1.0
-        vsImageView.w = 60
+//        vsImageView.w = 60
 
         }) { (Bool) -> Void in
     }
