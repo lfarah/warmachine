@@ -238,33 +238,5 @@ class ViewController: UIViewController {
     scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, CGFloat(nowY));
   }
   
-  func createPickTeamView() {
-    let image = UIImage(named: "pickteam-1.png")
-    var imageView = UIImageView(image: image!)
-    imageView.frame = CGRect(x: 0, y: 0, width: ez.screenWidth, height: ez.screenHeight)
-    self.view.addSubview(imageView)
-    
-    let teamOneImageView = UIView(x: 0, y: 0, w: ez.screenWidth, h: ez.screenHeight/2 + 40)
-    teamOneImageView.backgroundColor = UIColor.clearColor()
-    self.view.addSubview(teamOneImageView)
-    
-    let teamTwoImageView = UIView(x: 0, y: ez.screenHeight/2 + 40, w: ez.screenWidth, h: ez.screenHeight/2)
-    teamTwoImageView.backgroundColor = UIColor.clearColor()
-    self.view.addSubview(teamTwoImageView)
-    
-    teamOneImageView.addTapGesture(tapNumber: 1) { (UITapGestureRecognizer) -> () in
-      self.selectedTeam = 1
-      self.createScrollView()
-      print("selected team 1")
-      //            playAnimation()
-    }
-    
-    teamTwoImageView.addTapGesture(tapNumber: 1) { (UITapGestureRecognizer) -> () in
-      self.selectedTeam = 2
-      self.createScrollView()
-      print("selected team 2")
-      //            playAnimation()
-    }
   }
-}
 

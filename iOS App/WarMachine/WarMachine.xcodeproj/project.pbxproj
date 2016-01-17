@@ -15,6 +15,7 @@
 		29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91891C4B97FE00134E2A /* Patriot.png */; };
 		29EF918C1C4B98C000134E2A /* interceptiongifs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF918B1C4B98C000134E2A /* interceptiongifs.gif */; };
 		C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C253B0031C4BB26900CD696E /* HEA785202-2.png */; };
+		C25F53591C4C042D007A2626 /* TeamSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */; };
 		C26624771C4BBC37004EA1E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624761C4BBC37004EA1E7 /* TableViewCell.swift */; };
 		C26624791C4BBC75004EA1E7 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624781C4BBC75004EA1E7 /* Team.swift */; };
 		C26624831C4BC58B004EA1E7 /* cleanGame.json in Resources */ = {isa = PBXBuildFile; fileRef = C26624821C4BC58B004EA1E7 /* cleanGame.json */; };
@@ -60,6 +61,7 @@
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
 		C253B0031C4BB26900CD696E /* HEA785202-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HEA785202-2.png"; sourceTree = "<group>"; };
+		C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamSelectViewController.swift; sourceTree = "<group>"; };
 		C26624761C4BBC37004EA1E7 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		C26624781C4BBC75004EA1E7 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		C26624821C4BC58B004EA1E7 /* cleanGame.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cleanGame.json; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				C2D7478D1C4AD3E7006E7421 /* ViewController.swift */,
 				CC9D97741C4B4664008982CD /* SecondViewController.swift */,
 				C2D7478F1C4AD3E7006E7421 /* Main.storyboard */,
+				C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */,
 				C26624781C4BBC75004EA1E7 /* Team.swift */,
 				C26624761C4BBC37004EA1E7 /* TableViewCell.swift */,
 				29EF918B1C4B98C000134E2A /* interceptiongifs.gif */,
@@ -397,6 +400,7 @@
 				C26624771C4BBC37004EA1E7 /* TableViewCell.swift in Sources */,
 				C2D7478C1C4AD3E7006E7421 /* AppDelegate.swift in Sources */,
 				CC9D97771C4B6358008982CD /* Gif.swift in Sources */,
+				C25F53591C4C042D007A2626 /* TeamSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
