@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Gifu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Pods-WarMachine.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -31,6 +36,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>668FF802F835F083CC4E24185BFE4790</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>674479F8455D062B6399E8838DC3D724</key>
 		<dict>
 			<key>primary</key>
@@ -47,6 +57,16 @@
 			<true/>
 		</dict>
 		<key>A13584F657E17BE49469F42612E7210E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEA56EBE1B518C71721209FB26701898</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B350494341C1779260E8DAF306CDA1A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
