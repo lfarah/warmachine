@@ -39,7 +39,7 @@ class ScoreViewController: UIViewController {
                 i++
 //            })
             
-            ez.runThisEvery(seconds: 2, handler: { (timer) -> Void in
+            ez.runThisEvery(seconds: 8, handler: { (timer) -> Void in
                 self.lblHomeScore.text = String(jsonArray[0][i]["homeScore"] as! Int)
                 self.lblAwayScore.text = String(jsonArray[0][i]["awayScore"] as! Int)
                 self.lbTime.text = "Time: " + String(jsonArray[0][i]["time"] as! String)
