@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kqG-6A-1jX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kqG-6A-1jX">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--Feed-->
@@ -248,7 +248,7 @@
         <!--Score-->
         <scene sceneID="kmX-2y-hQt">
             <objects>
-                <viewController title="Score" id="Zjg-uv-ykP" sceneMemberID="viewController">
+                <viewController title="Score" id="Zjg-uv-ykP" customClass="ScoreViewController" customModule="WarMachine" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cVA-zn-XbU"/>
                         <viewControllerLayoutGuide type="bottom" id="rfx-OZ-UMg"/>
@@ -261,75 +261,53 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="61"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKd-YQ-agG">
-                                <rect key="frame" x="176" y="262" width="59" height="84"/>
+                                <rect key="frame" x="176" y="222" width="59" height="84"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="41"/>
                                 <color key="textColor" red="0.37254901959999998" green="0.58823529409999997" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCORE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnZ-Ug-EDY">
-                                <rect key="frame" x="64" y="136" width="286" height="85"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
-                                <color key="textColor" red="0.37254901960784315" green="0.58823529411764708" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tCv-I4-MT2">
-                                <rect key="frame" x="27" y="240" width="68" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icG-EE-vD4">
-                                        <rect key="frame" x="8" y="16" width="50" height="96"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.37254901959999998" green="0.58823529409999997" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBT-c7-s3z">
-                                <rect key="frame" x="243" y="240" width="68" height="128"/>
+                                <rect key="frame" x="243" y="200" width="128" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWC-fp-kK4">
-                                        <rect key="frame" x="8" y="16" width="50" height="96"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="21" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWC-fp-kK4">
+                                        <rect key="frame" x="8" y="16" width="113" height="96"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="5" height="5"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.37254901959999998" green="0.58823529409999997" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J5N-SP-KqJ">
-                                <rect key="frame" x="100" y="240" width="68" height="128"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kJt-1C-KlW">
+                                <rect key="frame" x="28" y="200" width="128" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6v-wS-mZ4">
-                                        <rect key="frame" x="8" y="16" width="50" height="96"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yz-9G-7Mb">
+                                        <rect key="frame" x="7" y="16" width="113" height="96"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.37254901959999998" green="0.58823529409999997" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lcm-Rm-5KW">
-                                <rect key="frame" x="319" y="240" width="68" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6b-Zm-w9G">
-                                        <rect key="frame" x="9" y="16" width="50" height="96"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="5" height="5"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.37254901959999998" green="0.58823529409999997" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pRS-Wo-sTA">
-                                <rect key="frame" x="27" y="385" width="360" height="6"/>
+                                <rect key="frame" x="27" y="365" width="360" height="6"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="Tuk-sk-0AP">
-                                <rect key="frame" x="-2" y="399" width="414" height="220"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="panthers" translatesAutoresizingMaskIntoConstraints="NO" id="Tuk-sk-0AP">
+                                <rect key="frame" x="20" y="422" width="145" height="145"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="patriots" translatesAutoresizingMaskIntoConstraints="NO" id="V2P-0Q-Wyn">
+                                <rect key="frame" x="249" y="422" width="145" height="145"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vs" translatesAutoresizingMaskIntoConstraints="NO" id="Rvj-os-whc">
+                                <rect key="frame" x="176" y="465" width="60" height="60"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time: 19:52" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cvd-HN-mZ2">
-                                <rect key="frame" x="95" y="101" width="224" height="50"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <rect key="frame" x="111" y="106" width="193" height="50"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
                                 <color key="textColor" red="0.37254901960784315" green="0.58823529411764708" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -345,6 +323,12 @@
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="lbAwayScoreBox" destination="SBT-c7-s3z" id="2I2-Jx-rCO"/>
+                        <outlet property="lbHomeScoreBox" destination="kJt-1C-KlW" id="jE1-TJ-fdC"/>
+                        <outlet property="lblAwayScore" destination="dWC-fp-kK4" id="9EC-0y-IGb"/>
+                        <outlet property="lblHomeScore" destination="3yz-9G-7Mb" id="uIS-Au-tVQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXF-QV-XAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -415,10 +399,12 @@
         <image name="3" width="41" height="35"/>
         <image name="Arizona_Football_-_Nick_Foles" width="407" height="318"/>
         <image name="Baloon" width="430" height="164"/>
-        <image name="Bitmap" width="413" height="197"/>
         <image name="HEA785202-2.png" width="200" height="200"/>
         <image name="Patriots Logo" width="326" height="120"/>
         <image name="Rectangle 9" width="219" height="64"/>
         <image name="header" width="808" height="126"/>
+        <image name="panthers" width="176" height="184"/>
+        <image name="patriots" width="182" height="178"/>
+        <image name="vs" width="200" height="200"/>
     </resources>
 </document>
