@@ -44,6 +44,9 @@ class ScoreViewController: UIViewController {
                 self.lblAwayScore.text = String(jsonArray[0][i]["awayScore"] as! Int)
                 self.lbTime.text = "Time: " + String(jsonArray[0][i]["time"] as! String)
                 i++
+                if i > 8 {
+                    i = 0
+                }
             })
         }
         catch let error{
