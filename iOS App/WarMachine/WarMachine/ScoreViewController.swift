@@ -15,6 +15,7 @@ class ScoreViewController: UIViewController {
     @IBOutlet weak var lblAwayScore: UILabel!
     @IBOutlet weak var lbAwayScoreBox: UIView!
     @IBOutlet weak var lbHomeScoreBox: UIView!
+    @IBOutlet weak var lbTime: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +23,32 @@ class ScoreViewController: UIViewController {
         
         lbAwayScoreBox.addShadow(offset: offset, radius: 5, color: UIColor.grayColor(), opacity: 1)
         lbHomeScoreBox.addShadow(offset: offset, radius: 5, color: UIColor.grayColor(), opacity: 1)        
-        // Do any additional setup after loading the view.
+        
+        let path = NSBundle.mainBundle().pathForResource("cleanGame", ofType: "json")
+        let jsonData = NSData(contentsOfFile: path!)
+        
+        do
+        {
+            let jsonArray = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
+            print(jsonArray[0][0]["homeScore"])
+            var i = 0
+//            ez.runThisAfterDelay(seconds: 2, after: { () -> () in
+                self.lblHomeScore.text = String(jsonArray[0][i]["homeScore"] as! Int)
+                self.lblAwayScore.text = String(jsonArray[0][i]["awayScore"] as! Int)
+                self.lbTime.text = "Time: " + String(jsonArray[0][i]["time"] as! String)
+                i++
+//            })
+            
+            ez.runThisEvery(seconds: 2, handler: { (timer) -> Void in
+                self.lblHomeScore.text = String(jsonArray[0][i]["homeScore"] as! Int)
+                self.lblAwayScore.text = String(jsonArray[0][i]["awayScore"] as! Int)
+                self.lbTime.text = "Time: " + String(jsonArray[0][i]["time"] as! String)
+                i++
+            })
+        }
+        catch let error{
+            print(error)
+        }
     }
 
     override func didReceiveMemoryWarning() {
