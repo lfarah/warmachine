@@ -26,6 +26,7 @@
 		29EF91A11C4C2C9D00134E2A /* FalseStart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91A01C4C2C9D00134E2A /* FalseStart.gif */; };
 		29EF91A31C4C2D4000134E2A /* MistyIlliterateGreyhounddog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91A21C4C2D4000134E2A /* MistyIlliterateGreyhounddog.gif */; };
 		C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C253B0031C4BB26900CD696E /* HEA785202-2.png */; };
+		C25463051C4C2E4E001AF848 /* riskyGame.json in Resources */ = {isa = PBXBuildFile; fileRef = C25463041C4C2E4E001AF848 /* riskyGame.json */; };
 		C25F53591C4C042D007A2626 /* TeamSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */; };
 		C26624771C4BBC37004EA1E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624761C4BBC37004EA1E7 /* TableViewCell.swift */; };
 		C26624791C4BBC75004EA1E7 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624781C4BBC75004EA1E7 /* Team.swift */; };
@@ -83,6 +84,7 @@
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
 		C253B0031C4BB26900CD696E /* HEA785202-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HEA785202-2.png"; sourceTree = "<group>"; };
+		C25463041C4C2E4E001AF848 /* riskyGame.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = riskyGame.json; sourceTree = "<group>"; };
 		C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamSelectViewController.swift; sourceTree = "<group>"; };
 		C26624761C4BBC37004EA1E7 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		C26624781C4BBC75004EA1E7 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 		C2D7478A1C4AD3E7006E7421 /* WarMachine */ = {
 			isa = PBXGroup;
 			children = (
+				C25463041C4C2E4E001AF848 /* riskyGame.json */,
 				CC9D97781C4B663F008982CD /* Resources */,
 				C26624821C4BC58B004EA1E7 /* cleanGame.json */,
 				C2D7478B1C4AD3E7006E7421 /* AppDelegate.swift */,
@@ -351,6 +354,7 @@
 			files = (
 				29EF91881C4B97EF00134E2A /* panther.png in Resources */,
 				29EF91A11C4C2C9D00134E2A /* FalseStart.gif in Resources */,
+				C25463051C4C2E4E001AF848 /* riskyGame.json in Resources */,
 				C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */,
 				CC9D977A1C4B665A008982CD /* mugen.gif in Resources */,
 				C26624831C4BC58B004EA1E7 /* cleanGame.json in Resources */,
