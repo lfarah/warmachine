@@ -31,7 +31,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 9" translatesAutoresizingMaskIntoConstraints="NO" id="ecY-DL-gt1">
                                 <rect key="frame" x="81" y="474" width="240" height="98"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scramble: bla bla bla bla bla bla bla" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-Sv-XJB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When the Quarterback runs for more yards" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-Sv-XJB">
                                 <rect key="frame" x="20" y="550" width="374" height="116"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -59,6 +59,7 @@
                     <connections>
                         <outlet property="bubble" destination="I4q-6q-LVD" id="Mft-hV-Ljk"/>
                         <outlet property="imgvGIF" destination="Bvz-Ro-bDd" id="shK-e2-wL3"/>
+                        <outlet property="profile" destination="X6u-CG-c2a" id="idV-JL-xWy"/>
                         <outlet property="selectedWord" destination="xQF-55-qFK" id="uFp-hq-UFH"/>
                         <outlet property="strDescription" destination="biT-xF-Emd" id="KGF-Js-sjW"/>
                         <outlet property="wordExplanation" destination="Yg8-Sv-XJB" id="Gu8-Yr-Zwq"/>
