@@ -20,7 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //Setting Navigation Bar Background Image
     let backgroundImage = UIImage(named: "Top Bar")
     UINavigationBar.appearance().setBackgroundImage(backgroundImage, forBarMetrics: .Default)
-
+    
+    
+    
     return true
   }
 

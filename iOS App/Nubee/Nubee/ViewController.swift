@@ -9,17 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    
+    print(readJSON())
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  
+  //Returns Play by Play data
+  func readJSON() -> Array<NSDictionary>
+  {
+    let path = NSBundle.mainBundle().pathForResource("potato", ofType: "json")
+    let jsonData = NSData(contentsOfFile: path!)
+    
+    do
+    {
+      let jsonArray = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: .MutableContainers)
+      
+      return jsonArray as! Array<NSDictionary>
+    }
+    catch{}
+    
+    return []
   }
-
-
+  
 }
 
