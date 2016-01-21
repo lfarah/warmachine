@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+    
+    //Setting Navigation Bar Background Image
+    let backgroundImage = UIImage(named: "Top Bar")
+    UINavigationBar.appearance().setBackgroundImage(backgroundImage, forBarMetrics: .Default)
+
     return true
   }
 
