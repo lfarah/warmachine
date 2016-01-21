@@ -22,10 +22,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="Gs8-dy-WFU">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="61"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Baloon" translatesAutoresizingMaskIntoConstraints="NO" id="I4q-6q-LVD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="I4q-6q-LVD">
                                 <rect key="frame" x="0.0" y="79" width="414" height="144"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C.Newton" translatesAutoresizingMaskIntoConstraints="NO" id="X6u-CG-c2a">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X6u-CG-c2a">
                                 <rect key="frame" x="42" y="104" width="64" height="62"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 9" translatesAutoresizingMaskIntoConstraints="NO" id="ecY-DL-gt1">
@@ -59,7 +59,7 @@
                     <connections>
                         <outlet property="bubble" destination="I4q-6q-LVD" id="Mft-hV-Ljk"/>
                         <outlet property="imgvGIF" destination="Bvz-Ro-bDd" id="shK-e2-wL3"/>
-                        <outlet property="profile" destination="X6u-CG-c2a" id="idV-JL-xWy"/>
+                        <outlet property="profile" destination="X6u-CG-c2a" id="CIf-nI-0kf"/>
                         <outlet property="selectedWord" destination="xQF-55-qFK" id="uFp-hq-UFH"/>
                         <outlet property="strDescription" destination="biT-xF-Emd" id="KGF-Js-sjW"/>
                         <outlet property="wordExplanation" destination="Yg8-Sv-XJB" id="Gu8-Yr-Zwq"/>
@@ -114,7 +114,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mV6-aD-PSu" id="CVX-7G-M1x">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCOTT CHANDLER - TIGHT END" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9E-Ni-GI5">
@@ -130,7 +130,7 @@
                                         <rect key="frame" x="0.0" y="70" width="600" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fqa-24-Fo1" id="iv6-6H-8Rq">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALAN BRANCH - DEFENSIVE LINE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MaL-EW-SZ2">
@@ -146,7 +146,7 @@
                                         <rect key="frame" x="0.0" y="140" width="600" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PXn-fI-sya" id="C0e-p0-J46">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STEVEN JACKSON - RUNNING BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSq-Uc-h60">
@@ -162,7 +162,7 @@
                                         <rect key="frame" x="0.0" y="210" width="600" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0M5-Xq-K1f" id="zcy-Or-1Xu">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DANNY AMENDOLA - WIDE RECEIVER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJ7-mS-P0r">
@@ -460,8 +460,7 @@
         <image name="1" width="41" height="35"/>
         <image name="2" width="41" height="35"/>
         <image name="3" width="41" height="35"/>
-        <image name="Baloon" width="430" height="164"/>
-        <image name="C.Newton" width="200" height="200"/>
+        <image name="Rectangle 2" width="430" height="164"/>
         <image name="Rectangle 9" width="219" height="64"/>
         <image name="header" width="808" height="126"/>
         <image name="onboarding1.png" width="1242" height="2208"/>

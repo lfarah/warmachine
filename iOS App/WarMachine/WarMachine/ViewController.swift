@@ -25,7 +25,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var patriotScore: UILabel!
   @IBOutlet weak var wordExplanation: UILabel!
   @IBOutlet weak var profile: UIImageView!
-    
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -64,9 +64,10 @@ class ViewController: UIViewController {
         let giftFile = play["gifFile"] as! String
         let myGif = UIImage.gifWithName(giftFile)
         self.imgvGIF.image = myGif
-//        let playerImage = UIImage.(named: "C.Lewis")!
-//        print(playerImage)
-//        self.profile.image = playerImage
+        
+        //        let playerImage = UIImage(named: "C.Lewis")!
+        //        print(playerImage)
+        //        self.profile.image = playerImage
         
         self.selectedWord.text = importantWord
         
@@ -117,7 +118,7 @@ class ViewController: UIViewController {
         }
         else
         {
-          self.bubble.image = UIImage(named:"Baloon")
+          self.bubble.image = UIImage(named:"Rectangle 2")
         }
         //    string2.appendAttributedString(NSAttributedString(string: "Hello ", attributes: [
         //      NSFontAttributeName: UIFont.systemFontOfSize(20),
