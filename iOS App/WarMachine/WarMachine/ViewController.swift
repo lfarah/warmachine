@@ -48,7 +48,7 @@ class ViewController: UIViewController {
       
       var count = 0
       var down = 0
-      ez.runThisEvery(seconds: 10, handler: { (timer) -> Void in
+      ez.runThisEvery(seconds: 8, handler: { (timer) -> Void in
         
         let play = jsonArray[down][count]
         
@@ -56,13 +56,20 @@ class ViewController: UIViewController {
         let arrayDescription = stringDescription.componentsSeparatedByString(" ")
         let string2 = NSMutableAttributedString()
         let importantWord = play["importantWord"] as! String
+        let profileImage = play["player"] as! String
+        print(profileImage)
+        
         let eachWordExplanation = play["wordExplanation"] as! String
         self.wordExplanation.text = eachWordExplanation
         let giftFile = play["gifFile"] as! String
         let myGif = UIImage.gifWithName(giftFile)
         self.imgvGIF.image = myGif
+//        let playerImage = UIImage.(named: "C.Lewis")!
+//        print(playerImage)
+//        self.profile.image = playerImage
         
         self.selectedWord.text = importantWord
+        
         let arrayImportantWord = importantWord.componentsSeparatedByString(" ")
         
         for word in arrayDescription

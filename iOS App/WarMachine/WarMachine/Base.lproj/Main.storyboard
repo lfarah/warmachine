@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Arizona_Football_-_Nick_Foles" translatesAutoresizingMaskIntoConstraints="NO" id="Bvz-Ro-bDd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scrambles.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Bvz-Ro-bDd">
                                 <rect key="frame" x="-9" y="200" width="432" height="322"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="Gs8-dy-WFU">
@@ -25,7 +25,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Baloon" translatesAutoresizingMaskIntoConstraints="NO" id="I4q-6q-LVD">
                                 <rect key="frame" x="0.0" y="79" width="414" height="144"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HEA785202-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="X6u-CG-c2a">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C.Newton" translatesAutoresizingMaskIntoConstraints="NO" id="X6u-CG-c2a">
                                 <rect key="frame" x="42" y="104" width="64" height="62"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 9" translatesAutoresizingMaskIntoConstraints="NO" id="ecY-DL-gt1">
@@ -33,19 +33,19 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When the Quarterback runs for more yards" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-Sv-XJB">
                                 <rect key="frame" x="20" y="550" width="374" height="116"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Shotgun) C.Pounder scrambles up the middle for 19 yards. TOUCHDOWN" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biT-xF-Emd">
                                 <rect key="frame" x="124" y="92" width="270" height="86"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="scramble" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="xQF-55-qFK">
                                 <rect key="frame" x="89" y="474" width="225" height="62"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <color key="textColor" red="0.42745098039215684" green="0.68235294117647061" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -166,7 +166,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DANNY AMENDOLA - WIDE RECEIVER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJ7-mS-P0r">
-                                                    <rect key="frame" x="2" y="20" width="410" height="30"/>
+                                                    <rect key="frame" x="0.0" y="20" width="410" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
                                                     <color key="textColor" red="0.047058823530000002" green="0.098039215690000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -296,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h0e-Vw-HpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1688" y="635"/>
+            <point key="canvasLocation" x="-1680" y="635"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Cfl-vf-Nly">
@@ -460,9 +460,8 @@
         <image name="1" width="41" height="35"/>
         <image name="2" width="41" height="35"/>
         <image name="3" width="41" height="35"/>
-        <image name="Arizona_Football_-_Nick_Foles" width="407" height="318"/>
         <image name="Baloon" width="430" height="164"/>
-        <image name="HEA785202-2.png" width="200" height="200"/>
+        <image name="C.Newton" width="200" height="200"/>
         <image name="Rectangle 9" width="219" height="64"/>
         <image name="header" width="808" height="126"/>
         <image name="onboarding1.png" width="1242" height="2208"/>
@@ -471,6 +470,7 @@
         <image name="onboarding4.png" width="1242" height="2217"/>
         <image name="panthers" width="176" height="184"/>
         <image name="patriots" width="182" height="178"/>
+        <image name="scrambles.gif" width="450" height="286"/>
         <image name="teamscreen" width="1725" height="3067"/>
         <image name="vs" width="200" height="200"/>
     </resources>

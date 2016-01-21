@@ -8,6 +8,7 @@
 
 import UIKit
 import EZSwiftExtensions
+
 class TeamSelectViewController: UIViewController {
   
   override func viewDidLoad() {
@@ -54,24 +55,34 @@ class TeamSelectViewController: UIViewController {
     self.view.addSubview(vsImageView)
     
     lineView.y = vsImageView.y + 25
+    print("asd")
     
     
-    UIView.animateWithDuration(2) { () -> Void in
-        vsImageView.transform = CGAffineTransformMakeRotation((180.0 * CGFloat(M_PI)) / 180.0)
-        vsImageView.transform = CGAffineTransformMakeScale(0.3, 0.3)
-        UIView.animateWithDuration(2) { () -> Void in
-            vsImageView.transform = CGAffineTransformMakeRotation((360.0 * CGFloat(M_PI)) / 180.0)
-        }
-    }
-    
-    UIView.animateWithDuration(2, animations: { () -> Void in
-        teamOneLogoView.x = ez.screenWidth/2 - teamOneLogoView.w/2
-        teamTwoLogoView.x = ez.screenWidth/2 - teamOneLogoView.w/2
-//        vsImageView.alpha = 1.0
-        lineView.alpha = 1.0
-//        vsImageView.w = 60
 
-        }) { (Bool) -> Void in
+
+    ez.runThisAfterDelay(seconds: 0.2) { () -> () in
+        
+        UIView.animateWithDuration(2) { () -> Void in
+            print("11")
+            vsImageView.transform = CGAffineTransformMakeRotation((180.0 * CGFloat(M_PI)) / 180.0)
+            vsImageView.transform = CGAffineTransformMakeScale(0.3, 0.3)
+            UIView.animateWithDuration(2) { () -> Void in
+                vsImageView.transform = CGAffineTransformMakeRotation((360.0 * CGFloat(M_PI)) / 180.0)
+            }
+        }
+        
+        UIView.animateWithDuration(2, animations: { () -> Void in
+            teamOneLogoView.x = ez.screenWidth/2 - teamOneLogoView.w/2
+            print(teamOneLogoView.x)
+            teamTwoLogoView.x = ez.screenWidth/2 - teamOneLogoView.w/2
+            //        vsImageView.alpha = 1.0
+            lineView.alpha = 1.0
+            //        vsImageView.w = 60
+            print("555")
+            
+            }) { (Bool) -> Void in
+                print(77777)
+        }
     }
     
     
