@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21656DF1C5062F0000C45AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21656DE1C5062F0000C45AD /* AppDelegate.swift */; };
+		C21656E11C5062F0000C45AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21656E01C5062F0000C45AD /* ViewController.swift */; };
+		C21656E41C5062F0000C45AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21656E21C5062F0000C45AD /* Main.storyboard */; };
+		C21656E61C5062F0000C45AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21656E51C5062F0000C45AD /* Assets.xcassets */; };
+		C21656E91C5062F0000C45AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21656E71C5062F0000C45AD /* LaunchScreen.storyboard */; };
+		C21656F41C5062F0000C45AD /* NubeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21656F31C5062F0000C45AD /* NubeeTests.swift */; };
+		C21656FF1C5062F0000C45AD /* NubeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21656FE1C5062F0000C45AD /* NubeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C21656F01C5062F0000C45AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21656D31C5062F0000C45AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21656DA1C5062F0000C45AD;
+			remoteInfo = Nubee;
+		};
+		C21656FB1C5062F0000C45AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21656D31C5062F0000C45AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21656DA1C5062F0000C45AD;
+			remoteInfo = Nubee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C21656DB1C5062F0000C45AD /* Nubee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nubee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21656DE1C5062F0000C45AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C21656E01C5062F0000C45AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C21656E31C5062F0000C45AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C21656E51C5062F0000C45AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C21656E81C5062F0000C45AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C21656EA1C5062F0000C45AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21656EF1C5062F0000C45AD /* NubeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21656F31C5062F0000C45AD /* NubeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubeeTests.swift; sourceTree = "<group>"; };
+		C21656F51C5062F0000C45AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21656FA1C5062F0000C45AD /* NubeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21656FE1C5062F0000C45AD /* NubeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubeeUITests.swift; sourceTree = "<group>"; };
+		C21657001C5062F0000C45AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C21656D81C5062F0000C45AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21656EC1C5062F0000C45AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21656F71C5062F0000C45AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C21656D21C5062F0000C45AD = {
+			isa = PBXGroup;
+			children = (
+				C21656DD1C5062F0000C45AD /* Nubee */,
+				C21656F21C5062F0000C45AD /* NubeeTests */,
+				C21656FD1C5062F0000C45AD /* NubeeUITests */,
+				C21656DC1C5062F0000C45AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21656DC1C5062F0000C45AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21656DB1C5062F0000C45AD /* Nubee.app */,
+				C21656EF1C5062F0000C45AD /* NubeeTests.xctest */,
+				C21656FA1C5062F0000C45AD /* NubeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21656DD1C5062F0000C45AD /* Nubee */ = {
+			isa = PBXGroup;
+			children = (
+				C21656DE1C5062F0000C45AD /* AppDelegate.swift */,
+				C21656E01C5062F0000C45AD /* ViewController.swift */,
+				C21656E21C5062F0000C45AD /* Main.storyboard */,
+				C21656E51C5062F0000C45AD /* Assets.xcassets */,
+				C21656E71C5062F0000C45AD /* LaunchScreen.storyboard */,
+				C21656EA1C5062F0000C45AD /* Info.plist */,
+			);
+			path = Nubee;
+			sourceTree = "<group>";
+		};
+		C21656F21C5062F0000C45AD /* NubeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C21656F31C5062F0000C45AD /* NubeeTests.swift */,
+				C21656F51C5062F0000C45AD /* Info.plist */,
+			);
+			path = NubeeTests;
+			sourceTree = "<group>";
+		};
+		C21656FD1C5062F0000C45AD /* NubeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C21656FE1C5062F0000C45AD /* NubeeUITests.swift */,
+				C21657001C5062F0000C45AD /* Info.plist */,
+			);
+			path = NubeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C21656DA1C5062F0000C45AD /* Nubee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21657031C5062F0000C45AD /* Build configuration list for PBXNativeTarget "Nubee" */;
+			buildPhases = (
+				C21656D71C5062F0000C45AD /* Sources */,
+				C21656D81C5062F0000C45AD /* Frameworks */,
+				C21656D91C5062F0000C45AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nubee;
+			productName = Nubee;
+			productReference = C21656DB1C5062F0000C45AD /* Nubee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C21656EE1C5062F0000C45AD /* NubeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21657061C5062F0000C45AD /* Build configuration list for PBXNativeTarget "NubeeTests" */;
+			buildPhases = (
+				C21656EB1C5062F0000C45AD /* Sources */,
+				C21656EC1C5062F0000C45AD /* Frameworks */,
+				C21656ED1C5062F0000C45AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21656F11C5062F0000C45AD /* PBXTargetDependency */,
+			);
+			name = NubeeTests;
+			productName = NubeeTests;
+			productReference = C21656EF1C5062F0000C45AD /* NubeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C21656F91C5062F0000C45AD /* NubeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21657091C5062F0000C45AD /* Build configuration list for PBXNativeTarget "NubeeUITests" */;
+			buildPhases = (
+				C21656F61C5062F0000C45AD /* Sources */,
+				C21656F71C5062F0000C45AD /* Frameworks */,
+				C21656F81C5062F0000C45AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21656FC1C5062F0000C45AD /* PBXTargetDependency */,
+			);
+			name = NubeeUITests;
+			productName = NubeeUITests;
+			productReference = C21656FA1C5062F0000C45AD /* NubeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C21656D31C5062F0000C45AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lucas Farah";
+				TargetAttributes = {
+					C21656DA1C5062F0000C45AD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C21656EE1C5062F0000C45AD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C21656DA1C5062F0000C45AD;
+					};
+					C21656F91C5062F0000C45AD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C21656DA1C5062F0000C45AD;
+					};
+				};
+			};
+			buildConfigurationList = C21656D61C5062F0000C45AD /* Build configuration list for PBXProject "Nubee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C21656D21C5062F0000C45AD;
+			productRefGroup = C21656DC1C5062F0000C45AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21656DA1C5062F0000C45AD /* Nubee */,
+				C21656EE1C5062F0000C45AD /* NubeeTests */,
+				C21656F91C5062F0000C45AD /* NubeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C21656D91C5062F0000C45AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21656E91C5062F0000C45AD /* LaunchScreen.storyboard in Resources */,
+				C21656E61C5062F0000C45AD /* Assets.xcassets in Resources */,
+				C21656E41C5062F0000C45AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21656ED1C5062F0000C45AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21656F81C5062F0000C45AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C21656D71C5062F0000C45AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21656E11C5062F0000C45AD /* ViewController.swift in Sources */,
+				C21656DF1C5062F0000C45AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21656EB1C5062F0000C45AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21656F41C5062F0000C45AD /* NubeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21656F61C5062F0000C45AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21656FF1C5062F0000C45AD /* NubeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C21656F11C5062F0000C45AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21656DA1C5062F0000C45AD /* Nubee */;
+			targetProxy = C21656F01C5062F0000C45AD /* PBXContainerItemProxy */;
+		};
+		C21656FC1C5062F0000C45AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21656DA1C5062F0000C45AD /* Nubee */;
+			targetProxy = C21656FB1C5062F0000C45AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C21656E21C5062F0000C45AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21656E31C5062F0000C45AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C21656E71C5062F0000C45AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21656E81C5062F0000C45AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C21657011C5062F0000C45AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C21657021C5062F0000C45AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C21657041C5062F0000C45AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nubee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.Nubee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C21657051C5062F0000C45AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nubee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.Nubee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C21657071C5062F0000C45AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NubeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.NubeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubee.app/Nubee";
+			};
+			name = Debug;
+		};
+		C21657081C5062F0000C45AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NubeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.NubeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nubee.app/Nubee";
+			};
+			name = Release;
+		};
+		C216570A1C5062F0000C45AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NubeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.NubeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nubee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C216570B1C5062F0000C45AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NubeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.NubeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nubee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21656D61C5062F0000C45AD /* Build configuration list for PBXProject "Nubee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21657011C5062F0000C45AD /* Debug */,
+				C21657021C5062F0000C45AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21657031C5062F0000C45AD /* Build configuration list for PBXNativeTarget "Nubee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21657041C5062F0000C45AD /* Debug */,
+				C21657051C5062F0000C45AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21657061C5062F0000C45AD /* Build configuration list for PBXNativeTarget "NubeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21657071C5062F0000C45AD /* Debug */,
+				C21657081C5062F0000C45AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21657091C5062F0000C45AD /* Build configuration list for PBXNativeTarget "NubeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C216570A1C5062F0000C45AD /* Debug */,
+				C216570B1C5062F0000C45AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C21656D31C5062F0000C45AD /* Project object */;
+}
