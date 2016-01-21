@@ -30,6 +30,14 @@
 		29EF91B01C4C4F0D00134E2A /* onboarding2.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91AC1C4C4F0C00134E2A /* onboarding2.png */; };
 		29EF91B11C4C4F0D00134E2A /* onboarding4.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91AD1C4C4F0C00134E2A /* onboarding4.png */; };
 		29EF91B41C4E2AF000134E2A /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EF91B31C4E2AEF00134E2A /* profile.jpg */; };
+		29FD2D5C1C5060CF005267BF /* D.Lewis.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D5B1C5060CF005267BF /* D.Lewis.png */; };
+		29FD2D5E1C5064B1005267BF /* C.Artis.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D5D1C5064B1005267BF /* C.Artis.png */; };
+		29FD2D601C5064B9005267BF /* C.Jones.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D5F1C5064B9005267BF /* C.Jones.png */; };
+		29FD2D621C5064BF005267BF /* C.Newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D611C5064BF005267BF /* C.Newton.png */; };
+		29FD2D641C5064C6005267BF /* C.Walker.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D631C5064C6005267BF /* C.Walker.png */; };
+		29FD2D661C5064DC005267BF /* G.Gano.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D651C5064DC005267BF /* G.Gano.png */; };
+		29FD2D681C5064E3005267BF /* J.Garoppolo.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D671C5064E3005267BF /* J.Garoppolo.png */; };
+		29FD2D6A1C5064EC005267BF /* R.Allen.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D691C5064EC005267BF /* R.Allen.png */; };
 		C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C253B0031C4BB26900CD696E /* HEA785202-2.png */; };
 		C25463051C4C2E4E001AF848 /* riskyGame.json in Resources */ = {isa = PBXBuildFile; fileRef = C25463041C4C2E4E001AF848 /* riskyGame.json */; };
 		C25F53591C4C042D007A2626 /* TeamSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */; };
@@ -90,6 +98,14 @@
 		29EF91AC1C4C4F0C00134E2A /* onboarding2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onboarding2.png; sourceTree = "<group>"; };
 		29EF91AD1C4C4F0C00134E2A /* onboarding4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onboarding4.png; sourceTree = "<group>"; };
 		29EF91B31C4E2AEF00134E2A /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		29FD2D5B1C5060CF005267BF /* D.Lewis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = D.Lewis.png; path = Assets.xcassets/D.Lewis.imageset/D.Lewis.png; sourceTree = "<group>"; };
+		29FD2D5D1C5064B1005267BF /* C.Artis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C.Artis.png; path = Assets.xcassets/C.Artis.imageset/C.Artis.png; sourceTree = "<group>"; };
+		29FD2D5F1C5064B9005267BF /* C.Jones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C.Jones.png; path = Assets.xcassets/C.Jones.imageset/C.Jones.png; sourceTree = "<group>"; };
+		29FD2D611C5064BF005267BF /* C.Newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C.Newton.png; path = Assets.xcassets/C.Newton.imageset/C.Newton.png; sourceTree = "<group>"; };
+		29FD2D631C5064C6005267BF /* C.Walker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C.Walker.png; path = Assets.xcassets/C.Walker.imageset/C.Walker.png; sourceTree = "<group>"; };
+		29FD2D651C5064DC005267BF /* G.Gano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = G.Gano.png; path = Assets.xcassets/G.Gano.imageset/G.Gano.png; sourceTree = "<group>"; };
+		29FD2D671C5064E3005267BF /* J.Garoppolo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = J.Garoppolo.png; path = Assets.xcassets/J.Garoppolo.imageset/J.Garoppolo.png; sourceTree = "<group>"; };
+		29FD2D691C5064EC005267BF /* R.Allen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = R.Allen.png; path = Assets.xcassets/R.Allen.imageset/R.Allen.png; sourceTree = "<group>"; };
 		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
@@ -260,6 +276,14 @@
 				29EF91AA1C4C4F0C00134E2A /* onboarding3.png */,
 				29EF91AB1C4C4F0C00134E2A /* onboarding1.png */,
 				29EF91AC1C4C4F0C00134E2A /* onboarding2.png */,
+				29FD2D5F1C5064B9005267BF /* C.Jones.png */,
+				29FD2D611C5064BF005267BF /* C.Newton.png */,
+				29FD2D631C5064C6005267BF /* C.Walker.png */,
+				29FD2D5B1C5060CF005267BF /* D.Lewis.png */,
+				29FD2D691C5064EC005267BF /* R.Allen.png */,
+				29FD2D671C5064E3005267BF /* J.Garoppolo.png */,
+				29FD2D651C5064DC005267BF /* G.Gano.png */,
+				29FD2D5D1C5064B1005267BF /* C.Artis.png */,
 				29EF91AD1C4C4F0C00134E2A /* onboarding4.png */,
 				29EF918F1C4C283400134E2A /* keywordsGIF */,
 				29EF91811C4B789D00134E2A /*  v.png */,
@@ -381,29 +405,37 @@
 				C25463051C4C2E4E001AF848 /* riskyGame.json in Resources */,
 				C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */,
 				29EF91B41C4E2AF000134E2A /* profile.jpg in Resources */,
+				29FD2D681C5064E3005267BF /* J.Garoppolo.png in Resources */,
 				CC9D977A1C4B665A008982CD /* mugen.gif in Resources */,
 				C26624831C4BC58B004EA1E7 /* cleanGame.json in Resources */,
 				29EF919B1C4C2B8D00134E2A /* scrambles.gif in Resources */,
 				29EF91991C4C2B0F00134E2A /* kicks.gif in Resources */,
+				29FD2D6A1C5064EC005267BF /* R.Allen.png in Resources */,
 				29EF918E1C4C27CE00134E2A /* riskyGame.json in Resources */,
 				29EF919D1C4C2BFA00134E2A /* punts.gif in Resources */,
 				29EF91971C4C29E600134E2A /* tackle.gif in Resources */,
 				29EF91951C4C293F00134E2A /* PassReception.gif in Resources */,
 				C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */,
+				29FD2D601C5064B9005267BF /* C.Jones.png in Resources */,
 				C2D747931C4AD3E7006E7421 /* Assets.xcassets in Resources */,
+				29FD2D641C5064C6005267BF /* C.Walker.png in Resources */,
 				29EF91AF1C4C4F0D00134E2A /* onboarding1.png in Resources */,
 				29EF919F1C4C2C5E00134E2A /* OffensiveHolding.gif in Resources */,
 				29EF91AE1C4C4F0D00134E2A /* onboarding3.png in Resources */,
 				29EF91B11C4C4F0D00134E2A /* onboarding4.png in Resources */,
 				29EF91A31C4C2D4000134E2A /* NeutralZoneInfraction.gif in Resources */,
 				29EF91911C4C287600134E2A /* IllegalBlock.gif in Resources */,
+				29FD2D5C1C5060CF005267BF /* D.Lewis.png in Resources */,
 				29EF918A1C4B97FF00134E2A /* Patriot.png in Resources */,
 				29EF91841C4B79D800134E2A /* intro-01.png in Resources */,
 				29EF91B01C4C4F0D00134E2A /* onboarding2.png in Resources */,
 				29EF91821C4B789D00134E2A /*  v.png in Resources */,
+				29FD2D621C5064BF005267BF /* C.Newton.png in Resources */,
 				C2D747911C4AD3E7006E7421 /* Main.storyboard in Resources */,
 				29EF91931C4C287E00134E2A /* Kneels.gif in Resources */,
+				29FD2D5E1C5064B1005267BF /* C.Artis.png in Resources */,
 				29EF918C1C4B98C000134E2A /* interceptiongifs.gif in Resources */,
+				29FD2D661C5064DC005267BF /* G.Gano.png in Resources */,
 				29EF91A91C4C481300134E2A /* shotgun.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

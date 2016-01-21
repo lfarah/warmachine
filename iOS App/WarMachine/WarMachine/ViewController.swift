@@ -65,9 +65,9 @@ class ViewController: UIViewController {
         let myGif = UIImage.gifWithName(giftFile)
         self.imgvGIF.image = myGif
         
-        //        let playerImage = UIImage(named: "C.Lewis")!
-        //        print(playerImage)
-        //        self.profile.image = playerImage
+        let playerImage = UIImage(named: profileImage)
+        print(playerImage)
+        self.profile.image = playerImage
         
         self.selectedWord.text = importantWord
         
