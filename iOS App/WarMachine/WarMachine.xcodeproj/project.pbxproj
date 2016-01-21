@@ -38,8 +38,8 @@
 		29FD2D661C5064DC005267BF /* G.Gano.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D651C5064DC005267BF /* G.Gano.png */; };
 		29FD2D681C5064E3005267BF /* J.Garoppolo.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D671C5064E3005267BF /* J.Garoppolo.png */; };
 		29FD2D6A1C5064EC005267BF /* R.Allen.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D691C5064EC005267BF /* R.Allen.png */; };
+		29FD2D6C1C506B49005267BF /* riskyGame.json in Resources */ = {isa = PBXBuildFile; fileRef = 29FD2D6B1C5068E2005267BF /* riskyGame.json */; };
 		C253B0041C4BB26900CD696E /* HEA785202-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C253B0031C4BB26900CD696E /* HEA785202-2.png */; };
-		C25463051C4C2E4E001AF848 /* riskyGame.json in Resources */ = {isa = PBXBuildFile; fileRef = C25463041C4C2E4E001AF848 /* riskyGame.json */; };
 		C25F53591C4C042D007A2626 /* TeamSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F53581C4C042D007A2626 /* TeamSelectViewController.swift */; };
 		C26624771C4BBC37004EA1E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624761C4BBC37004EA1E7 /* TableViewCell.swift */; };
 		C26624791C4BBC75004EA1E7 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26624781C4BBC75004EA1E7 /* Team.swift */; };
@@ -106,6 +106,7 @@
 		29FD2D651C5064DC005267BF /* G.Gano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = G.Gano.png; path = Assets.xcassets/G.Gano.imageset/G.Gano.png; sourceTree = "<group>"; };
 		29FD2D671C5064E3005267BF /* J.Garoppolo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = J.Garoppolo.png; path = Assets.xcassets/J.Garoppolo.imageset/J.Garoppolo.png; sourceTree = "<group>"; };
 		29FD2D691C5064EC005267BF /* R.Allen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = R.Allen.png; path = Assets.xcassets/R.Allen.imageset/R.Allen.png; sourceTree = "<group>"; };
+		29FD2D6B1C5068E2005267BF /* riskyGame.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = riskyGame.json; path = WarMachine/riskyGame.json; sourceTree = "<group>"; };
 		33080D7D8C4DF55333764E66 /* Pods_WarMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D6C4B36CC6276471FF0ABE /* Pods-WarMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		733D42761640FA207EA7348E /* Pods-WarMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarMachine/Pods-WarMachine.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +195,7 @@
 		C2D7477F1C4AD3E6006E7421 = {
 			isa = PBXGroup;
 			children = (
+				29FD2D6B1C5068E2005267BF /* riskyGame.json */,
 				C2D7478A1C4AD3E7006E7421 /* WarMachine */,
 				C2D7479F1C4AD3E7006E7421 /* WarMachineTests */,
 				C2D747AA1C4AD3E7006E7421 /* WarMachineUITests */,
@@ -400,9 +402,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FD2D6C1C506B49005267BF /* riskyGame.json in Resources */,
 				29EF91881C4B97EF00134E2A /* panther.png in Resources */,
 				29EF91A11C4C2C9D00134E2A /* FalseStart.gif in Resources */,
-				C25463051C4C2E4E001AF848 /* riskyGame.json in Resources */,
 				C2D747961C4AD3E7006E7421 /* LaunchScreen.storyboard in Resources */,
 				29EF91B41C4E2AF000134E2A /* profile.jpg in Resources */,
 				29FD2D681C5064E3005267BF /* J.Garoppolo.png in Resources */,
@@ -474,7 +476,7 @@
 		};
 		A3F77AF5F7C8600EBC8C284C /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (

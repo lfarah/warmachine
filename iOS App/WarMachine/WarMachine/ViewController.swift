@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     
     let path = NSBundle.mainBundle().pathForResource("riskyGame", ofType: "json")
     let jsonData = NSData(contentsOfFile: path!)
-    
+    print(jsonData)
     do
     {
       let jsonArray = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
@@ -48,11 +48,14 @@ class ViewController: UIViewController {
       
       var count = 0
       var down = 0
-      ez.runThisEvery(seconds: 8, handler: { (timer) -> Void in
+        
+//      ez.runThisEvery(seconds: 1, handler: { (timer) -> Void in
         
         let play = jsonArray[down][count]
         
         let stringDescription = play["description"] as! String
+        print(stringDescription)
+        
         let arrayDescription = stringDescription.componentsSeparatedByString(" ")
         let string2 = NSMutableAttributedString()
         let importantWord = play["importantWord"] as! String
@@ -62,6 +65,7 @@ class ViewController: UIViewController {
         let eachWordExplanation = play["wordExplanation"] as! String
         self.wordExplanation.text = eachWordExplanation
         let giftFile = play["gifFile"] as! String
+        
         let myGif = UIImage.gifWithName(giftFile)
         self.imgvGIF.image = myGif
         
@@ -153,7 +157,7 @@ class ViewController: UIViewController {
           down = 0
           count = 0
         }
-      })
+//      })
     }
     catch let error{
       print(error)
