@@ -1,0 +1,272 @@
+[    
+    {
+
+      "description": "(7:20) D.Lewis left tackle to CAR 36 for 7 yards (M.Addison). PENALTY on NE-A.Dobson, Illegal Block Above the Waist, 10 yards, enforced at CAR 43.",
+
+      "distance": 12,
+
+      "awayScore": 7,
+
+      "time": "7:20",
+
+      "homeScore": 13,
+
+      "player": "D.Lewis",
+
+      "yardLine": 43,
+
+      "down": 2,
+
+      "importantWord": "Illegal Block",
+
+      "team": "NE",
+
+      "yardsToEndzone": 43,
+
+      "playType": "Rush"
+
+    },
+{
+
+      "description": "(1:14) J.Garoppolo kneels to NE 44 for -1 yards.",
+
+      "distance": 10,
+
+      "awayScore": 17,
+
+      "time": "1:14",
+
+      "homeScore": 16,
+
+      "player": "J.Garoppolo",
+
+      "yardLine": 55,
+
+      "down": 1,
+
+      "importantWord": "kneels",
+
+      "team": "NE",
+
+      "yardsToEndzone": 55,
+
+      "playType": "Rush"
+
+    },
+        {
+
+      "description": "(9:50) (Shotgun) C.Newton pass short right to G.Olsen to CAR 44 for 5 yards (R.Ninkovich).",
+
+      "distance": 32,
+
+      "awayScore": 0,
+
+      "time": "9:50",
+
+      "homeScore": 3,
+
+      "player": "C.Newton",
+
+      "yardLine": 39,
+
+      "down": 3,
+
+      "importantWord": "Shotgun",
+
+      "team": "CAR",
+
+      "yardsToEndzone": 61,
+
+      "playType": "Pass Reception"
+
+    },
+        {
+
+      "description": "(7:29) C.Artis-Payne left tackle to NE 45 for 7 yards (B.Fletcher).",
+
+      "distance": 10,
+
+      "awayScore": 0,
+
+      "time": "7:29",
+
+      "homeScore": 3,
+
+      "player": "C.Artis",
+
+      "yardLine": 48,
+
+      "down": 1,
+
+      "importantWord": "tackle",
+
+      "team": "CAR",
+
+      "yardsToEndzone": 52,
+
+      "playType": "Rush"
+
+    },
+        {
+
+      "description": "G.Gano kicks 65 yards from CAR 35 to end zone, Touchback.",
+
+      "distance": 0,
+
+      "awayScore": 0,
+
+      "time": "15:00",
+
+      "homeScore": 0,
+
+      "player": "G.Gano",
+
+      "yardLine": 35,
+
+      "down": 0,
+
+      "importantWord": "kicks",
+
+      "team": "NE",
+
+      "yardsToEndzone": 65,
+
+      "playType": "Kickoff"
+
+    },
+        {
+
+      "description": "(3:15) J.Garoppolo scrambles left end to NE 34 for 12 yards (D.Marlowe).",
+
+      "distance": 10,
+
+      "awayScore": 17,
+
+      "time": "3:15",
+
+      "homeScore": 16,
+
+      "player": "J.Garoppolo",
+
+      "yardLine": 78,
+
+      "down": 1,
+
+      "importantWord": "scrambles",
+
+      "team": "NE",
+
+      "yardsToEndzone": 78,
+
+      "playType": "Rush"
+
+    },
+        {
+
+      "description": "(7:52) R.Allen punts 47 yards to CAR 42, Center-J.Cardona. D.Byrd to CAR 48 for 6 yards (T.Wilson).",
+
+      "distance": 10,
+
+      "awayScore": 0,
+
+      "time": "7:52",
+
+      "homeScore": 3,
+
+      "player": "R.Allen",
+
+      "yardLine": 89,
+
+      "down": 4,
+
+      "importantWord": "punts",
+
+      "team": "NE",
+
+      "yardsToEndzone": 58,
+
+      "playType": "Punt"
+
+    },
+        {
+
+      "description": "(11:10) (Shotgun) C.Artis-Payne left tackle to NE 38 for 1 yard (C.Jones; J.Collins). PENALTY on CAR-B.Folkerts, Offensive Holding, 10 yards, enforced at NE 39 - No Play.",
+
+      "distance": 10,
+
+      "awayScore": 0,
+
+      "time": "11:10",
+
+      "homeScore": 3,
+
+      "player": "C.Artis",
+
+      "yardLine": 61,
+
+      "down": 1,
+
+      "importantWord": "Offensive Holding",
+
+      "team": "CAR",
+
+      "yardsToEndzone": 39,
+
+      "playType": "Penalty"
+
+    },
+        {
+
+      "description": "(6:26) (No Huddle, Shotgun) PENALTY on NE-C.Jones, Neutral Zone Infraction, 5 yards, enforced at NE 35 - No Play.",
+
+      "distance": 10,
+
+      "awayScore": 0,
+
+      "time": "6:26",
+
+      "homeScore": 0,
+
+      "player": "C.Jones",
+
+      "yardLine": 65,
+
+      "down": 1,
+
+      "importantWord": "Neutral Zone Infraction",
+
+      "team": "CAR",
+
+      "yardsToEndzone": 35,
+
+      "playType": "Penalty"
+
+    },
+        {
+
+      "description": "(3:15) PENALTY on NE-C.Walker, False Start, 5 yards, enforced at NE 34 - No Play.",
+
+      "distance": 10,
+
+      "awayScore": 17,
+
+      "time": "3:15",
+
+      "homeScore": 16,
+
+      "player": "C.Walker",
+
+      "yardLine": 66,
+
+      "down": 1,
+
+      "importantWord": "False Start",
+
+      "team": "NE",
+
+      "yardsToEndzone": 66,
+
+      "playType": "Penalty"
+
+    }
+    ]

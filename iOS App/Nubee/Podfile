@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+use_frameworks!
+target 'Nubee' do
+  pod "SAParallaxViewControllerSwift"
+  pod "EZSwiftExtensions"
+  pod "Gifu"
+  pod "SwiftyJSON"
+end
+
+target 'NubeeTests' do
+  
+end
+
+target 'NubeeUITests' do
+  
+end
+

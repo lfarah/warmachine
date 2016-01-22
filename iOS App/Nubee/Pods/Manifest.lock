@@ -1,0 +1,19 @@
+PODS:
+  - EZSwiftExtensions (1.0.5)
+  - Gifu (1.0.1)
+  - SAParallaxViewControllerSwift (1.3.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - EZSwiftExtensions
+  - Gifu
+  - SAParallaxViewControllerSwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  EZSwiftExtensions: b4369331aa7a0fcfca8bb7d2467567bcd237f083
+  Gifu: bf7a99fe9f20a1dc18c3cb4289aebc922a2ad419
+  SAParallaxViewControllerSwift: 36c7e84862c5840452200e234e54709789c7d830
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.38.2
