@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zJV-ND-hKi">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -49,6 +49,7 @@
         <scene sceneID="Ral-Xn-iE9">
             <objects>
                 <navigationController id="rdI-3V-f0e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="BiW-uf-ISl"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CLi-IP-grw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -59,9 +60,77 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e6D-QX-fxX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-46" y="588"/>
+            <point key="canvasLocation" x="586" y="-460"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="aKM-QA-fIg">
+            <objects>
+                <tabBarController id="Ffp-M7-G07" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="NQ2-g5-GEl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="rdI-3V-f0e" kind="relationship" relationship="viewControllers" id="FEC-Ye-m4r"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SLk-Pg-6CC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-88" y="178"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="enN-dy-1cl">
+            <objects>
+                <viewController id="9Cs-jc-XVv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m4D-kk-jGQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="oVN-vv-CqE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zAR-49-skJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="GreenBaloon" translatesAutoresizingMaskIntoConstraints="NO" id="4YZ-3N-tKl">
+                                <rect key="frame" x="-13" y="115" width="560" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="eX1-hR-IeR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="whiteCircleBackground" translatesAutoresizingMaskIntoConstraints="NO" id="odQ-W7-hyy">
+                                <rect key="frame" x="17" y="142" width="64" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="odQ-W7-hyy" secondAttribute="height" multiplier="32:31" id="DDt-1w-IVv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="playerExample" translatesAutoresizingMaskIntoConstraints="NO" id="u3U-eT-izq">
+                                <rect key="frame" x="17" y="143" width="64" height="62"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenMask" translatesAutoresizingMaskIntoConstraints="NO" id="wMP-KJ-xjK">
+                                <rect key="frame" x="17" y="139" width="64" height="66"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="(Shotgun) C.Pounder scrambles up the middle for 19 yards. TOUCHDOWN" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="V9h-92-DWp">
+                                <rect key="frame" x="104" y="130" width="408" height="69"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="odQ-W7-hyy" firstAttribute="width" secondItem="odQ-W7-hyy" secondAttribute="height" multiplier="32:31" id="Hid-xm-qy1"/>
+                            <constraint firstItem="4YZ-3N-tKl" firstAttribute="leading" secondItem="u3U-eT-izq" secondAttribute="trailing" constant="-94" id="KVV-Tu-xCC"/>
+                            <constraint firstItem="V9h-92-DWp" firstAttribute="leading" secondItem="u3U-eT-izq" secondAttribute="trailing" constant="23" id="LHC-dd-pLl"/>
+                            <constraint firstItem="4YZ-3N-tKl" firstAttribute="top" secondItem="u3U-eT-izq" secondAttribute="bottom" constant="-81" id="bb8-MW-r6S"/>
+                            <constraint firstItem="odQ-W7-hyy" firstAttribute="width" secondItem="odQ-W7-hyy" secondAttribute="height" multiplier="32:31" id="leg-GR-N3M"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVu-TS-od6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1230" y="-1195"/>
+        </scene>
+        <!--Live-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nubee" customModuleProvider="target" sceneMemberID="viewController">
@@ -72,12 +141,90 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="gifPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="z9q-9o-cNG">
+                                <rect key="frame" x="0.0" y="189" width="600" height="235"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="When the Quarterback runs for more yards" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMh-II-UIs">
+                                <rect key="frame" x="20" y="454" width="560" height="79"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBaloon" translatesAutoresizingMaskIntoConstraints="NO" id="0dr-Nt-qf7">
+                                <rect key="frame" x="20" y="89" width="560" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="vYA-cy-MIb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ImportantTermRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="pUv-mQ-Zea">
+                                <rect key="frame" x="153" y="391" width="294" height="77"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Shotgun) C.Pounder scrambles up the middle for 19 yards. TOUCHDOWN" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="h1t-YC-UYJ">
+                                <rect key="frame" x="137" y="104" width="408" height="69"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="scramble" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="G1k-dI-QeF">
+                                <rect key="frame" x="188" y="402" width="225" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="0.42745098040000001" green="0.68235294120000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="whiteCircleBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hHH-hi-cck">
+                                <rect key="frame" x="47" y="110" width="64" height="62"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="playerExample" translatesAutoresizingMaskIntoConstraints="NO" id="Nkz-A6-hj0">
+                                <rect key="frame" x="47" y="111" width="64" height="62"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenMask" translatesAutoresizingMaskIntoConstraints="NO" id="zwa-LC-ZOw">
+                                <rect key="frame" x="47" y="107" width="64" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zwa-LC-ZOw" secondAttribute="height" multiplier="32:33" id="9kO-jS-fEx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hHH-hi-cck" firstAttribute="leading" secondItem="zwa-LC-ZOw" secondAttribute="leading" id="7lC-Dg-0gn"/>
+                            <constraint firstItem="0dr-Nt-qf7" firstAttribute="leading" secondItem="zwa-LC-ZOw" secondAttribute="trailing" constant="-91" id="GIM-2W-j9E"/>
+                            <constraint firstItem="zwa-LC-ZOw" firstAttribute="top" secondItem="Nkz-A6-hj0" secondAttribute="top" id="I5T-po-3bY"/>
+                            <constraint firstItem="pUv-mQ-Zea" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kzl-nH-hTh"/>
+                            <constraint firstItem="G1k-dI-QeF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NWK-qQ-BKo"/>
+                            <constraint firstItem="pUv-mQ-Zea" firstAttribute="top" secondItem="G1k-dI-QeF" secondAttribute="bottom" constant="-43" id="OH8-AR-U1v"/>
+                            <constraint firstItem="iMh-II-UIs" firstAttribute="top" secondItem="G1k-dI-QeF" secondAttribute="bottom" constant="20" id="QEU-mM-AcL"/>
+                            <constraint firstItem="iMh-II-UIs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XUm-JR-QYt"/>
+                            <constraint firstItem="zwa-LC-ZOw" firstAttribute="leading" secondItem="Nkz-A6-hj0" secondAttribute="leading" id="aQd-av-l6g"/>
+                            <constraint firstItem="hHH-hi-cck" firstAttribute="centerX" secondItem="zwa-LC-ZOw" secondAttribute="centerX" id="afQ-P6-Szk"/>
+                            <constraint firstItem="hHH-hi-cck" firstAttribute="bottom" secondItem="zwa-LC-ZOw" secondAttribute="bottom" id="b4H-zk-5mg"/>
+                            <constraint firstItem="zwa-LC-ZOw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="27" id="c1g-8w-yuD"/>
+                            <constraint firstItem="hHH-hi-cck" firstAttribute="top" secondItem="zwa-LC-ZOw" secondAttribute="top" id="cV9-y5-D1j"/>
+                            <constraint firstItem="z9q-9o-cNG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="dHk-ty-yfi"/>
+                            <constraint firstItem="zwa-LC-ZOw" firstAttribute="bottom" secondItem="Nkz-A6-hj0" secondAttribute="bottom" id="dOg-R6-E8a"/>
+                            <constraint firstItem="0dr-Nt-qf7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="de5-lg-yf5"/>
+                            <constraint firstItem="h1t-YC-UYJ" firstAttribute="leading" secondItem="zwa-LC-ZOw" secondAttribute="trailing" constant="26" id="ds6-rx-sCO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h1t-YC-UYJ" secondAttribute="trailing" constant="35" id="e2n-MV-rhZ"/>
+                            <constraint firstItem="0dr-Nt-qf7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eXN-Ri-wch"/>
+                            <constraint firstItem="z9q-9o-cNG" firstAttribute="top" secondItem="0dr-Nt-qf7" secondAttribute="bottom" constant="-22" id="eZe-Wo-UsL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z9q-9o-cNG" secondAttribute="trailing" constant="-20" id="fLG-8C-Cl1"/>
+                            <constraint firstItem="h1t-YC-UYJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="kYl-fR-HQc"/>
+                            <constraint firstItem="pUv-mQ-Zea" firstAttribute="top" secondItem="G1k-dI-QeF" secondAttribute="bottom" constant="-43" id="mE2-bb-ncq"/>
+                            <constraint firstItem="iMh-II-UIs" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pNc-3t-Dgm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iMh-II-UIs" secondAttribute="bottom" constant="18" id="paL-et-ZFf"/>
+                            <constraint firstItem="hHH-hi-cck" firstAttribute="trailing" secondItem="zwa-LC-ZOw" secondAttribute="trailing" id="qTD-yv-JaG"/>
+                            <constraint firstItem="pUv-mQ-Zea" firstAttribute="top" secondItem="z9q-9o-cNG" secondAttribute="bottom" constant="-33" id="r25-jE-WC9"/>
+                            <constraint firstItem="0dr-Nt-qf7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="rxk-lY-Zck"/>
+                            <constraint firstItem="zwa-LC-ZOw" firstAttribute="trailing" secondItem="Nkz-A6-hj0" secondAttribute="trailing" id="uRH-85-Z2Y"/>
+                            <constraint firstItem="z9q-9o-cNG" firstAttribute="top" secondItem="h1t-YC-UYJ" secondAttribute="bottom" constant="16" id="urK-VO-AfZ"/>
+                            <constraint firstItem="0dr-Nt-qf7" firstAttribute="top" secondItem="zwa-LC-ZOw" secondAttribute="bottom" constant="-84" id="vBb-6z-42i"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="awl-T7-sRo"/>
+                    <navigationItem key="navigationItem" title="Live" id="awl-T7-sRo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1257" y="-460"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BI8-xH-lC5">
@@ -172,7 +319,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zp-K3-OsK">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <connections>
-                                    <segue destination="rdI-3V-f0e" kind="show" id="hYM-oL-AyM"/>
+                                    <segue destination="Ffp-M7-G07" kind="show" id="Kfn-p8-g2P"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding4" translatesAutoresizingMaskIntoConstraints="NO" id="OYJ-L2-oPj">
@@ -198,9 +345,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="GreenBaloon" width="430" height="164"/>
+        <image name="GreenMask" width="93" height="93"/>
+        <image name="ImportantTermRectangle" width="219" height="64"/>
+        <image name="gifPlaceholder" width="449" height="288"/>
         <image name="onboarding1" width="405" height="720"/>
         <image name="onboarding2" width="540" height="960"/>
         <image name="onboarding3" width="404" height="720"/>
         <image name="onboarding4" width="403" height="719"/>
+        <image name="playerExample" width="200" height="200"/>
+        <image name="whiteCircleBackground" width="90" height="90"/>
     </resources>
 </document>

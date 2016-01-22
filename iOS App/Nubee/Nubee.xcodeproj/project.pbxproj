@@ -15,6 +15,7 @@
 		C216572E1C5066BA000C45AD /* NubeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C216572D1C5066BA000C45AD /* NubeeTests.swift */; };
 		C21657391C5066BA000C45AD /* NubeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21657381C5066BA000C45AD /* NubeeUITests.swift */; };
 		C245FF391C5070B800866505 /* potato.json in Resources */ = {isa = PBXBuildFile; fileRef = C245FF381C5070B800866505 /* potato.json */; };
+		C4A3508AE9D20A17192F1907 /* Pods_Nubee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84D73EA941904826FAFEEA3 /* Pods_Nubee.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1D1D95FAE3DBB77CD3EE45 /* Pods-Nubee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nubee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nubee/Pods-Nubee.release.xcconfig"; sourceTree = "<group>"; };
+		471C827EC638B418E2F760F3 /* Pods-Nubee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nubee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nubee/Pods-Nubee.debug.xcconfig"; sourceTree = "<group>"; };
 		C21657151C5066BA000C45AD /* Nubee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nubee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21657181C5066BA000C45AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C216571A1C5066BA000C45AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		C21657381C5066BA000C45AD /* NubeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubeeUITests.swift; sourceTree = "<group>"; };
 		C216573A1C5066BA000C45AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C245FF381C5070B800866505 /* potato.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = potato.json; sourceTree = "<group>"; };
+		F84D73EA941904826FAFEEA3 /* Pods_Nubee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nubee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A3508AE9D20A17192F1907 /* Pods_Nubee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F84F07B9CEDB40E700318FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F84D73EA941904826FAFEEA3 /* Pods_Nubee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C216570C1C5066BA000C45AD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,8 @@
 				C216572C1C5066BA000C45AD /* NubeeTests */,
 				C21657371C5066BA000C45AD /* NubeeUITests */,
 				C21657161C5066BA000C45AD /* Products */,
+				C65ACAD259F8CEDF08947FEB /* Pods */,
+				3F84F07B9CEDB40E700318FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +143,15 @@
 			path = NubeeUITests;
 			sourceTree = "<group>";
 		};
+		C65ACAD259F8CEDF08947FEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				471C827EC638B418E2F760F3 /* Pods-Nubee.debug.xcconfig */,
+				1A1D1D95FAE3DBB77CD3EE45 /* Pods-Nubee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C216573D1C5066BA000C45AD /* Build configuration list for PBXNativeTarget "Nubee" */;
 			buildPhases = (
+				8AE18484AB6CCEA32DCCDE68 /* Check Pods Manifest.lock */,
 				C21657111C5066BA000C45AD /* Sources */,
 				C21657121C5066BA000C45AD /* Frameworks */,
 				C21657131C5066BA000C45AD /* Resources */,
+				A01E45C59052BF76897483D8 /* Embed Pods Frameworks */,
+				F2A2191865BBB3B2D284F75B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +282,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AE18484AB6CCEA32DCCDE68 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A01E45C59052BF76897483D8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nubee/Pods-Nubee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A2191865BBB3B2D284F75B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nubee/Pods-Nubee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C21657111C5066BA000C45AD /* Sources */ = {
@@ -400,6 +475,7 @@
 		};
 		C216573E1C5066BA000C45AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471C827EC638B418E2F760F3 /* Pods-Nubee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -413,6 +489,7 @@
 		};
 		C216573F1C5066BA000C45AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1D1D95FAE3DBB77CD3EE45 /* Pods-Nubee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
