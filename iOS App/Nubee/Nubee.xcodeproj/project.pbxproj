@@ -15,6 +15,18 @@
 		C216572E1C5066BA000C45AD /* NubeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C216572D1C5066BA000C45AD /* NubeeTests.swift */; };
 		C21657391C5066BA000C45AD /* NubeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21657381C5066BA000C45AD /* NubeeUITests.swift */; };
 		C245FF391C5070B800866505 /* potato.json in Resources */ = {isa = PBXBuildFile; fileRef = C245FF381C5070B800866505 /* potato.json */; };
+		C271DA0F1C51BD6800AFBBE2 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C271DA0E1C51BD6800AFBBE2 /* Gif.swift */; };
+		C271DA1B1C51BEB600AFBBE2 /* shotgun.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA101C51BEB600AFBBE2 /* shotgun.gif */; };
+		C271DA1C1C51BEB600AFBBE2 /* FalseStart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA111C51BEB600AFBBE2 /* FalseStart.gif */; };
+		C271DA1D1C51BEB600AFBBE2 /* OffensiveHolding.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA121C51BEB600AFBBE2 /* OffensiveHolding.gif */; };
+		C271DA1E1C51BEB600AFBBE2 /* NeutralZoneInfraction.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA131C51BEB600AFBBE2 /* NeutralZoneInfraction.gif */; };
+		C271DA1F1C51BEB600AFBBE2 /* IllegalBlock.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA141C51BEB600AFBBE2 /* IllegalBlock.gif */; };
+		C271DA201C51BEB600AFBBE2 /* punts.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA151C51BEB600AFBBE2 /* punts.gif */; };
+		C271DA211C51BEB600AFBBE2 /* scrambles.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA161C51BEB600AFBBE2 /* scrambles.gif */; };
+		C271DA221C51BEB600AFBBE2 /* tackle.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA171C51BEB600AFBBE2 /* tackle.gif */; };
+		C271DA231C51BEB600AFBBE2 /* kicks.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA181C51BEB600AFBBE2 /* kicks.gif */; };
+		C271DA241C51BEB600AFBBE2 /* PassReception.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA191C51BEB600AFBBE2 /* PassReception.gif */; };
+		C271DA251C51BEB600AFBBE2 /* Kneels.gif in Resources */ = {isa = PBXBuildFile; fileRef = C271DA1A1C51BEB600AFBBE2 /* Kneels.gif */; };
 		C4A3508AE9D20A17192F1907 /* Pods_Nubee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84D73EA941904826FAFEEA3 /* Pods_Nubee.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -52,6 +64,18 @@
 		C21657381C5066BA000C45AD /* NubeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubeeUITests.swift; sourceTree = "<group>"; };
 		C216573A1C5066BA000C45AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C245FF381C5070B800866505 /* potato.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = potato.json; sourceTree = "<group>"; };
+		C271DA0E1C51BD6800AFBBE2 /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		C271DA101C51BEB600AFBBE2 /* shotgun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shotgun.gif; sourceTree = "<group>"; };
+		C271DA111C51BEB600AFBBE2 /* FalseStart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FalseStart.gif; sourceTree = "<group>"; };
+		C271DA121C51BEB600AFBBE2 /* OffensiveHolding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OffensiveHolding.gif; sourceTree = "<group>"; };
+		C271DA131C51BEB600AFBBE2 /* NeutralZoneInfraction.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NeutralZoneInfraction.gif; sourceTree = "<group>"; };
+		C271DA141C51BEB600AFBBE2 /* IllegalBlock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = IllegalBlock.gif; sourceTree = "<group>"; };
+		C271DA151C51BEB600AFBBE2 /* punts.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = punts.gif; sourceTree = "<group>"; };
+		C271DA161C51BEB600AFBBE2 /* scrambles.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scrambles.gif; sourceTree = "<group>"; };
+		C271DA171C51BEB600AFBBE2 /* tackle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tackle.gif; sourceTree = "<group>"; };
+		C271DA181C51BEB600AFBBE2 /* kicks.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kicks.gif; sourceTree = "<group>"; };
+		C271DA191C51BEB600AFBBE2 /* PassReception.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PassReception.gif; sourceTree = "<group>"; };
+		C271DA1A1C51BEB600AFBBE2 /* Kneels.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kneels.gif; sourceTree = "<group>"; };
 		F84D73EA941904826FAFEEA3 /* Pods_Nubee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nubee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,7 +138,19 @@
 		C21657171C5066BA000C45AD /* Nubee */ = {
 			isa = PBXGroup;
 			children = (
+				C271DA101C51BEB600AFBBE2 /* shotgun.gif */,
+				C271DA111C51BEB600AFBBE2 /* FalseStart.gif */,
+				C271DA121C51BEB600AFBBE2 /* OffensiveHolding.gif */,
+				C271DA131C51BEB600AFBBE2 /* NeutralZoneInfraction.gif */,
+				C271DA141C51BEB600AFBBE2 /* IllegalBlock.gif */,
+				C271DA151C51BEB600AFBBE2 /* punts.gif */,
+				C271DA161C51BEB600AFBBE2 /* scrambles.gif */,
+				C271DA171C51BEB600AFBBE2 /* tackle.gif */,
+				C271DA181C51BEB600AFBBE2 /* kicks.gif */,
+				C271DA191C51BEB600AFBBE2 /* PassReception.gif */,
+				C271DA1A1C51BEB600AFBBE2 /* Kneels.gif */,
 				C245FF381C5070B800866505 /* potato.json */,
+				C271DA0E1C51BD6800AFBBE2 /* Gif.swift */,
 				C21657181C5066BA000C45AD /* AppDelegate.swift */,
 				C216571A1C5066BA000C45AD /* ViewController.swift */,
 				C216571C1C5066BA000C45AD /* Main.storyboard */,
@@ -261,8 +297,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21657231C5066BA000C45AD /* LaunchScreen.storyboard in Resources */,
+				C271DA1E1C51BEB600AFBBE2 /* NeutralZoneInfraction.gif in Resources */,
+				C271DA1F1C51BEB600AFBBE2 /* IllegalBlock.gif in Resources */,
+				C271DA241C51BEB600AFBBE2 /* PassReception.gif in Resources */,
+				C271DA1B1C51BEB600AFBBE2 /* shotgun.gif in Resources */,
 				C21657201C5066BA000C45AD /* Assets.xcassets in Resources */,
+				C271DA1C1C51BEB600AFBBE2 /* FalseStart.gif in Resources */,
+				C271DA221C51BEB600AFBBE2 /* tackle.gif in Resources */,
 				C245FF391C5070B800866505 /* potato.json in Resources */,
+				C271DA201C51BEB600AFBBE2 /* punts.gif in Resources */,
+				C271DA211C51BEB600AFBBE2 /* scrambles.gif in Resources */,
+				C271DA1D1C51BEB600AFBBE2 /* OffensiveHolding.gif in Resources */,
+				C271DA231C51BEB600AFBBE2 /* kicks.gif in Resources */,
+				C271DA251C51BEB600AFBBE2 /* Kneels.gif in Resources */,
 				C216571E1C5066BA000C45AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +385,7 @@
 			files = (
 				C216571B1C5066BA000C45AD /* ViewController.swift in Sources */,
 				C21657191C5066BA000C45AD /* AppDelegate.swift in Sources */,
+				C271DA0F1C51BD6800AFBBE2 /* Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
