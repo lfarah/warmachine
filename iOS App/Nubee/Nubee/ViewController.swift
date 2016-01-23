@@ -20,6 +20,7 @@ class ViewController: UIViewController {
   
   @IBOutlet weak var imgvBaloon: UIImageView!
   
+  @IBOutlet weak var imgvMask: UIImageView!
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -32,7 +33,7 @@ class ViewController: UIViewController {
     var count = 0
     var down = 0
 
-    ez.runThisEvery(seconds: 5, handler: { (timer) -> Void in
+    ez.runThisEvery(seconds: 1, handler: { (timer) -> Void in
       let play = self.readJSON()[count]
       print(count,down)
       let stringDescription = play["description"] as! String
@@ -101,38 +102,28 @@ class ViewController: UIViewController {
       if (play["team"] as! String == "NE" && fuckingAwesomeAlgorithm > 30) || (play["team"] as! String == "CAR" && fuckingAwesomeAlgorithm < 30)
       {
         self.imgvBaloon.image = UIImage(named:"GreenBaloon")
+        self.imgvMask.image = UIImage(named: "GreenMask")
+
       }
       else
       {
-        self.imgvBaloon.image = UIImage(named:"GreenBaloon")
+        self.imgvBaloon.image = UIImage(named:"RedBaloon")
+        self.imgvMask.image = UIImage(named: "RedMask")
       }
-      //    string2.appendAttributedString(NSAttributedString(string: "Hello ", attributes: [
-      //      NSFontAttributeName: UIFont.systemFontOfSize(20),
-      //      NSForegroundColorAttributeName: UIColor.redColor()
-      //      ]))
-      //    string2.appendAttributedString(NSAttributedString(string: "world ", attributes: [
-      //      NSFontAttributeName: UIFont.systemFontOfSize(20),
-      //      NSForegroundColorAttributeName: UIColor.redColor(),
-      //      ]))
-      //    string2.appendAttributedString(NSAttributedString(string: "of Swift ", attributes: [
-      //      NSFontAttributeName: UIFont.systemFontOfSize(20),
-      //      NSForegroundColorAttributeName: UIColor.redColor(),
-      //      NSStrokeColorAttributeName: UIColor.orangeColor(),
-      //      NSStrokeWidthAttributeName: -2
-      //      ]))
+
       let attachment = NSTextAttachment()
       attachment.image = UIImage(named: "swift")
       string2.appendAttributedString(NSAttributedString(attachment: attachment))
       self.lblDescription.attributedText = string2
       
-      if count < self.readJSON()[down].count - 1
+      //      else if down < self.readJSON().count - 1
+      //      {
+      //        down++
+      //        count = 0
+      //      }
+      if count < self.readJSON().count - 1
       {
         count++
-      }
-      else if down < self.readJSON().count - 1
-      {
-        down++
-        count = 0
       }
       else
       {

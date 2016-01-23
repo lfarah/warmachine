@@ -234,6 +234,7 @@
                     <connections>
                         <outlet property="imgvBaloon" destination="0dr-Nt-qf7" id="xXf-BA-wej"/>
                         <outlet property="imgvGif" destination="z9q-9o-cNG" id="oZP-Bq-FxX"/>
+                        <outlet property="imgvMask" destination="zwa-LC-ZOw" id="veH-tE-aIO"/>
                         <outlet property="imgvPlayer" destination="Nkz-A6-hj0" id="lKU-we-h6X"/>
                         <outlet property="lblDescription" destination="h1t-YC-UYJ" id="6wi-gt-EI4"/>
                         <outlet property="lblWord" destination="G1k-dI-QeF" id="c3B-BT-sV4"/>
