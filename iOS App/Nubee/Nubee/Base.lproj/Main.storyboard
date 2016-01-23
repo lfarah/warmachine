@@ -143,16 +143,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gifPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="z9q-9o-cNG">
-                                <rect key="frame" x="0.0" y="189" width="600" height="288"/>
+                                <rect key="frame" x="0.0" y="189" width="600" height="250"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="288" id="U6T-tp-vmm"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImportantTermRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="pUv-mQ-Zea">
-                                <rect key="frame" x="190" y="444" width="219" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="219" id="g8j-OX-i0q"/>
-                                    <constraint firstAttribute="height" constant="64" id="kpn-tf-7Xn"/>
+                                    <constraint firstAttribute="height" constant="250" id="U6T-tp-vmm"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBaloon" translatesAutoresizingMaskIntoConstraints="NO" id="0dr-Nt-qf7">
@@ -161,12 +154,6 @@
                                     <constraint firstAttribute="height" constant="122" id="vYA-cy-MIb"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When the Quarterback runs for more yards" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMh-II-UIs">
-                                <rect key="frame" x="20" y="512.5" width="560" height="20.5"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Shotgun) C.Pounder scrambles up the middle for 19 yards. TOUCHDOWN" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="h1t-YC-UYJ">
                                 <rect key="frame" x="137" y="104" width="408" height="69"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -185,8 +172,21 @@
                                     <constraint firstAttribute="width" secondItem="zwa-LC-ZOw" secondAttribute="height" multiplier="32:33" id="9kO-jS-fEx"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImportantTermRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="pUv-mQ-Zea">
+                                <rect key="frame" x="190" y="400" width="219" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="219" id="g8j-OX-i0q"/>
+                                    <constraint firstAttribute="height" constant="64" id="kpn-tf-7Xn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When the Quarterback runs for more yards" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMh-II-UIs">
+                                <rect key="frame" x="20" y="468.5" width="560" height="74.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="scramble" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="G1k-dI-QeF">
-                                <rect key="frame" x="222" y="451" width="154" height="42"/>
+                                <rect key="frame" x="222" y="407" width="154" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="1S5-6M-5tt"/>
                                     <constraint firstAttribute="width" constant="154" id="Pbq-mx-JTr"/>
@@ -217,12 +217,12 @@
                             <constraint firstItem="0dr-Nt-qf7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eXN-Ri-wch"/>
                             <constraint firstItem="z9q-9o-cNG" firstAttribute="top" secondItem="0dr-Nt-qf7" secondAttribute="bottom" constant="-22" id="eZe-Wo-UsL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="z9q-9o-cNG" secondAttribute="trailing" constant="-20" id="fLG-8C-Cl1"/>
-                            <constraint firstItem="iMh-II-UIs" firstAttribute="top" secondItem="z9q-9o-cNG" secondAttribute="bottom" constant="35" id="g3a-Oq-M4A"/>
+                            <constraint firstItem="iMh-II-UIs" firstAttribute="top" secondItem="z9q-9o-cNG" secondAttribute="bottom" constant="29.5" id="g3a-Oq-M4A"/>
                             <constraint firstItem="h1t-YC-UYJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="kYl-fR-HQc"/>
                             <constraint firstItem="iMh-II-UIs" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pNc-3t-Dgm"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iMh-II-UIs" secondAttribute="bottom" constant="18" id="paL-et-ZFf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iMh-II-UIs" secondAttribute="bottom" constant="8" id="paL-et-ZFf"/>
                             <constraint firstItem="hHH-hi-cck" firstAttribute="trailing" secondItem="zwa-LC-ZOw" secondAttribute="trailing" id="qTD-yv-JaG"/>
-                            <constraint firstItem="pUv-mQ-Zea" firstAttribute="top" secondItem="z9q-9o-cNG" secondAttribute="bottom" constant="-33" id="r25-jE-WC9"/>
+                            <constraint firstItem="pUv-mQ-Zea" firstAttribute="top" secondItem="z9q-9o-cNG" secondAttribute="bottom" constant="-39" id="r25-jE-WC9"/>
                             <constraint firstItem="0dr-Nt-qf7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="rxk-lY-Zck"/>
                             <constraint firstItem="zwa-LC-ZOw" firstAttribute="trailing" secondItem="Nkz-A6-hj0" secondAttribute="trailing" id="uRH-85-Z2Y"/>
                             <constraint firstItem="G1k-dI-QeF" firstAttribute="centerX" secondItem="pUv-mQ-Zea" secondAttribute="centerX" id="upU-RC-kST"/>
