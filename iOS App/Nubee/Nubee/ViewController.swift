@@ -52,6 +52,7 @@ class ViewController: UIViewController {
       self.imgvGif.image = myGif
       
       let playerImage = UIImage(named: profileImage)
+
       self.imgvPlayer.image = playerImage
       
       self.lblWord.text = importantWord
@@ -60,7 +61,6 @@ class ViewController: UIViewController {
       
       for word in arrayDescription
       {
-        
         var shouldPrintRed = false
         for importantSelected in arrayImportantWord
         {
