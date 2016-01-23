@@ -29,20 +29,20 @@ class ViewController: UIViewController {
   
   func playReader()
   {
+    var count = 0
+    var down = 0
+
     ez.runThisEvery(seconds: 5, handler: { (timer) -> Void in
-      
-      var count = 0
-      var down = 0
-      let play = self.readJSON()[0]
-      print(play)
+      let play = self.readJSON()[count]
+      print(count,down)
       let stringDescription = play["description"] as! String
-      print(stringDescription)
+//      print(stringDescription)
       
       let arrayDescription = stringDescription.componentsSeparatedByString(" ")
       let string2 = NSMutableAttributedString()
       let importantWord = play["importantWord"] as! String
       let profileImage = play["player"] as! String
-      print(profileImage)
+//      print(profileImage)
       
       let eachWordExplanation = play["wordExplanation"] as! String
       self.lblWordExplanation.text = eachWordExplanation
@@ -52,7 +52,6 @@ class ViewController: UIViewController {
       self.imgvGif.image = myGif
       
       let playerImage = UIImage(named: profileImage)
-      print(playerImage)
       self.imgvPlayer.image = playerImage
       
       self.lblWord.text = importantWord
