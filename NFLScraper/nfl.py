@@ -3,10 +3,15 @@
 import nflgame
 import json
 
-games = nflgame.games(2015, week = 1)
+games = nflgame.games(2015, week =17)
+# games = nflgame.one(2015, 17, "SF", "STL")
+data = games.players
 plays = nflgame.combine_plays(games)
-for p in plays.limit(10000):
+for p in plays:
     print p
+
+# with open('nfl.json', 'w') as outfile:
+#     json.dump(data, outfile)
 
 
 
