@@ -10,8 +10,9 @@ app = Flask(__name__)
 
 
 # print(json.dumps(returnDirections))
-# @app.route("/")
-# def getGoogle():
+@app.route("/")
+def getGoogle():
+    return "Potato"
     # cLat = str(request.args['cLat'])
     # cLng = str(request.args['cLng'])
     # dLat = str(request.args['dLat'])
@@ -140,6 +141,6 @@ with open('game.json') as data_file:
 
     
 
-# port = os.getenv('VCAP_APP_PORT', '5000')
-# if __name__ == "__main__":
-#     app.run(host='0.0.0.0', port=int(port))
+port = os.getenv('VCAP_APP_PORT', '5000')
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=int(port))
