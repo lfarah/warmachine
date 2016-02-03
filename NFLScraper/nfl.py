@@ -1,14 +1,25 @@
 """Get Play PLay data"""
 #
 import nflgame
-import json
+import pprint
 
-games = nflgame.games(2015, week =17)
-# games = nflgame.one(2015, 17, "SF", "STL")
-data = games.players
-plays = nflgame.combine_plays(games)
-for p in plays:
-    print p
+games = nflgame.games(2013,10)
+my_game = games[0:1]
+plays = nflgame.combine_plays(my_game)
+my_play = []
+for p in plays.limit(10000):
+    my_play.append(p)
+    # print p.time
+    print "%s %s" (p.time, p.yardline)
+    # print p._call_
+    # print dir(p())
+    # print p.type()
+    # print p.id()
+    # print p.locals()
+
+# print my_play
+# for p in plays.limit(10000):
+#     print p
 
 # with open('nfl.json', 'w') as outfile:
 #     json.dump(data, outfile)
