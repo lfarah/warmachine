@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Nubee": {
+      "applicationId": "06EI4rc9gOHiqPDEjxsthHBSeJiPglA0sVKNj1Uk"
+    },
+    "_default": {
+      "link": "Nubee"
+    }
+  }
+}
